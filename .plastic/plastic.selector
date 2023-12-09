@@ -1,0 +1,4 @@
+repository "BPAproject@BPAproject@cloud"
+  path "/"
+    br "/main"
+    co "/main"
