@@ -1,0 +1,2032 @@
+fileFormatVersion: 2
+guid: d56a94fe01b354730b236525c3339b3c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cerca_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 785
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552cdd7150e9d7a8cbd86e896fa04b42
+      internalID: 1254719214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 708
+        width: 123
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ba28ddc5b896bb0aa7e47154129239
+      internalID: 1166491458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 708
+        width: 168
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28b93b5c7bedfca9bd1008c53e29f21
+      internalID: -984582384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_3
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 708
+        width: 102
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c07948b71b277c9b7915f00689204d
+      internalID: -1395422592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 711
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d8dc8e980066ab3a0ad093a7efc09f
+      internalID: -173630018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 718
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44dd92d7028f1c7f3865d93a4e39cfd3
+      internalID: -1962893953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 711
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaac0e0bf354f6f8a8269fbd0fec266
+      internalID: 1866663404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 638
+        width: 168
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0920c1d0343e32957a35ef752da8ba65
+      internalID: -88357822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 638
+        width: 168
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a0e4bb4cfd13dfea8c7f8587420025
+      internalID: 1908632715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_9
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 646
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8295d99e81b96ae596ad3c0ec06d4f5
+      internalID: -2074321662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_10
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 646
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240c93a6a49eb7dceb5f19c227baee81
+      internalID: 1006332900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 648
+        width: 102
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3417cb08cd25ea1b4f9cd018b71106
+      internalID: 1118157861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 581
+        width: 168
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2b9465042d7ce6599cfec2af279c7c
+      internalID: -191491630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 579
+        width: 168
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfad0cdfd3380c8aa0e9fedd270b225
+      internalID: 1819710084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_14
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 591
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61b9e3e200f2be2e89bf5f3763c7453
+      internalID: 2046945724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_15
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 591
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e4b8b9edf80022993d350ef08640be
+      internalID: -1594530523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_16
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 589
+        width: 102
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aac3a22eea46c0cab75d279a1295ab
+      internalID: 1757809507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 521
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60daf57f8370cc50a9631582844436f
+      internalID: -1149059831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 521
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8939ee551aecdea05baffa4163cbbe04
+      internalID: 2009586054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_19
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 521
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e598b160b7c4450fb9e35e6fc2e4437
+      internalID: 330424876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_20
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 501
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de66f6dbfa4ca5f0af57440db791405
+      internalID: -1394046940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_21
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 501
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993e4a5344c88c2a2ab7a4c996beae0c
+      internalID: -2120308342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_22
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 530
+        width: 102
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c06042d66c7c043ea2805bfe0f867c6
+      internalID: 569736608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 482
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61491edb080295ae79a83659ac965bd4
+      internalID: -1211401193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_24
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 483
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45054cf6676b3fd4a975865701b890b
+      internalID: -1643964573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_25
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 484
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2db3246a96e72063aff61d1fc563786
+      internalID: -741917823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 434
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2760c11fb04c8e4aa74fc4e12b11671
+      internalID: -1093689325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_27
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 434
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfda850f6eef2927b80547bde5b2e8a
+      internalID: -2037704900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_28
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 476
+        width: 102
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33c5cbfeb61fcda087b4523af124af8
+      internalID: 1464381167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07ddaa5700420f809e0d7814d75876b
+      internalID: -243274295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 421
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693d95282a9b6cf148f3d3fe0c31f8b9
+      internalID: -179624664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_31
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 422
+        width: 5
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446a607dfae172df09bd4ebffb6c6181
+      internalID: -1023506180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_32
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 414
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7770cafeecd7df3f9cb632e89dbbbc4
+      internalID: -1448571722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_33
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 367
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff04935ba1ac884309c5b03641a7dc2f
+      internalID: -999573483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_34
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 367
+        width: 97
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02ec8d8bb1362ff39d10f6c302c47f5
+      internalID: 218498173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_35
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 401
+        width: 36
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557e205b7a3b76b7d91293d332894a4c
+      internalID: 1630332836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 358
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7fe36664a828022847544d9eb80c43
+      internalID: 2033988772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_37
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 357
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34192d5a50fe631958a7a2e6a6b258e5
+      internalID: -806306535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_38
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 363
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071fcef6f45748948a0d744713b7ee30
+      internalID: -1280560466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_39
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 338
+        width: 36
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d618b0f7f45c16fb11d4b24d0da0b5
+      internalID: 128470393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 292
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df531eb594734101d9a11935b0ce01e5
+      internalID: -1863362718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_41
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 292
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e47c0c0e54a31db3960f866dbec62fb
+      internalID: 2119638865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_42
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 296
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e42e0da9133f0f988045ee8906e876
+      internalID: 1239803779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_43
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 296
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4dad5ab0e5ccccb951092817f2e069
+      internalID: 851317074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_44
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 320
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdc105ea5be39b4eb719a94d1ccb3ea
+      internalID: -2082799270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_45
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 265
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852ceb54e8833a193abd4b09c86bf90e
+      internalID: -1675580363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_46
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 290
+        width: 70
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4008353712f6bdeb0903de2807600f
+      internalID: 1927039462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_47
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 184
+        width: 147
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5063618, y: 0.4891177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64e3f3afdd253107aeffe868111eaba
+      internalID: -554161037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_48
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 233
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab862479854f1bf3f8d2eb8215fd343f
+      internalID: 1650578200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_49
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 230
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e70c77fa75367c998c86e12552c33f
+      internalID: -128503641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_50
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 235
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aca97787cd4a7a519a6e0207b9ca001
+      internalID: -622683811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_51
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 234
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb3c5a5b0150c2d0a7ffe3ab15dee5e
+      internalID: -1676155886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_52
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 181
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1e6de572bae4e89bf10c257fe5511c
+      internalID: 722118830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_53
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 181
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3368528238709c3d497f6a181b3ef2ae
+      internalID: 650853217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_54
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 179
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4ff3ee28301557ba04df3ce410a565
+      internalID: 1894039550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_55
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 179
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ea2d74b08f26ab4bd01b39dfe37651
+      internalID: 1907346530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_56
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 203
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f933417c6d92b1a6c855cd17c9d106d5
+      internalID: 33562933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_57
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 184
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4655e8b3a5e98688eaacb8b1ef8ba564
+      internalID: -285980538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_58
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 116
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420e63f06d53063ceab49f6878e87f51
+      internalID: -699753565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_59
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 116
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb787da125247f6a95be93285484ba8
+      internalID: -939340062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_60
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 72
+        width: 107
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040ac74e3cccfea21aa9f0cfc7757b2d
+      internalID: -744635214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_61
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 163
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac398c3d4a4d51785be8d470715392f6
+      internalID: -183823672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_62
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 69
+        width: 36
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfda8e8f6b6f171db86f62ab55de18c9
+      internalID: 347600563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_63
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 101
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c0bb12c8a812f7d89be32fa1906416
+      internalID: -2101131528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_64
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 101
+        width: 86
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2886689744006be7bc339ce6e6fccdb
+      internalID: 1800587243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 86
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296274111ca5eeaffa7bdef827b1c455
+      internalID: -458077710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_66
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 75
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4d71d7ec1b7a5fa903517110e27b22
+      internalID: 1238066214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_67
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 62
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486b4c1e3b245292da23e079ba1c25c0
+      internalID: -636946603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_68
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33626e8c645d5dbcb8b0ead2c88cb67b
+      internalID: 568381586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_69
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 4
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7b54e47842f5b24b484f67e4d023f9
+      internalID: 654633537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_70
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 4
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3933bacfd9b420e2d8bb10cfe718653f
+      internalID: -1377778211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_71
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2304c65ac4f6aa6085f88b9efac29cd
+      internalID: 1812193304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_72
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 7
+        width: 77
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f693aaa0ed467f3911c9b242be3116
+      internalID: -1620704874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_73
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 65
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250d23000dac771d4a94caa1e5bc814e
+      internalID: 7618624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_74
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 63
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc72e327212407d11bbcbe569eebb874
+      internalID: -392855019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_75
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 26
+        width: 19
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889e804c9c347fb5589be7065df381a7
+      internalID: -2143496867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_76
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 11
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bddfd9fe4027d8108202fd8cf26fa63
+      internalID: -1583941199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_77
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 7
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf33a9136d0bee09982411d851964e0c
+      internalID: 330561849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_78
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 5
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f91002fc3fc85cdb6ec82c83393c12
+      internalID: 158941067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_79
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 28
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49361d08a1a6afafa30aba03db0dd73
+      internalID: 317186822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_80
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 15
+        width: 56
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f289dbb8113cc8114bf13fbca861fa41
+      internalID: 381206636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_81
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 247
+        width: 147
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d884b37cf957540db8ea07505fbd7b3
+      internalID: -1437862371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_82
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 184
+        width: 10
+        height: 97
+      alignment: 9
+      pivot: {x: 0.54126996, y: 0.49515313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2485ce92e7e725b9d3732523f86648
+      internalID: -511839217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_83
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 183
+        width: 7
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aa70aac76092b07ad3d10e9c122b05
+      internalID: 1280777009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_84
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 281
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fc377ca3b2a248d9cc1dd87480cac4
+      internalID: 1770627850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cerca_85
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 336
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327bcf51d5d3a50cfa2bae3c524782fe
+      internalID: 827466364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cerca_0: 1254719214
+      cerca_1: 1166491458
+      cerca_10: 1006332900
+      cerca_11: 1118157861
+      cerca_12: -191491630
+      cerca_13: 1819710084
+      cerca_14: 2046945724
+      cerca_15: -1594530523
+      cerca_16: 1757809507
+      cerca_17: -1149059831
+      cerca_18: 2009586054
+      cerca_19: 330424876
+      cerca_2: -984582384
+      cerca_20: -1394046940
+      cerca_21: -2120308342
+      cerca_22: 569736608
+      cerca_23: -1211401193
+      cerca_24: -1643964573
+      cerca_25: -741917823
+      cerca_26: -1093689325
+      cerca_27: -2037704900
+      cerca_28: 1464381167
+      cerca_29: -243274295
+      cerca_3: -1395422592
+      cerca_30: -179624664
+      cerca_31: -1023506180
+      cerca_32: -1448571722
+      cerca_33: -999573483
+      cerca_34: 218498173
+      cerca_35: 1630332836
+      cerca_36: 2033988772
+      cerca_37: -806306535
+      cerca_38: -1280560466
+      cerca_39: 128470393
+      cerca_4: -173630018
+      cerca_40: -1863362718
+      cerca_41: 2119638865
+      cerca_42: 1239803779
+      cerca_43: 851317074
+      cerca_44: -2082799270
+      cerca_45: -1675580363
+      cerca_46: 1927039462
+      cerca_47: -554161037
+      cerca_48: 1650578200
+      cerca_49: -128503641
+      cerca_5: -1962893953
+      cerca_50: -622683811
+      cerca_51: -1676155886
+      cerca_52: 722118830
+      cerca_53: 650853217
+      cerca_54: 1894039550
+      cerca_55: 1907346530
+      cerca_56: 33562933
+      cerca_57: -285980538
+      cerca_58: -699753565
+      cerca_59: -939340062
+      cerca_6: 1866663404
+      cerca_60: -744635214
+      cerca_61: -183823672
+      cerca_62: 347600563
+      cerca_63: -2101131528
+      cerca_64: 1800587243
+      cerca_65: -458077710
+      cerca_66: 1238066214
+      cerca_67: -636946603
+      cerca_68: 568381586
+      cerca_69: 654633537
+      cerca_7: -88357822
+      cerca_70: -1377778211
+      cerca_71: 1812193304
+      cerca_72: -1620704874
+      cerca_73: 7618624
+      cerca_74: -392855019
+      cerca_75: -2143496867
+      cerca_76: -1583941199
+      cerca_77: 330561849
+      cerca_78: 158941067
+      cerca_79: 317186822
+      cerca_8: 1908632715
+      cerca_80: 381206636
+      cerca_81: -1437862371
+      cerca_82: -511839217
+      cerca_83: 1280777009
+      cerca_84: 1770627850
+      cerca_85: 827466364
+      cerca_9: -2074321662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
