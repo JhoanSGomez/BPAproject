@@ -229,6 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6166382886528843582}
+  - component: {fileID: 7288512318214132491}
   m_Layer: 0
   m_Name: planta_cortar
   m_TagString: Untagged
@@ -253,3 +254,19 @@ Transform:
   - {fileID: 6963054077485987300}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &7288512318214132491
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6927923874599025136}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 08f1b73b685a25d43815968aeee55986, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 08f1b73b685a25d43815968aeee55986, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
