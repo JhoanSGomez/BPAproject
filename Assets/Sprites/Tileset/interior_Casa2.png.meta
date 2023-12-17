@@ -1,0 +1,2098 @@
+fileFormatVersion: 2
+guid: a1fe7d8e9f138c8d4a2ab40606e1e40e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: interior_Casa2_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 379
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fe5a61ef570496cba7a7b9cb1755a4
+      internalID: 1825720406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 383
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a982b37cade7391cafd4d15b3c9de0b
+      internalID: 1182245398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 427
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604f5f759d92901fba5a3d60ecde30ad
+      internalID: 1716709454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 427
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c476ea22125c15a9db3d23108832a94c
+      internalID: -1395580900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 427
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058af55971f033187b989061dde6a930
+      internalID: -1991337567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 428
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db5feb6b0aadb27a93d1a825dcbd98f
+      internalID: 123863834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 428
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf97db9e53b7fc675bb44d05eae2ab54
+      internalID: -1531003163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 382
+        width: 24
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345fac74c5831da409d5ca8b57bd7fc2
+      internalID: -791182506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543578c315f975ff6bd1dc529464377b
+      internalID: 806072103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 384
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9963861b2fa9682f9bb09efb34355829
+      internalID: -2070317943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_10
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 371
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47369a269d43e34a4a55f73530b08dbe
+      internalID: 2136547482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 378
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc76342c2ab1e879288a3fe3c8c38551
+      internalID: -1022556049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 379
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc5cfcc1cd184b22911a588980e23c5
+      internalID: 1531777049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 267
+        width: 34
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1417027889aac912abf2414b6d6fba8
+      internalID: -61900075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 332
+        width: 102
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5002353, y: 0.21900102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df2250cfb8589c85ab375ad1b1c2fba
+      internalID: -131219485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 326
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4977f8afad59c94bfba1577d9e6b7bae
+      internalID: -1124797108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 327
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff450b6305376b32b27ab442f48de31
+      internalID: 701055375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_17
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 340
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd356d258abbb105bba75a7c92cb018b
+      internalID: -1631249302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 323
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44058b8500663f5d7aaab6937d8a7a40
+      internalID: 801131312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_19
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 323
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772e70e91d45a80d5b6e4d4b8210c0d8
+      internalID: 1378455123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 325
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae59bc2e3ba71ea78713edb2144b005
+      internalID: 2087565107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_21
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 318
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc71a6b87f7cf5afa9140009e6e52a0
+      internalID: 598923879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_22
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 318
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0549fd7bc6a3e91f1988371d87e2444f
+      internalID: -359831871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_23
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 330
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9527fbc695f3fba9d7142f44ab3a72
+      internalID: -241972018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_24
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 279
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8f13a0ee4308f49ad34d6bd20cf9c8
+      internalID: 198152663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 279
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3573ce904c5558748a51fa058f923422
+      internalID: -1368851061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 279
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44dd7a42b38b3728a6d71f0b9230243
+      internalID: 953585853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_27
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 279
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef5b509d48768b6387439ad0e2021fe
+      internalID: 1643263801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 277
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cdcf5a06c90edf0817d0db3016772c
+      internalID: -1283685495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_29
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 274
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dac218ad226d871bbd78eab58c187d
+      internalID: -535651309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_30
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 274
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1321233157182af6b300ea61addaf3b
+      internalID: 1958994567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_31
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 273
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80939f989f521d3368d66495ad4a43c3
+      internalID: 371353285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 273
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2be54c71b7f106caa8914cac8beac53
+      internalID: -1729064314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_33
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 278
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b927586658db0ffa994e4df04e8f02d6
+      internalID: 1151497323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 281
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e4c702e63ca4a029a1612ac613b98c
+      internalID: -80122867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_35
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 274
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1e65a0f520b565c844f8440ad0e855
+      internalID: -261571973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_36
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 277
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87efb68e0d05ca66da7dd3857823bfd7
+      internalID: -1012303418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_37
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 276
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b94dac4287afec9aa58c87df0330cd
+      internalID: -1274445270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_38
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 287
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f4262b85a344fab862565924864205
+      internalID: -1976070819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_39
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 262
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1247d90f096058e75b42a62c2822f71b
+      internalID: -842507714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_40
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 264
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4785aada65fbcf388816f6f1cd2472
+      internalID: 811822253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_41
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 272
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3d4de4abee8d842b4589b2a37db0a1
+      internalID: -21427003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_42
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 210
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4d8a2f2195a8d7599a85493ae0ea0d
+      internalID: 445039671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 228
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6d41460e1597b4b99483a1967834ab
+      internalID: 942659579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_44
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 227
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f202873378759f39d7bf12a8ec5278
+      internalID: -932256824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_45
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 227
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd900efb13fb2bb88212c144a5da38e
+      internalID: -1703252772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_46
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 245
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1720f2214089876f1928f77afa4f6d99
+      internalID: -464457269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_47
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 248
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e615083f2af4a01c8923e3a9cfed364b
+      internalID: -1313898000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_48
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 248
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32e9954172cd76d4908cbdb1ad32871
+      internalID: 1397655639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_49
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 248
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47da08d9ffa96d5a1b4153cf3a15c5af
+      internalID: 1601552437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_50
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 251
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198af226947cf337385cbf72619523f3
+      internalID: 862513869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_51
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 232
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14516402f8b9ecda8a084e45b8993b9f
+      internalID: 820271809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_52
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 230
+        width: 39
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5013733, y: -0.014113744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e77f49e4ab94803c9eb71044d80d052
+      internalID: 407217601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_53
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 229
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be38f67b9177223afbedc3e54063a331
+      internalID: -515186999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_54
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 236
+        width: 31
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f9188d5e1aba869a34ad0d065c2921
+      internalID: -334378937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_55
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 224
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bbd36cdce8ca3fa9a5f61f25832557
+      internalID: -1894013909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_56
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 203
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b5f9e5dec62d9c78640e241267496a
+      internalID: -1587002898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_57
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 185
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516d77202b768985896cc08160e9c2d1
+      internalID: 1592126677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_58
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 207
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c42751a7a2696a34bd592449972c8d3
+      internalID: -1426524398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_59
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 199
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48535e525c718e45194222a53207ec60
+      internalID: 1093651359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_60
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 199
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c2b8a00c449ce14a9e0855f54cab02
+      internalID: -2089883068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_61
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 199
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c510373b9fab729a9f5257ee35b438
+      internalID: 1348487667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_62
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 188
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43441dafcbd465a0ea110e05fbcede98
+      internalID: -1453221087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_63
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 178
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259ed69fe606ee14c9265d11dccfbb7f
+      internalID: -756419067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_64
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 177
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cba016e4d45d35aa208a9e686ddd1c
+      internalID: -706979265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_65
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8901305fb4c854c0bb06355a1bbf51a8
+      internalID: 82089421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_66
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 172
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.49919048, y: 0.21897888}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdbf776bc2487747a2a61977061bfc5
+      internalID: 634212512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_67
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 172
+        width: 20
+        height: 24
+      alignment: 9
+      pivot: {x: 0.48825073, y: 0.24930064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ae3f6c9468813479515df84816a1b0
+      internalID: -456710632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_68
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 172
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b12e250a5ff45d3bd3712f47479da2
+      internalID: 1704955220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_69
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 145
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b82a866d19ae2cd94d959865b62c86
+      internalID: 1720158370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_70
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 154
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeba044159ce2b282af3a05ce0469eeb
+      internalID: 1769945499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_71
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 154
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c797efafe0142ab6abd34e24730f7bd
+      internalID: 1872046943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 155
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56c5b84fc40c82d39b6222e040b561c
+      internalID: -1506227858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_73
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 155
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4091407275bcc159496519466bd0a988
+      internalID: -1110561343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_74
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 138
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899e15f865dc46cf8b30da216ab420a4
+      internalID: 597662064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_75
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 144
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7567f1a4f3c0bc09d9f630ae0865402b
+      internalID: 76123013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_76
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 144
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953281301fd7a7bc48890fa3c8970daa
+      internalID: 62867692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_77
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 144
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46580186268ed907d8e631eca927627e
+      internalID: 686171341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_78
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 30
+        width: 76
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0f1fb0b57d0b49686a081ce0ea6e51
+      internalID: -417286280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_79
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 112
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500d6119377ce038281fa774db1bcc76
+      internalID: -756247979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3dd704a91bdb5be80bbd5211ca8972
+      internalID: -874437176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_81
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 59
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04356d981821fb1d8b19e192e28440bc
+      internalID: 123723231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_82
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 71
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e4370f8c16179df8cbb340e11c79de
+      internalID: 1130506388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 27
+        width: 34
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b7cf7814531d5d0b437dc050b9b1f5
+      internalID: -689055249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_84
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 27
+        width: 38
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275795b35643e776e8ef9b2df6499f15
+      internalID: -359947802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_85
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 33
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c98bf1a18c50b737b990ea28aa2727b
+      internalID: -1492072055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_86
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 11
+        width: 102
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a383feac2b12e0f75842b0156e637ffd
+      internalID: 819325543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_87
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 11
+        width: 102
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbea6c64445762618f744a69a4326c0
+      internalID: -1029122134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_Casa2_88
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 30
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45abd67398d00ff618bc50624147fdb3
+      internalID: 351322716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      interior_Casa2_0: 1825720406
+      interior_Casa2_1: 1182245398
+      interior_Casa2_10: 2136547482
+      interior_Casa2_11: -1022556049
+      interior_Casa2_12: 1531777049
+      interior_Casa2_13: -61900075
+      interior_Casa2_14: -131219485
+      interior_Casa2_15: -1124797108
+      interior_Casa2_16: 701055375
+      interior_Casa2_17: -1631249302
+      interior_Casa2_18: 801131312
+      interior_Casa2_19: 1378455123
+      interior_Casa2_2: 1716709454
+      interior_Casa2_20: 2087565107
+      interior_Casa2_21: 598923879
+      interior_Casa2_22: -359831871
+      interior_Casa2_23: -241972018
+      interior_Casa2_24: 198152663
+      interior_Casa2_25: -1368851061
+      interior_Casa2_26: 953585853
+      interior_Casa2_27: 1643263801
+      interior_Casa2_28: -1283685495
+      interior_Casa2_29: -535651309
+      interior_Casa2_3: -1395580900
+      interior_Casa2_30: 1958994567
+      interior_Casa2_31: 371353285
+      interior_Casa2_32: -1729064314
+      interior_Casa2_33: 1151497323
+      interior_Casa2_34: -80122867
+      interior_Casa2_35: -261571973
+      interior_Casa2_36: -1012303418
+      interior_Casa2_37: -1274445270
+      interior_Casa2_38: -1976070819
+      interior_Casa2_39: -842507714
+      interior_Casa2_4: -1991337567
+      interior_Casa2_40: 811822253
+      interior_Casa2_41: -21427003
+      interior_Casa2_42: 445039671
+      interior_Casa2_43: 942659579
+      interior_Casa2_44: -932256824
+      interior_Casa2_45: -1703252772
+      interior_Casa2_46: -464457269
+      interior_Casa2_47: -1313898000
+      interior_Casa2_48: 1397655639
+      interior_Casa2_49: 1601552437
+      interior_Casa2_5: 123863834
+      interior_Casa2_50: 862513869
+      interior_Casa2_51: 820271809
+      interior_Casa2_52: 407217601
+      interior_Casa2_53: -515186999
+      interior_Casa2_54: -334378937
+      interior_Casa2_55: -1894013909
+      interior_Casa2_56: -1587002898
+      interior_Casa2_57: 1592126677
+      interior_Casa2_58: -1426524398
+      interior_Casa2_59: 1093651359
+      interior_Casa2_6: -1531003163
+      interior_Casa2_60: -2089883068
+      interior_Casa2_61: 1348487667
+      interior_Casa2_62: -1453221087
+      interior_Casa2_63: -756419067
+      interior_Casa2_64: -706979265
+      interior_Casa2_65: 82089421
+      interior_Casa2_66: 634212512
+      interior_Casa2_67: -456710632
+      interior_Casa2_68: 1704955220
+      interior_Casa2_69: 1720158370
+      interior_Casa2_7: -791182506
+      interior_Casa2_70: 1769945499
+      interior_Casa2_71: 1872046943
+      interior_Casa2_72: -1506227858
+      interior_Casa2_73: -1110561343
+      interior_Casa2_74: 597662064
+      interior_Casa2_75: 76123013
+      interior_Casa2_76: 62867692
+      interior_Casa2_77: 686171341
+      interior_Casa2_78: -417286280
+      interior_Casa2_79: -756247979
+      interior_Casa2_8: 806072103
+      interior_Casa2_80: -874437176
+      interior_Casa2_81: 123723231
+      interior_Casa2_82: 1130506388
+      interior_Casa2_83: -689055249
+      interior_Casa2_84: -359947802
+      interior_Casa2_85: -1492072055
+      interior_Casa2_86: 819325543
+      interior_Casa2_87: -1029122134
+      interior_Casa2_88: 351322716
+      interior_Casa2_9: -2070317943
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
