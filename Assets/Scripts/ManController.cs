@@ -9,6 +9,7 @@ public class ManController : MonoBehaviour
     private Rigidbody2D rig;
     private Animator anim;
     private SpriteRenderer spriteMan;
+
    void Awake()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -63,4 +64,5 @@ public class ManController : MonoBehaviour
         }
 
     }
+    
 }
