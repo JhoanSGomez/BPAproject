@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7687708782510188475}
   m_Layer: 0
   m_Name: tronco
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,11 +26,11 @@ Transform:
   m_GameObject: {fileID: 867456450749017978}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.2, y: -1.49, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.08301289, y: -1.3714204, z: -0.011468592}
+  m_LocalScale: {x: 0.75466007, y: 0.7105806, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6166382886528843582}
+  m_Father: {fileID: 8960441583439581727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &7687708782510188475
 BoxCollider2D:
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 7140689325623293733}
   m_Layer: 0
   m_Name: planta
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,7 +108,8 @@ Transform:
   m_LocalPosition: {x: 2.09, y: 0.44, z: 0.011468592}
   m_LocalScale: {x: 1.3251, y: 1.4073, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6963054077485987300}
   m_Father: {fileID: 6166382886528843582}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2718927335491633596
@@ -175,6 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd37c90c0abd3134cb626d34a48c8e27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  elementoReemplazo: {fileID: 1544374317803232483, guid: 0a511d02af16b02088002681250c3682, type: 3}
 --- !u!61 &7140689325623293733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -232,7 +234,7 @@ GameObject:
   - component: {fileID: 7288512318214132491}
   m_Layer: 0
   m_Name: planta_cortar
-  m_TagString: Untagged
+  m_TagString: Tree
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -251,7 +253,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8960441583439581727}
-  - {fileID: 6963054077485987300}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!111 &7288512318214132491

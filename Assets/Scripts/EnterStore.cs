@@ -19,10 +19,12 @@ public class EnterStore : MonoBehaviour
         sceneName = SceneManager.GetActiveScene().name;
 
         if (sceneName == "Store"){     
+            GameManager.Instance.setScore();
             SceneManager.LoadScene("SampleScene");
             GameManager.Instance.LoadPlayerPosition();
         }else {
             GameManager.Instance.SavePlayerPosition();
+            GameManager.Instance.setScore();
             SceneManager.LoadScene("Store");
         }
     }
