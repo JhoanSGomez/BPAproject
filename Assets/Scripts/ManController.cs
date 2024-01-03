@@ -17,6 +17,7 @@ public class ManController : MonoBehaviour
         spriteMan = GetComponentInChildren<SpriteRenderer>();
     }
 
+
     void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
@@ -63,6 +64,12 @@ public class ManController : MonoBehaviour
             anim.SetBool("Down", true);
         }
 
+        if (Input.GetKey(KeyCode.Space))
+        {
+            // Realizar alguna acción cuando la tecla de espacio esté presionada
+            Debug.Log("Se ha presionado la tecla de espacio");
+            // Puedes agregar aquí la lógica que desees ejecutar al presionar la tecla de espacio
+        }
     }
     
 }
