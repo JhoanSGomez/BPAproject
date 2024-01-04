@@ -19,10 +19,16 @@ public class Dialog : MonoBehaviour
     {
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("Si");
             if (!didDialogStart)
             {
                 startDialog();
+            }
+            else if (dialogText.text == dialogLines[lineIndex])
+            {
+                NextDialogLine();
+            }else{
+                StopAllCoroutines();
+                dialogText.text = dialogLines[lineIndex];
             }
 
         }
@@ -34,8 +40,24 @@ public class Dialog : MonoBehaviour
         dialogPanel.SetActive(true);
         dialogMark.SetActive(false);
         lineIndex = 0;
+        Time.timeScale = 0f;
         StartCoroutine(ShowLine());
+    }
 
+    private void NextDialogLine()
+    {
+        lineIndex++;
+        if (lineIndex < dialogLines.Length)
+        {
+            StartCoroutine(ShowLine());
+        }
+        else
+        {
+            didDialogStart = false;
+            dialogPanel.SetActive(false);
+            dialogMark.SetActive(true);
+            Time.timeScale = 1f;
+        }
     }
 
     private IEnumerator ShowLine()
@@ -45,7 +67,7 @@ public class Dialog : MonoBehaviour
         foreach (char ch in dialogLines[lineIndex])
         {
             dialogText.text += ch;
-            yield return new WaitForSeconds(typingTime);
+            yield return new WaitForSecondsRealtime(typingTime);
         }
     }
 
