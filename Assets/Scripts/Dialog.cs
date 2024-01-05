@@ -5,6 +5,8 @@ using TMPro;
 public class Dialog : MonoBehaviour
 {
 
+    [SerializeField] private AudioClip npcVoice;
+    [SerializeField] private float typingTime;
     [SerializeField] private GameObject dialogMark;
     [SerializeField] private GameObject dialogPanel;
     [SerializeField] private TMP_Text dialogText;
@@ -12,7 +14,14 @@ public class Dialog : MonoBehaviour
     private bool isPlayerInRange;
     private bool didDialogStart;
     private int lineIndex;
-    private float typingTime = 0.05f;
+    private AudioSource audioSource;
+
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = npcVoice;
+    }
 
     // Update is called once per frame
     void Update()
@@ -26,7 +35,9 @@ public class Dialog : MonoBehaviour
             else if (dialogText.text == dialogLines[lineIndex])
             {
                 NextDialogLine();
-            }else{
+            }
+            else
+            {
                 StopAllCoroutines();
                 dialogText.text = dialogLines[lineIndex];
             }
@@ -63,6 +74,7 @@ public class Dialog : MonoBehaviour
     private IEnumerator ShowLine()
     {
         dialogText.text = string.Empty;
+        audioSource.Play();
 
         foreach (char ch in dialogLines[lineIndex])
         {
