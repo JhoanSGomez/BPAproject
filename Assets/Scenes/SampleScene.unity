@@ -41097,6 +41097,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 288966d804353e74c93c0f3a52e0d199, type: 3}
     - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: audioClip1
+      value: 
+      objectReference: {fileID: 8300000, guid: 288966d804353e74c93c0f3a52e0d199, type: 3}
+    - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: dialogMark
       value: 
       objectReference: {fileID: 2009724352}
@@ -41112,6 +41116,10 @@ PrefabInstance:
       propertyPath: dialogPanel
       value: 
       objectReference: {fileID: 714649570}
+    - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: audioSource1
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: dialogLines.Array.size
       value: 1

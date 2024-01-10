@@ -5,7 +5,10 @@ using TMPro;
 public class Dialog : MonoBehaviour
 {
 
-    [SerializeField] private AudioClip npcVoice;
+    //[SerializeField] private AudioClip npcVoice;
+    public AudioClip audioClip1;
+    public AudioClip audioClip2;
+    public AudioClip audioClip3;
     [SerializeField] private float typingTime;
     [SerializeField] private GameObject dialogMark;
     [SerializeField] private GameObject dialogPanel;
@@ -14,13 +17,19 @@ public class Dialog : MonoBehaviour
     private bool isPlayerInRange;
     private bool didDialogStart;
     private int lineIndex;
-    private AudioSource audioSource;
+    private int bang = 0;
+    public AudioSource audioSource;
 
 
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        audioSource.clip = npcVoice;
+        //audioSource.clip = npcVoice;
+
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
     // Update is called once per frame
@@ -36,11 +45,11 @@ public class Dialog : MonoBehaviour
             {
                 NextDialogLine();
             }
-            else
-            {
-                StopAllCoroutines();
-                dialogText.text = dialogLines[lineIndex];
-            }
+            /*    else
+               {
+                   StopAllCoroutines();
+                   dialogText.text = dialogLines[lineIndex];
+               } */
 
         }
     }
@@ -74,13 +83,42 @@ public class Dialog : MonoBehaviour
     private IEnumerator ShowLine()
     {
         dialogText.text = string.Empty;
-        audioSource.Play();
+        //audioSource.Play();
+        Debug.Log("Bandera " + bang);
+        Debug.Log("lineIndex " + lineIndex);
+
+        switch (bang)
+        {
+            case 0:
+                PlayAudioClip(audioClip1);
+                bang++;
+                break;
+            case 1:
+                PlayAudioClip(audioClip2);
+                bang++;
+                break;
+            case 2:
+                PlayAudioClip(audioClip3);
+                bang++;
+                break;
+            default:
+                Debug.Log("Opción no válida");
+                break;
+        }
 
         foreach (char ch in dialogLines[lineIndex])
         {
             dialogText.text += ch;
             yield return new WaitForSecondsRealtime(typingTime);
         }
+
+        if (bang >= dialogLines.Length)
+        {
+            bang = 0;
+            Debug.Log("Bandera Despues de igualar" + bang);
+            Debug.Log("lineIndex " + lineIndex);
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -99,5 +137,12 @@ public class Dialog : MonoBehaviour
             isPlayerInRange = false;
             dialogMark.SetActive(false);
         }
+    }
+
+    void PlayAudioClip(AudioClip clip)
+    {
+        // Asignar el nuevo audioClip al AudioSource y reproducir
+        audioSource.clip = clip;
+        audioSource.Play();
     }
 }
