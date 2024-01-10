@@ -5,11 +5,11 @@ using UnityEngine;
 public class plantaCortarController : MonoBehaviour
 {
     public GameObject elementoReemplazo;
-    public Animator animator; // Referencia al componente Animator de tu objeto
+    public AnimationClip animacion; // Arrastra tu animación aquí desde el Inspector
     private bool jugadorEnContacto; // Variable para rastrear si el jugador está en contacto
     public KeyCode teclaActivacion = KeyCode.Space; // Tecla para activar la animación
     public int toques; // Referencia al componente Animator de tu objeto
-    public int maxToques=3; 
+    public int maxToques = 3;
     void Update()
     {
         if (jugadorEnContacto && Input.GetKeyDown(teclaActivacion))
@@ -54,9 +54,14 @@ public class plantaCortarController : MonoBehaviour
 
     private void ActivarAnimacionElemento()
     {
+        Animation prefabAnimation = gameObject.GetComponent<Animation>();
+        prefabAnimation.AddClip(animacion, animacion.name);
+            
+        prefabAnimation.Play(animacion.name);
 
         if (toques==maxToques && jugadorEnContacto)
         {
+
             GameManager.Instance.incScore(5);
             GetComponent<SpriteRenderer>().enabled = false;
             Transform parentTransform = transform.parent; // Obtiene el Transform padre
@@ -70,9 +75,6 @@ public class plantaCortarController : MonoBehaviour
 
     private void DesactivarAnimacionElemento()
     {
-        if (animator != null)
-        {
-           
-        }
+
     }
 }

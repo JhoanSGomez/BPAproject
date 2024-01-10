@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 2718927335491633596}
   - component: {fileID: 2409303830455546313}
   - component: {fileID: 7140689325623293733}
+  - component: {fileID: 7521865782886582529}
   m_Layer: 0
   m_Name: planta
   m_TagString: Tree
@@ -177,6 +178,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elementoReemplazo: {fileID: 1544374317803232483, guid: 0a511d02af16b02088002681250c3682, type: 3}
+  animacion: {fileID: 7400000, guid: 08f1b73b685a25d43815968aeee55986, type: 2}
+  teclaActivacion: 32
+  toques: 0
+  maxToques: 3
 --- !u!61 &7140689325623293733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -222,6 +227,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.606897, y: 1.5648615}
   m_EdgeRadius: 0
+--- !u!111 &7521865782886582529
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254417570001630997}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 08f1b73b685a25d43815968aeee55986, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 08f1b73b685a25d43815968aeee55986, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &6927923874599025136
 GameObject:
   m_ObjectHideFlags: 0
