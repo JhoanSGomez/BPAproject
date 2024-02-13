@@ -62,7 +62,7 @@ public class plantaCortarController : MonoBehaviour
         if (toques==maxToques && jugadorEnContacto)
         {
 
-            GameManager.Instance.incScore(5);
+            GameManager.Instance.incScore(50);
             GetComponent<SpriteRenderer>().enabled = false;
             Transform parentTransform = transform.parent; // Obtiene el Transform padre
             Destroy(gameObject);

@@ -7,9 +7,10 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    public List<itemBuyInformation> informacionBuyItems;
     private TMP_Text scoreText;
     private bool juegoIniciado = false;
-    private int score;
+    public int score;
     private int nApples;
     public GameObject plantaMala;
     public Transform cultivo;
@@ -46,6 +47,10 @@ public class GameManager : MonoBehaviour
     private void OnEnable(){
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
+    public List<itemBuyInformation> testlist(){
+        return informacionBuyItems;
+    }
+    
 
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode){
         if(juegoIniciado){
@@ -56,6 +61,8 @@ public class GameManager : MonoBehaviour
              
         }else{
             PlayerPrefs.DeleteAll();
+            PlayerPrefs.DeleteKey("monedasTotales");
+
             //PlayerPrefs.DeleteKey("PlayerPosX");
         }
         setScore();
@@ -96,14 +103,18 @@ public class GameManager : MonoBehaviour
         GameObject go = GameObject.FindWithTag("score");
         scoreText = go.GetComponent<TMP_Text>();
         score += inc;
+        PlayerPrefs.SetInt("monedasTotales", score);
         scoreText.text = "Score: " + score.ToString();
     }
 
     public void setScore()
     {
         GameObject go = GameObject.FindWithTag("score");
+        //PlayerPrefs.SetInt("monedasTotales", score);
         scoreText = go.GetComponent<TMP_Text>();
-        scoreText.text = "Score: " + score.ToString();
+        score = PlayerPrefs.GetInt("monedasTotales");
+        Debug.Log("Contenido setScore: "+PlayerPrefs.GetInt("monedasTotales"));
+        scoreText.text = "Score: " +  PlayerPrefs.GetInt("monedasTotales").ToString();
     }
 
      void GeneratePlantInstances()
@@ -126,4 +137,34 @@ public class GameManager : MonoBehaviour
             plantInstances.Add(newPlantInstanceRow3);
         }
     }
+
+    public void addBuyItems(itemBuyInformation item){
+        // Buscar el item por título
+
+
+        itemBuyInformation itemExistente = informacionBuyItems.Find(x => x.titulo == item.titulo);
+
+        if (itemExistente == null){
+
+            // Si no existe, agregar el nuevo item a la lista
+            item.cantidad = 1;
+            informacionBuyItems.Add(item);
+        }else{
+            // Si existe, incrementar la cantidad
+            itemExistente.cantidad += 1;
+        }
+        ImprimirLista();
+
+    }
+
+    private void ImprimirLista()
+    {
+        Debug.Log("Contenido de la lista:");
+
+        foreach (var item in informacionBuyItems)
+        {
+            Debug.Log($"Título: {item.titulo}, Cantidad:{item.cantidad}");
+        }
+    }
+
 }
