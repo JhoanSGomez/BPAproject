@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Store.unity
     guid: a7521e83766477a45bc915b9c8e2b1a0
+  - enabled: 1
+    path: Assets/Scenes/DialogueMentor.unity
+    guid: 9a7c08e96059f4f429330c8cf205971a
   m_configObjects: {}

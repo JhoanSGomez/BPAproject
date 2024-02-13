@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  textoNarrativo: "El drenaje debe realizarse en zonas h\xFAmedas con elevadas precipitaciones
+    anuales y suelos planos o ligeramente ondulados. Su finalidad es drenar el exceso
+    de agua de la superficie o capas profundas del suelo y as\xED asegurar una buena
+    aireaci\xF3n en la zona radicular.\r\nexisten diferentes tipos de drenajes:\r"
+  respuestaUno: Drenaje primario
+  respuestaDos: Drenaje secundario
+  respuestaTres: Drenaje Terciario
+  respuestaCuatro: Drenaje cuaternario
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 0c0000000d0000000e0000000f000000000000000000000000000000
+  quitaBotones: 0

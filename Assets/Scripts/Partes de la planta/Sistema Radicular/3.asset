@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Esta parte se encarga de absorber agua y nutrientes del suelo.
+    Se compone de ra\xEDces primarias y ra\xEDces secundarias. Todos provienen de
+    partes subterr\xE1neas de plantas llamadas rizomas. Las ra\xEDces primarias pueden
+    medir hasta 3 metros de largo, pero las ra\xEDces m\xE1s grandes se encuentran
+    en los primeros 60 cent\xEDmetros del suelo"
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 00000000000000000000000000000000000000000000000002000000
+  quitaBotones: 0
