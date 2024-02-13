@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  textoNarrativo: "El rizoma es el tallo del pl\xE1tano que se encuentra bajo tierra.
+    A menudo llamado tub\xE9rculo, crece horizontalmente bajo tierra. Tambi\xE9n
+    tiene forma de c\xFApula plana.\r\nLa descendencia se obtiene a trav\xE9s de
+    rizomas o brotes a trav\xE9s de brotes vegetativos que crecen a partir de la
+    planta madre (la m\xE1s desarrollada).\r\nLa parte exterior o cortical del rizoma
+    realiza una funci\xF3n protectora, mientras que la parte central o activa forma
+    el sistema a\xE9reo, ra\xEDces y brotes.\r"
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 00000000000000000000000000000000000000000000000002000000
+  quitaBotones: 0

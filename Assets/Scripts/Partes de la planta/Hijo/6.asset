@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Un hijo es un brote que crece desde la base de la planta de pl\xE1tano.
+    M\xE1s precisamente, crece a partir de brotes laterales del rizoma. Cuando un
+    hijo sale de la tierra, se le llama hijuelo. Cuando crece y desarrolla hojas
+    verdaderas, se le llama hijo. Hay muchos tipos de hijos, pero s\xF3lo los hijos
+    espada (aquellos con hojas estrechas y un sistema de ra\xEDces bien desarrollado)
+    se convertir\xE1n en plantas bananeras pr\xF3speras. Un buen manejo de los hijos
+    es esencial para producir bananos de alta calidad. Si quitas el hijo del tallo
+    principal y lo vuelves a plantar, puede convertirse en una nueva planta de pl\xE1tano."
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 00000000000000000000000000000000000000000000000002000000
+  quitaBotones: 0

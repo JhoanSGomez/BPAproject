@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  textoNarrativo: "La reproducci\xF3n del pl\xE1tano y sus derivados se da mediante
+    brotes que crecen como parte de la misma planta, es decir, como \"hijos\" que
+    surgen del rizoma. Este hijo, tambi\xE9n conocido como reto\xF1o, v\xE1stago,
+    brote o colino, se desarrolla cerca de la planta madre.\r\n\r\nCuando el hijo
+    emerge del suelo, se le llama hijuelo, y a medida que crece y desarrolla hojas
+    verdaderas, se denomina simplemente hijo. Morfol\xF3gicamente, hay dos tipos
+    de hijos: el hijo espada, con hojas estrechas y un rizoma grande, y el hijo de
+    agua, que tiene hojas anchas y un rizoma m\xE1s peque\xF1o. Los hijos de agua
+    tienen una conexi\xF3n m\xE1s d\xE9bil con la planta madre y no se desarrollan
+    tan robustamente. El n\xFAmero de hijos producidos var\xEDa seg\xFAn el cultivar.
+    El hijo seleccionado para reemplazar a la planta madre despu\xE9s de la fructificaci\xF3n
+    se llama sucesor.\r\n"
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: Atras
+  arrayReferencias: 00000000000000000000000000000000000000000000000000000000
+  quitaBotones: 0

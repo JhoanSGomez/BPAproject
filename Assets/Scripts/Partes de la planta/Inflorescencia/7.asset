@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 7
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Se trata de una estructura compleja que contiene flores que se
+    convierten en frutos. Se origina en la terminal de crecimiento del rizoma, crece
+    a trav\xE9s del pseudotallo y aparece en la parte superior de la planta despu\xE9s
+    de que ha emergido la \xFAltima hoja de cigarro.\r\nLas flores femeninas aparecen
+    primero. Desarrollar\xE1n manos fruct\xEDferas. \"A medida que se desarrollan
+    las flores femeninas, la parte distal de la inflorescencia se alarga para formar
+    un racimo de flores masculinas, cada una debajo de una br\xE1ctea\". Estas flores
+    no suelen dar frutos y sus estambres no producen polen.\r"
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 00000000000000000000000000000000000000000000000002000000
+  quitaBotones: 0

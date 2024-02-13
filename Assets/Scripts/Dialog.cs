@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Dialog : MonoBehaviour
 {
@@ -44,6 +45,11 @@ public class Dialog : MonoBehaviour
             else if (dialogText.text == dialogLines[lineIndex])
             {
                 NextDialogLine();
+
+                if (lineIndex == 2)
+                {
+                    StartCoroutine(waitAndLoad(0.5F));
+                }
             }
             /*    else
                {
@@ -52,6 +58,11 @@ public class Dialog : MonoBehaviour
                } */
 
         }
+    }
+    IEnumerator waitAndLoad(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        SceneManager.LoadScene("DialogueMentor");
     }
 
     private void startDialog()
@@ -84,8 +95,6 @@ public class Dialog : MonoBehaviour
     {
         dialogText.text = string.Empty;
         //audioSource.Play();
-        Debug.Log("Bandera " + bang);
-        Debug.Log("lineIndex " + lineIndex);
 
         switch (bang)
         {
@@ -115,8 +124,6 @@ public class Dialog : MonoBehaviour
         if (bang >= dialogLines.Length)
         {
             bang = 0;
-            Debug.Log("Bandera Despues de igualar" + bang);
-            Debug.Log("lineIndex " + lineIndex);
         }
 
     }
