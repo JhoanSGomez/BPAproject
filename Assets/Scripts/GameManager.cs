@@ -15,6 +15,20 @@ public class GameManager : MonoBehaviour
     public GameObject plantaMala;
     public Transform cultivo;
     private List<GameObject> plantInstances; 
+
+    //Variables de la escena de preguntas
+    [SerializeField] private AudioClip m_correctSound = null;
+    [SerializeField] private AudioClip m_incorrectSound = null;
+    [SerializeField] private Color m_correctColor = Color.black;
+    [SerializeField] private Color m_incorrectColor = Color.black;
+    [SerializeField] private float m_waitTime = 0.0f;
+
+    private QuestionBD m_questionBD = null;
+    private QuestionUI m_questionUI = null;
+    private AudioSource m_audioSource = null;
+
+    //*************************************************
+
     public static GameManager Instance
     {
         get
@@ -25,6 +39,48 @@ public class GameManager : MonoBehaviour
             return _instance;
         }
     }
+    //escena de preguntas
+    private void Start(){
+        m_questionBD = GameObject.FindObjectOfType<QuestionBD>();
+        m_questionUI = GameObject.FindObjectOfType<QuestionUI>();
+        m_audioSource = GetComponent<AudioSource>();
+
+        NextQuestion();
+    }
+
+    private void NextQuestion(){
+        m_questionUI.Construct(m_questionBD.GetRandom(), GiveAnswer);
+    }
+
+    private void GiveAnswer(OptionButton optionButton)
+    {
+        StartCoroutine(GiveAnswerRoutime(optionButton));
+    }
+
+    private IEnumerator GiveAnswerRoutime(OptionButton optionButton){
+
+    if(m_audioSource.isPlaying)
+        m_audioSource.Stop();
+
+    m_audioSource.clip =optionButton.Option.correct ? m_correctSound : m_incorrectSound;
+    optionButton.SetColor(optionButton.Option.correct ? m_correctColor : m_incorrectColor);
+
+    m_audioSource.Play();
+
+    yield return new WaitForSeconds (m_waitTime);
+
+    if(optionButton.Option.correct){
+        NextQuestion();
+    }else{
+        GameOverQuestion();
+    }
+    }
+
+    //Logica del GameObject aqui podemos poner el metodo para descontar o sumar el score
+    private void GameOverQuestion(){
+        Debug.Log("Respuesta Mala");
+    }
+    //*****************************************
 
     void Awake()
     {

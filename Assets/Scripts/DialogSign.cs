@@ -3,10 +3,9 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Dialog : MonoBehaviour
+public class DialogSign : MonoBehaviour
 {
-
-    //[SerializeField] private AudioClip npcVoice;
+     //[SerializeField] private AudioClip npcVoice;
     public AudioClip audioClip1;
     public AudioClip audioClip2;
     public AudioClip audioClip3;
@@ -18,7 +17,7 @@ public class Dialog : MonoBehaviour
     private bool isPlayerInRange;
     private bool didDialogStart;
     private int lineIndex;
-    private int flag = 0;
+    private int bang = 0;
     public AudioSource audioSource;
 
 
@@ -51,13 +50,11 @@ public class Dialog : MonoBehaviour
                     StartCoroutine(waitAndLoad(0.5F));
                 }
             }
-                else if(PlayerPrefs.GetInt("flagDialog")==1)
+            /*    else
                {
                    StopAllCoroutines();
                    dialogText.text = dialogLines[lineIndex];
-                   StartCoroutine(waitAndLoad(0.5F));
-                   }
-                
+               } */
 
         }
     }
@@ -65,7 +62,6 @@ public class Dialog : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene("DialogueMentor");
-        PlayerPrefs.SetInt("flagDialog", 1);
     }
 
     private void startDialog()
@@ -99,19 +95,19 @@ public class Dialog : MonoBehaviour
         dialogText.text = string.Empty;
         //audioSource.Play();
 
-        switch (flag)
+        switch (bang)
         {
             case 0:
                 PlayAudioClip(audioClip1);
-                flag++;
+                bang++;
                 break;
             case 1:
                 PlayAudioClip(audioClip2);
-                flag++;
+                bang++;
                 break;
             case 2:
                 PlayAudioClip(audioClip3);
-                flag++;
+                bang++;
                 break;
             default:
                 Debug.Log("Opción no válida");
@@ -124,9 +120,9 @@ public class Dialog : MonoBehaviour
             yield return new WaitForSecondsRealtime(typingTime);
         }
 
-        if (flag >= dialogLines.Length)
+        if (bang >= dialogLines.Length)
         {
-            flag = 0;
+            bang = 0;
         }
 
     }
