@@ -628,7 +628,7 @@ MonoBehaviour:
   informacionItems:
   - {fileID: 11400000, guid: c61b8957b6a090f369124c950d5e445d, type: 2}
   - {fileID: 11400000, guid: 941f4e2bc8ce1d79f9119596d4f3b4c5, type: 2}
-  - {fileID: 11400000, guid: ca22b4c10dfc208368defd55358fdc9a, type: 2}
+  - {fileID: 11400000, guid: c3cd3567eff7aa243bc15ba1dc3de6c9, type: 2}
   plantillaObjetoTienda: {fileID: 3852921844284754736, guid: 972016c36476f9a1f93ac2161dcb671e, type: 3}
   textoMonedasTotales: {fileID: 920743231}
 --- !u!114 &723118573

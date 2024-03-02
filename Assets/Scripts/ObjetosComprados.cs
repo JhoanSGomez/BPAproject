@@ -15,8 +15,6 @@ public class ObjetosComprados : MonoBehaviour
 
         foreach (var item in GameManager.Instance.testlist())
         {
-                    Debug.Log(item.titulo);
-
             plantillaItem.imagen.sprite = item.image;
             plantillaItem.cantidad.text = item.cantidad.ToString();;
 

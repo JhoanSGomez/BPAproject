@@ -66,6 +66,7 @@ public class plantaCortarController : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = false;
             Transform parentTransform = transform.parent; // Obtiene el Transform padre
             Destroy(gameObject);
+
             GameObject nuevoElemento = Instantiate(elementoReemplazo, transform.position+ new Vector3(0f, -2, 0f), Quaternion.identity);
             if (parentTransform != null){
                 nuevoElemento.transform.SetParent(parentTransform);

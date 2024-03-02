@@ -274,6 +274,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf349e8c960508448862f4577a10caa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioClip1: {fileID: 0}
+  audioClip2: {fileID: 0}
+  audioClip3: {fileID: 0}
+  typingTime: 0
   dialogMark: {fileID: 111176179285603729}
   dialogPanel: {fileID: 0}
   dialogText: {fileID: 0}
@@ -285,3 +289,4 @@ MonoBehaviour:
     hoy son el resultado de un proceso de mejora continua."
   - "Inicialmente, los pl\xE1tanos ten\xEDan semillas, pero a lo largo del tiempo,
     se logr\xF3 modificar su desarrollo para obtener frutos sin semillas."
+  audioSource: {fileID: 0}

@@ -63,13 +63,6 @@ public class ManController : MonoBehaviour
             anim.SetBool("Up", false);
             anim.SetBool("Down", true);
         }
-
-        if (Input.GetKey(KeyCode.Space))
-        {
-            // Realizar alguna acción cuando la tecla de espacio esté presionada
-            Debug.Log("Se ha presionado la tecla de espacio");
-            // Puedes agregar aquí la lógica que desees ejecutar al presionar la tecla de espacio
-        }
     }
     
 }

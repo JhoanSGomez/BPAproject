@@ -38,8 +38,11 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(this.gameObject); // Evita que se destruya al cambiar de escena
             DontDestroyOnLoad(this.cultivo);
             plantInstances = new List<GameObject>(); // Inicializa la lista en el Awake
-            GeneratePlantInstances(); // Genera las instancias al inicio
-        
+            //GeneratePlantInstances(); // Genera las instancias al inicio
+            Scene scene = SceneManager.GetSceneByName("SampleScene");
+            if (scene == SceneManager.GetActiveScene()){
+                GeneratePlantInstances();
+            }
         }
         
     }
@@ -56,9 +59,7 @@ public class GameManager : MonoBehaviour
         if(juegoIniciado){
             if(scene.name!="Store"){
                 GameManager.Instance.LoadPlayerPosition();
-
-            }
-             
+            }   
         }else{
             PlayerPrefs.DeleteAll();
             PlayerPrefs.DeleteKey("monedasTotales");
@@ -145,8 +146,6 @@ public class GameManager : MonoBehaviour
         itemBuyInformation itemExistente = informacionBuyItems.Find(x => x.titulo == item.titulo);
 
         if (itemExistente == null){
-
-            // Si no existe, agregar el nuevo item a la lista
             item.cantidad = 1;
             informacionBuyItems.Add(item);
         }else{
@@ -155,6 +154,16 @@ public class GameManager : MonoBehaviour
         }
         ImprimirLista();
 
+    }
+
+    public void RestarCantidadPorTitulo(string titulo, int cantidadARestar)
+    {
+        int index = informacionBuyItems.FindIndex(x => x.titulo == titulo);
+        if(index>=0){
+            informacionBuyItems[index].cantidad -= cantidadARestar;
+        }else{
+            Debug.Log("No se encontró ningún elemento con el título '" + titulo + "'.");
+        }
     }
 
     private void ImprimirLista()
