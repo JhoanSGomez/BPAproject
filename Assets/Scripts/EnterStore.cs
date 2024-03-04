@@ -23,7 +23,7 @@ public class EnterStore : MonoBehaviour
             SceneManager.LoadScene("SampleScene");
             GameManager.Instance.LoadPlayerPosition();
         }else {
-            GameManager.Instance.SavePlayerPosition();
+            GameManager.Instance.SavePlayerPosition(1);
             GameManager.Instance.setScore();
             SceneManager.LoadScene("Store");
         }

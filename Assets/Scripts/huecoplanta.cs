@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class huecoplanta : MonoBehaviour
 {
@@ -71,64 +71,8 @@ public class huecoplanta : MonoBehaviour
 
     public void refrescarItems()
     {
-        // Encuentra todos los GameObjects con la etiqueta "objetosComprado"
-        GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag("objetosComprado");
-
-        // Itera a través de los GameObjects encontrados
-        foreach (GameObject obj in taggedObjects)
-        {
-            // Intenta obtener el componente GridLayoutGroup
-           this.gridLayout = obj.GetComponent<GridLayoutGroup>();
-
-            // Verifica si el componente fue encontrado
-            if (this.gridLayout != null)
-            {
-                RefreshGridLayoutGroup();
-                // Realiza acciones con el GridLayoutGroup encontrado
-                Debug.Log("Se encontró el GridLayoutGroup en el GameObject con la etiqueta objetosComprado.");
-                // Puedes realizar más operaciones aquí según tus necesidades
-            }
-            else
-            {
-                // El componente GridLayoutGroup no fue encontrado en este GameObject
-                Debug.LogWarning("No se encontró el GridLayoutGroup en el GameObject con la etiqueta objetosComprado.");
-            }
-        }
-    }
-
-    public void RefreshGridLayoutGroup()
-    {
-        var plantillaItem = plantillaItemsComprados.GetComponent<PlantillaItemsComprados>();
- 
-        if (this.gridLayout != null && this.gridLayout.transform.childCount >= 0){
-            foreach (var item in GameManager.Instance.testlist())
-            {
-                GameObject nuevoObjeto = Instantiate(plantillaItemsComprados, transform.position, Quaternion.identity);
-                nuevoObjeto.transform.SetParent(transform); // Establece el objeto duplicado como hijo de este objeto
-
-                // Agrega el objeto duplicado a la lista
-                itemList.Add(nuevoObjeto);
-            }
-             // Borra los elementos hijos del GridLayoutGroup
-            Debug.Log("testing "+gridLayout.transform.childCount);
-            Debug.Log(this.gridLayout.transform);
-            foreach (Transform child in this.gridLayout.transform)
-            {
-                Debug.Log("entree "+gridLayout.transform.childCount);
-
-                Destroy(child.gameObject);
-            }
-
-            // Recrea los elementos en base a la lista actualizada
-            foreach (GameObject item in itemList)
-            {
-                Instantiate(item, this.gridLayout.transform);
-            }
-
-            // Forzar la reconstrucción del layout
-            LayoutRebuilder.ForceRebuildLayoutImmediate(this.gridLayout.GetComponent<RectTransform>());
-        }
-
-       
+        GameManager.Instance.SavePlayerPosition(0);
+        SceneManager.LoadScene("SampleScene");
+        GameManager.Instance.LoadPlayerPosition();
     }
 }

@@ -119,8 +119,6 @@ public class GameManager : MonoBehaviour
         }else{
             PlayerPrefs.DeleteAll();
             PlayerPrefs.DeleteKey("monedasTotales");
-
-            //PlayerPrefs.DeleteKey("PlayerPosX");
         }
         setScore();
         nApples = GameObject.FindGameObjectsWithTag("Tree").Length;
@@ -132,7 +130,7 @@ public class GameManager : MonoBehaviour
 
         if (PlayerPrefs.HasKey("PlayerPosX") && PlayerPrefs.HasKey("PlayerPosY")){
             float posX = PlayerPrefs.GetFloat("PlayerPosX");
-            float posY = PlayerPrefs.GetFloat("PlayerPosY") -1;
+            float posY = PlayerPrefs.GetFloat("PlayerPosY");
             float posZ = PlayerPrefs.GetFloat("PlayerPosZ");
             Vector3 playerPosition = new Vector3(posX, posY, posZ);
 
@@ -145,12 +143,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void SavePlayerPosition(){
+    public void SavePlayerPosition(int inc){
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null){
             Vector3 playerPosition = player.transform.position;
             PlayerPrefs.SetFloat("PlayerPosX", playerPosition.x);
-            PlayerPrefs.SetFloat("PlayerPosY", playerPosition.y);
+            PlayerPrefs.SetFloat("PlayerPosY", playerPosition.y-inc);
             PlayerPrefs.SetFloat("PlayerPosZ", playerPosition.z);
         }
     }
