@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     private bool juegoIniciado = false;
     public int score;
     private int nApples;
-    public GameObject plantaMala;
+    [SerializeField] public GameObject plantaMala;
     public Transform cultivo;
     private List<GameObject> plantInstances; 
 

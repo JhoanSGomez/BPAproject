@@ -11,6 +11,8 @@ public class plantaCortarController : MonoBehaviour
     public int toques; // Referencia al componente Animator de tu objeto
     public int maxToques = 3;
     [SerializeField] private AudioClip SonidoIniciar;
+    [SerializeField] private GameObject hacha;
+
     void Update()
     {
         if (jugadorEnContacto && Input.GetKeyDown(teclaActivacion))
@@ -43,6 +45,7 @@ public class plantaCortarController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            hacha.SetActive(true);
             jugadorEnContacto = true;
         }
     }
@@ -51,6 +54,7 @@ public class plantaCortarController : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            hacha.SetActive(false);
             jugadorEnContacto = false;
             DesactivarAnimacionElemento();
         }

@@ -41420,6 +41420,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 140752080734863831, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2070023206639143263, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_Sprite
       value: 
