@@ -182,6 +182,7 @@ MonoBehaviour:
   teclaActivacion: 32
   toques: 0
   maxToques: 3
+  SonidoIniciar: {fileID: 8300000, guid: f35bc1725647a424c8235ec4e6d48879, type: 3}
 --- !u!61 &7140689325623293733
 BoxCollider2D:
   m_ObjectHideFlags: 0

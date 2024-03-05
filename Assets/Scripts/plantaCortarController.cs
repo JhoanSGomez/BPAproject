@@ -10,11 +10,15 @@ public class plantaCortarController : MonoBehaviour
     public KeyCode teclaActivacion = KeyCode.Space; // Tecla para activar la animación
     public int toques; // Referencia al componente Animator de tu objeto
     public int maxToques = 3;
+    [SerializeField] private AudioClip SonidoIniciar;
     void Update()
     {
         if (jugadorEnContacto && Input.GetKeyDown(teclaActivacion))
         {
             toques= toques+1;
+          /*   Debug.Log("Toques "+toques);
+            if(toques <= 3){
+            IniciarSonido.Instance.ExecuteSound(SonidoIniciar);} */
             ActivarAnimacionElemento();
         }
     }
@@ -59,6 +63,7 @@ public class plantaCortarController : MonoBehaviour
             
         prefabAnimation.Play(animacion.name);
 
+        IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
         if (toques==maxToques && jugadorEnContacto)
         {
 

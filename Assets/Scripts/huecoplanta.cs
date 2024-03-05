@@ -11,6 +11,7 @@ public class huecoplanta : MonoBehaviour
     public GameObject colino;
     public GridLayoutGroup gridLayout;
     [SerializeField] GameObject plantillaItemsComprados;
+    [SerializeField] private AudioClip SonidoIniciar;
     public List<GameObject> itemList = new List<GameObject>();
 
 
@@ -52,6 +53,7 @@ public class huecoplanta : MonoBehaviour
 
             if (itemAbono != null && itemColino != null){
                 if (itemAbono.cantidad >= 1 && itemColino.cantidad >= 1){
+                    IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
                     Destroy(gameObject);
                     GameManager.Instance.RestarCantidadPorTitulo(itemAbono.titulo, 1);
                     GameManager.Instance.RestarCantidadPorTitulo(itemColino.titulo, 1);
