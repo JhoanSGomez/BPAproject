@@ -14,7 +14,7 @@ public class huecoplanta : MonoBehaviour
     [SerializeField] private AudioClip SonidoIniciar;
     public List<GameObject> itemList = new List<GameObject>();
 
-    [SerializeField] private GameObject dialogMark;
+    [SerializeField] private GameObject img_sembrar;
 
     void Update()
     {
@@ -31,7 +31,7 @@ public class huecoplanta : MonoBehaviour
 
         if (collision.CompareTag("Player"))
         {
-            dialogMark.SetActive(true);
+            img_sembrar.SetActive(true);
 
             jugadorEnContacto = true;
         }
@@ -42,7 +42,7 @@ public class huecoplanta : MonoBehaviour
         Debug.Log("hice colicion OnTriggerExit2D");
         if (collision.CompareTag("Player"))
         {
-            dialogMark.SetActive(false);
+            img_sembrar.SetActive(false);
 
             jugadorEnContacto = false;
         }

@@ -18,28 +18,9 @@ public class plantaCortarController : MonoBehaviour
         if (jugadorEnContacto && Input.GetKeyDown(teclaActivacion))
         {
             toques= toques+1;
-          /*   Debug.Log("Toques "+toques);
-            if(toques <= 3){
-            IniciarSonido.Instance.ExecuteSound(SonidoIniciar);} */
             ActivarAnimacionElemento();
         }
     }
-
-    /*private void  OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player")){
-            GameManager.Instance.incScore(5);
-            GetComponent<SpriteRenderer>().enabled = false;
-            Transform parentTransform = transform.parent; // Obtiene el Transform padre
-            
-            Destroy(gameObject);
-            GameObject nuevoElemento = Instantiate(elementoReemplazo, transform.position+ new Vector3(0f, -2, 0f), Quaternion.identity);
-            if (parentTransform != null){
-                nuevoElemento.transform.SetParent(parentTransform);
-            }            
-            Debug.Log("Colision con player");
-        }
-    }*/
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -56,7 +37,6 @@ public class plantaCortarController : MonoBehaviour
         {
             hacha.SetActive(false);
             jugadorEnContacto = false;
-            DesactivarAnimacionElemento();
         }
     }
 
@@ -81,10 +61,5 @@ public class plantaCortarController : MonoBehaviour
                 nuevoElemento.transform.SetParent(parentTransform);
             }            
         }
-    }
-
-    private void DesactivarAnimacionElemento()
-    {
-
     }
 }
