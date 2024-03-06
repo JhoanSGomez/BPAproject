@@ -65,6 +65,7 @@ public class huecoplanta : MonoBehaviour
                     refrescarItems();
                     GameObject nuevoElemento = Instantiate(colino, transform.position+ new Vector3(0f, 1, 0f), Quaternion.identity);
                     if (parentTransform != null){
+                        GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
                     }
                 }else{

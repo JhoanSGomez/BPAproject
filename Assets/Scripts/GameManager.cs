@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
     public List<itemBuyInformation> informacionBuyItems;
+    public itemBuyInformation hachaBuyItems;
     private TMP_Text scoreText;
     private bool juegoIniciado = false;
     public int score;
@@ -89,7 +90,7 @@ public class GameManager : MonoBehaviour
         if (_instance != null && _instance != this){
             Destroy(this.gameObject);
         }else{
-
+            this.addBuyItems(hachaBuyItems, 6);
             _instance = this;
             DontDestroyOnLoad(this.gameObject); // Evita que se destruya al cambiar de escena
             DontDestroyOnLoad(this.cultivo);
@@ -193,18 +194,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void addBuyItems(itemBuyInformation item){
+    public void addBuyItems(itemBuyInformation item,int cantidad){
         // Buscar el item por título
 
 
         itemBuyInformation itemExistente = informacionBuyItems.Find(x => x.titulo == item.titulo);
 
         if (itemExistente == null){
-            item.cantidad = 1;
+            item.cantidad = cantidad;
             informacionBuyItems.Add(item);
         }else{
             // Si existe, incrementar la cantidad
-            itemExistente.cantidad += 1;
+            itemExistente.cantidad += cantidad;
         }
         ImprimirLista();
 
@@ -229,5 +230,10 @@ public class GameManager : MonoBehaviour
             Debug.Log($"Título: {item.titulo}, Cantidad:{item.cantidad}");
         }
     }
-
+    public void refrescarItems()
+    {
+        this.SavePlayerPosition(0);
+        SceneManager.LoadScene("SampleScene");
+        this.LoadPlayerPosition();
+    }
 }

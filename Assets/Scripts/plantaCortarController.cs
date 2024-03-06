@@ -48,18 +48,25 @@ public class plantaCortarController : MonoBehaviour
         prefabAnimation.Play(animacion.name);
 
         IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
-        if (toques==maxToques && jugadorEnContacto)
-        {
+        itemBuyInformation itemHacha = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Hacha");
+        if (itemHacha.cantidad >= 1){
+            if (toques==maxToques && jugadorEnContacto)
+            {
+                GameManager.Instance.RestarCantidadPorTitulo("Hacha", 1);
+                GameManager.Instance.refrescarItems();
+                GameManager.Instance.incScore(50);
+                GetComponent<SpriteRenderer>().enabled = false;
+                Transform parentTransform = transform.parent; // Obtiene el Transform padre
+                Destroy(gameObject);
 
-            GameManager.Instance.incScore(50);
-            GetComponent<SpriteRenderer>().enabled = false;
-            Transform parentTransform = transform.parent; // Obtiene el Transform padre
-            Destroy(gameObject);
-
-            GameObject nuevoElemento = Instantiate(elementoReemplazo, transform.position+ new Vector3(0f, -2, 0f), Quaternion.identity);
-            if (parentTransform != null){
-                nuevoElemento.transform.SetParent(parentTransform);
-            }            
+                GameObject nuevoElemento = Instantiate(elementoReemplazo, transform.position+ new Vector3(0f, -2, 0f), Quaternion.identity);
+                if (parentTransform != null){
+                    nuevoElemento.transform.SetParent(parentTransform);
+                }            
+            
+            }
+        }else{
+            Debug.Log($"No se encontro el item Hacha");
         }
     }
 }

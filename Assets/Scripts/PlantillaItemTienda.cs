@@ -37,7 +37,7 @@ public class PlantillaItemTienda : MonoBehaviour
 
         newItem.image = imagen.sprite;
 
-        GameManager.Instance.addBuyItems(newItem);
+        GameManager.Instance.addBuyItems(newItem,1);
         monedaTotales -= precio;
         PlayerPrefs.SetInt("monedasTotales", monedaTotales);
     }

@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fea60d3d45523267a8f3dbb28d90130, type: 3}
-  m_Name: hacha
+  m_Script: {fileID: 11500000, guid: e5acbd77f5e5fc49696cef6914e6d2a7, type: 3}
+  m_Name: HachasIniciales
   m_EditorClassIdentifier: 
   titulo: Hacha
   image: {fileID: 21300000, guid: a4a463b7f48adfb2a9a3858849d6c0e7, type: 3}
-  precio: 40
+  cantidad: 0
