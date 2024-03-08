@@ -30,6 +30,17 @@ public class GameManager : MonoBehaviour
 
     //*************************************************
 
+    //Variables del dialogo antes de la escena de preguntas
+    [SerializeField] private float typingTime;
+    [SerializeField] private GameObject dialogPanel;
+    [SerializeField] private TMP_Text dialogText;
+    [SerializeField, TextArea(4, 6)] private string[] dialogLines;
+    private bool didDialogStart= false;
+    private int lineIndex;
+    public Canvas canvas; 
+
+    //*************************************************
+
     public static GameManager Instance
     {
         get
@@ -94,6 +105,7 @@ public class GameManager : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(this.gameObject); // Evita que se destruya al cambiar de escena
             DontDestroyOnLoad(this.cultivo);
+            DontDestroyOnLoad(this.canvas);
             plantInstances = new List<GameObject>(); // Inicializa la lista en el Awake
             //GeneratePlantInstances(); // Genera las instancias al inicio
             Scene scene = SceneManager.GetSceneByName("SampleScene");
@@ -103,6 +115,66 @@ public class GameManager : MonoBehaviour
         }
         
     }
+    //metodos para el dialogo y poder cambiar a escena de preguntas
+    public void startDialogQuestion()
+    {
+            if (!didDialogStart)
+            {
+                startDialog();
+            }
+            else if (dialogText.text == dialogLines[lineIndex])
+            {
+                NextDialogLine();
+            }
+    }
+
+     private void startDialog()
+    {
+        Debug.Log("Entro a startDialog");
+        didDialogStart = true;
+        dialogPanel.SetActive(true);
+         Debug.Log("Despues a startDialog");
+        lineIndex = 0;
+        Time.timeScale = 0f;
+        StartCoroutine(ShowLine());
+    }
+
+    private void NextDialogLine()
+    {
+        lineIndex++;
+        if (lineIndex < dialogLines.Length)
+        {
+            StartCoroutine(ShowLine());
+        }
+        else
+        {
+            didDialogStart = false;
+            dialogPanel.SetActive(false);
+            Time.timeScale = 1f;
+        }
+    }
+
+     private IEnumerator ShowLine()
+    {
+        dialogText.text = string.Empty;
+
+        foreach (char ch in dialogLines[lineIndex])
+        {
+            dialogText.text += ch;
+            yield return new WaitForSecondsRealtime(typingTime);
+        }
+        dialogPanel.SetActive(false);
+        StartCoroutine(waitAndLoad(0.5F));
+        
+    }
+
+    IEnumerator waitAndLoad(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        SceneManager.LoadScene("Question");
+    }
+
+    //*******************************************************************************
 
     private void OnEnable(){
         SceneManager.sceneLoaded += OnSceneLoaded;

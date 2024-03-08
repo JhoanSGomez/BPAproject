@@ -68,7 +68,8 @@ public class huecoplanta : MonoBehaviour
                         GameManager.Instance.updateColinosPlantados(1);
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
-                        if( GameManager.Instance.getColinosPlantados()==9){
+                        if( GameManager.Instance.getColinosPlantados()==1){
+                            GameManager.Instance.startDialogQuestion();
                             Debug.Log($"Plante todos los colinos");
                         }
                     }
