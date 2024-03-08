@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     private TMP_Text scoreText;
     private bool juegoIniciado = false;
     public int score;
-    private int nApples;
+    public int colinosPlantados;
     [SerializeField] public GameObject plantaMala;
     public Transform cultivo;
     private List<GameObject> plantInstances; 
@@ -90,7 +90,7 @@ public class GameManager : MonoBehaviour
         if (_instance != null && _instance != this){
             Destroy(this.gameObject);
         }else{
-            this.addBuyItems(hachaBuyItems, 6);
+            this.addBuyItems(hachaBuyItems, 7);
             _instance = this;
             DontDestroyOnLoad(this.gameObject); // Evita que se destruya al cambiar de escena
             DontDestroyOnLoad(this.cultivo);
@@ -110,7 +110,9 @@ public class GameManager : MonoBehaviour
     public List<itemBuyInformation> testlist(){
         return informacionBuyItems;
     }
-    
+    public int getColinosPlantados(){
+        return this.colinosPlantados;
+    }
 
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode){
         if(juegoIniciado){
@@ -122,7 +124,6 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.DeleteKey("monedasTotales");
         }
         setScore();
-        nApples = GameObject.FindGameObjectsWithTag("Tree").Length;
         juegoIniciado = true;
     }
 
@@ -236,4 +237,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
         this.LoadPlayerPosition();
     }
+    public void updateColinosPlantados(int cantidad)
+    {
+        this.colinosPlantados = this.colinosPlantados+cantidad;
+    }
+    
 }

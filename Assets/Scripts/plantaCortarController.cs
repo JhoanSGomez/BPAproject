@@ -17,7 +17,6 @@ public class plantaCortarController : MonoBehaviour
     {
         if (jugadorEnContacto && Input.GetKeyDown(teclaActivacion))
         {
-            toques= toques+1;
             ActivarAnimacionElemento();
         }
     }
@@ -50,6 +49,8 @@ public class plantaCortarController : MonoBehaviour
         IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
         itemBuyInformation itemHacha = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Hacha");
         if (itemHacha.cantidad >= 1){
+            toques= toques+1;
+
             if (toques==maxToques && jugadorEnContacto)
             {
                 GameManager.Instance.RestarCantidadPorTitulo("Hacha", 1);
@@ -57,10 +58,10 @@ public class plantaCortarController : MonoBehaviour
                 GameManager.Instance.incScore(50);
                 GetComponent<SpriteRenderer>().enabled = false;
                 Transform parentTransform = transform.parent; // Obtiene el Transform padre
-                Destroy(gameObject);
 
                 GameObject nuevoElemento = Instantiate(elementoReemplazo, transform.position+ new Vector3(0f, -2, 0f), Quaternion.identity);
                 if (parentTransform != null){
+                    Destroy(gameObject);
                     nuevoElemento.transform.SetParent(parentTransform);
                 }            
             

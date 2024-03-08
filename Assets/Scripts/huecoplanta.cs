@@ -55,7 +55,7 @@ public class huecoplanta : MonoBehaviour
             Transform parentTransform = transform.parent;
             itemBuyInformation itemAbono = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Abono");
             itemBuyInformation itemColino = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Colino");
-
+            
             if (itemAbono != null && itemColino != null){
                 if (itemAbono.cantidad >= 1 && itemColino.cantidad >= 1){
                     IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
@@ -65,8 +65,12 @@ public class huecoplanta : MonoBehaviour
                     refrescarItems();
                     GameObject nuevoElemento = Instantiate(colino, transform.position+ new Vector3(0f, 1, 0f), Quaternion.identity);
                     if (parentTransform != null){
+                        GameManager.Instance.updateColinosPlantados(1);
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
+                        if( GameManager.Instance.getColinosPlantados()==9){
+                            Debug.Log($"Plante todos los colinos");
+                        }
                     }
                 }else{
                     Debug.Log($"No se encontro las cantidades necesarias");
