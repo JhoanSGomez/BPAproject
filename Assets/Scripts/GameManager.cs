@@ -76,31 +76,31 @@ public class GameManager : MonoBehaviour
         
     }
     //metodos para el dialogo y poder cambiar a escena de preguntas
-    public void startDialogQuestion(string texto)
+    public void startDialogQuestion(string texto,float typingTime)
     {
         if (!didDialogStart)
         {
-            startDialog(texto);
+            startDialog(texto,typingTime);
         }
     }
 
-     private void startDialog(string texto)
+     private void startDialog(string texto, float typingTime)
     {
         Debug.Log("Entro a startDialog");
         didDialogStart = true;
         dialogPanel.SetActive(true);
         Debug.Log("Despues a startDialog");
         lineIndex = 0;
-        Time.timeScale = 0f;
-        StartCoroutine(ShowLine(texto));
+        Time.timeScale = 1f;
+        StartCoroutine(ShowLine(texto,typingTime));
     }
 
-    private void NextDialogLine(string texto)
+    private void NextDialogLine(string texto, float typingTime)
     {
         lineIndex++;
         if (lineIndex < dialogLines.Length)
         {
-            StartCoroutine(ShowLine(texto));
+            StartCoroutine(ShowLine(texto,typingTime));
         }
         else
         {
@@ -110,7 +110,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-   private IEnumerator ShowLine(string texto)
+   private IEnumerator ShowLine(string texto,float typingTime)
 {
     dialogText.text = string.Empty;
 
@@ -120,6 +120,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(typingTime);
     }
     dialogPanel.SetActive(false);
+    didDialogStart = false;
 }
 
     //*******************************************************************************

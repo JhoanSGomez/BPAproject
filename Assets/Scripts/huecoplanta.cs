@@ -69,17 +69,17 @@ public class huecoplanta : MonoBehaviour
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
                         if( GameManager.Instance.getColinosPlantados()==1){
-                            //GameManager.Instance.startDialogQuestion($"Plante todos los colinos");
+                            GameManager.Instance.startDialogQuestion($"Muy bien...! Ahora responderas una serie de preguntas para proar tu conocimiento", 0.05F);
                             SceneManager.LoadScene("Question");
                             Debug.Log($"Plante todos los colinos");
                         }
                     }
                 }else{
-                    //GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias");
+                    GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias",0.05F);
                     Debug.Log($"No se encontro las cantidades necesarias");
                 }
             }else{
-                //GameManager.Instance.startDialogQuestion($"No se encontro uno de los items");
+                GameManager.Instance.startDialogQuestion($"No se encontro uno de los items",0.05F);
                 Debug.Log($"No se encontro uno de los items");
             }
         }
