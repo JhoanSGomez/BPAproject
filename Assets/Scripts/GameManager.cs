@@ -52,46 +52,6 @@ public class GameManager : MonoBehaviour
         }
     }
     //escena de preguntas
-    private void Start(){
-        m_questionBD = GameObject.FindObjectOfType<QuestionBD>();
-        m_questionUI = GameObject.FindObjectOfType<QuestionUI>();
-        m_audioSource = GetComponent<AudioSource>();
-
-        NextQuestion();
-    }
-
-    private void NextQuestion(){
-        m_questionUI.Construct(m_questionBD.GetRandom(), GiveAnswer);
-    }
-
-    private void GiveAnswer(OptionButton optionButton)
-    {
-        StartCoroutine(GiveAnswerRoutime(optionButton));
-    }
-
-    private IEnumerator GiveAnswerRoutime(OptionButton optionButton){
-
-    if(m_audioSource.isPlaying)
-        m_audioSource.Stop();
-
-    m_audioSource.clip =optionButton.Option.correct ? m_correctSound : m_incorrectSound;
-    optionButton.SetColor(optionButton.Option.correct ? m_correctColor : m_incorrectColor);
-
-    m_audioSource.Play();
-
-    yield return new WaitForSeconds (m_waitTime);
-
-    if(optionButton.Option.correct){
-        NextQuestion();
-    }else{
-        GameOverQuestion();
-    }
-    }
-
-    //Logica del GameObject aqui podemos poner el metodo para descontar o sumar el score
-    private void GameOverQuestion(){
-        Debug.Log("Respuesta Mala");
-    }
     //*****************************************
 
     void Awake()
@@ -116,35 +76,31 @@ public class GameManager : MonoBehaviour
         
     }
     //metodos para el dialogo y poder cambiar a escena de preguntas
-    public void startDialogQuestion()
+    public void startDialogQuestion(string texto)
     {
-            if (!didDialogStart)
-            {
-                startDialog();
-            }
-            else if (dialogText.text == dialogLines[lineIndex])
-            {
-                NextDialogLine();
-            }
+        if (!didDialogStart)
+        {
+            startDialog(texto);
+        }
     }
 
-     private void startDialog()
+     private void startDialog(string texto)
     {
         Debug.Log("Entro a startDialog");
         didDialogStart = true;
         dialogPanel.SetActive(true);
-         Debug.Log("Despues a startDialog");
+        Debug.Log("Despues a startDialog");
         lineIndex = 0;
         Time.timeScale = 0f;
-        StartCoroutine(ShowLine());
+        StartCoroutine(ShowLine(texto));
     }
 
-    private void NextDialogLine()
+    private void NextDialogLine(string texto)
     {
         lineIndex++;
         if (lineIndex < dialogLines.Length)
         {
-            StartCoroutine(ShowLine());
+            StartCoroutine(ShowLine(texto));
         }
         else
         {
@@ -154,25 +110,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
-     private IEnumerator ShowLine()
-    {
-        dialogText.text = string.Empty;
+   private IEnumerator ShowLine(string texto)
+{
+    dialogText.text = string.Empty;
 
-        foreach (char ch in dialogLines[lineIndex])
-        {
-            dialogText.text += ch;
-            yield return new WaitForSecondsRealtime(typingTime);
-        }
-        dialogPanel.SetActive(false);
-        StartCoroutine(waitAndLoad(0.5F));
-        
-    }
-
-    IEnumerator waitAndLoad(float waitTime)
+    foreach (char ch in texto)
     {
-        yield return new WaitForSeconds(waitTime);
-        SceneManager.LoadScene("Question");
+        dialogText.text += ch;
+        yield return new WaitForSecondsRealtime(typingTime);
     }
+    dialogPanel.SetActive(false);
+}
 
     //*******************************************************************************
 
@@ -185,7 +133,6 @@ public class GameManager : MonoBehaviour
     public int getColinosPlantados(){
         return this.colinosPlantados;
     }
-
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode){
         if(juegoIniciado){
             if(scene.name!="Store"){
