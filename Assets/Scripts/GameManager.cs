@@ -17,21 +17,9 @@ public class GameManager : MonoBehaviour
     public Transform cultivo;
     private List<GameObject> plantInstances; 
 
-    //Variables de la escena de preguntas
-    [SerializeField] private AudioClip m_correctSound = null;
-    [SerializeField] private AudioClip m_incorrectSound = null;
-    [SerializeField] private Color m_correctColor = Color.black;
-    [SerializeField] private Color m_incorrectColor = Color.black;
-    [SerializeField] private float m_waitTime = 0.0f;
-
-    private QuestionBD m_questionBD = null;
-    private QuestionUI m_questionUI = null;
-    private AudioSource m_audioSource = null;
 
     //*************************************************
 
-    //Variables del dialogo antes de la escena de preguntas
-    [SerializeField] private float typingTime;
     [SerializeField] private GameObject dialogPanel;
     [SerializeField] private TMP_Text dialogText;
     [SerializeField, TextArea(4, 6)] private string[] dialogLines;
