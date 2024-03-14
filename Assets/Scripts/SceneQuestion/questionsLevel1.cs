@@ -22,7 +22,6 @@ public class questions : MonoBehaviour
     [SerializeField] private GameObject dialogPanel;
     [SerializeField] private TMP_Text dialogText;
     [SerializeField, TextArea(4, 6)] private string[] dialogLines;
-    private bool didDialogStart= false;
     private int lineIndex;
     public Canvas canvas; 
     // Start is called before the first frame update

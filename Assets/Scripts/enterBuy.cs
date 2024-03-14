@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class enterBuy : MonoBehaviour
 {
-    [SerializeField] private GameObject dialogMark;
+    [SerializeField] private GameObject img_compra_store;
      private bool isPlayerInRange;
 
 
      private void Start()
     {
-         dialogMark.SetActive(false);
+         img_compra_store.SetActive(false);
     }
      // Update is called once per frame
     void Update()
@@ -27,7 +27,7 @@ public class enterBuy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             isPlayerInRange = true;
-            dialogMark.SetActive(true);
+            img_compra_store.SetActive(true);
         }
     }
 
@@ -36,7 +36,7 @@ public class enterBuy : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             isPlayerInRange = false;
-            dialogMark.SetActive(false);
+            img_compra_store.SetActive(false);
         }
     }
 }
