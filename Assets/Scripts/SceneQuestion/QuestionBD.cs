@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class QuestionBD : MonoBehaviour
 {
@@ -21,7 +20,8 @@ public class QuestionBD : MonoBehaviour
 
       if(m_questionList.Count == 0)
       {
-         RestoreBackup();
+         //RestoreBackup();
+         SceneManager.LoadScene("Store");
       }
 
       int index = Random.Range(0 , m_questionList.Count);

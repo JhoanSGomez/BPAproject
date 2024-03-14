@@ -5313,7 +5313,7 @@ GameObject:
   - component: {fileID: 810141428}
   - component: {fileID: 810141427}
   m_Layer: 0
-  m_Name: img_compra_store (1)
+  m_Name: img_compra_store
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5380,8 +5380,8 @@ Transform:
   m_GameObject: {fileID: 810141426}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.91, y: 0.14, z: 0}
-  m_LocalScale: {x: 0.263, y: 0.263, z: 0.263}
+  m_LocalPosition: {x: -0.97, y: 0.66, z: 0}
+  m_LocalScale: {x: 0.16705762, y: 0.15598531, z: 0.263}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 962129086}

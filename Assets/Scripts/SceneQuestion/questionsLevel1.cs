@@ -56,12 +56,9 @@ public class questions : MonoBehaviour
 
         if(optionButton.Option.correct){
             NextQuestion();
+            GameManager.Instance.incScore(30);
         }else{
-            GameOverQuestion();
+            GameManager.Instance.incScore(-10);
         }
     }
-    private void GameOverQuestion(){
-        Debug.Log("Respuesta Mala");
-    }
-
 }
