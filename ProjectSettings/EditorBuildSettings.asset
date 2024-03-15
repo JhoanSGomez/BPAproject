@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Question.unity
     guid: e1e3ab2689b6b6e48983479b6f3fb3f6
+  - enabled: 1
+    path: Assets/Scenes/WelcomeLevel.unity
+    guid: 002268a840c31cd498c14621b73d11ce
   m_configObjects: {}

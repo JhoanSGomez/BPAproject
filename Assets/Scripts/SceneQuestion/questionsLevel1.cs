@@ -54,8 +54,8 @@ public class questions : MonoBehaviour
         yield return new WaitForSeconds (m_waitTime);
 
         if(optionButton.Option.correct){
-            NextQuestion();
             GameManager.Instance.incScore(30);
+            NextQuestion();
         }else{
             GameManager.Instance.incScore(-10);
         }

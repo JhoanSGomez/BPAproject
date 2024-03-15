@@ -17,21 +17,21 @@ public class QuestionBD : MonoBehaviour
 
    public Question GetRandom(bool remove = true)
    {
-
+Question q = null;
       if(m_questionList.Count == 0)
       {
          //RestoreBackup();
-         SceneManager.LoadScene("Store");
-      }
+         SceneManager.LoadScene("WelcomeLevel");
+      }else{
 
       int index = Random.Range(0 , m_questionList.Count);
 
       if(!remove){
          return m_questionList[index];
       }
-      Question q = m_questionList[index];
+      q = m_questionList[index];
       m_questionList.RemoveAt(index);
-
+      }
       return q;
    }
 

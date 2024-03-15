@@ -74,10 +74,8 @@ public class GameManager : MonoBehaviour
 
      private void startDialog(string texto, float typingTime)
     {
-        Debug.Log("Entro a startDialog");
         didDialogStart = true;
         dialogPanel.SetActive(true);
-        Debug.Log("Despues a startDialog");
         lineIndex = 0;
         Time.timeScale = 1f;
         StartCoroutine(ShowLine(texto,typingTime));
