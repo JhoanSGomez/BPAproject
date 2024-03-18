@@ -7,6 +7,8 @@ public class btn_Salir : MonoBehaviour
 {
    public void goLevel()
     {
-        SceneManager.LoadScene("Store");
+        GameManager.Instance.ResetPlayerPosition();
+        SceneManager.LoadScene("SceneLevel2");
+        GameManager.Instance.LoadPlayerPosition();
     }
 }

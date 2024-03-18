@@ -160,7 +160,29 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetFloat("PlayerPosZ", playerPosition.z);
         }
     }
+    public void ResetPlayerPosition(){
+        Debug.Log("pase ṕor aqui ");
 
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null){
+                        Debug.Log("pase ṕor aqui  condicion");
+
+            Vector3 playerPosition = player.transform.position;
+            PlayerPrefs.SetFloat("PlayerPosX", 0);
+            PlayerPrefs.SetFloat("PlayerPosY", 0);
+            PlayerPrefs.SetFloat("PlayerPosZ", 0);
+        }
+    }
+    public void ResetPlayerPositionFixed(float posx,float posy){
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null){
+            Vector3 playerPosition = player.transform.position;
+            PlayerPrefs.SetFloat("PlayerPosX", posx);
+            PlayerPrefs.SetFloat("PlayerPosY", posy);
+            PlayerPrefs.SetFloat("PlayerPosZ", 0);
+        }
+    }
     public void incScore(int inc)
     {
         GameObject go = GameObject.FindWithTag("score");
