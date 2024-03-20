@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 21
+  m_EditorClassIdentifier: 
+  textoNarrativo: "En el departamento del Quind\xEDo las plagas se encuentran activas
+    al ataque del fruto de pl\xE1tano. Esta plaga se puede controlar cubriendo los
+    racimos de pl\xE1tanos en crecimiento con bolsas de pl\xE1stico que act\xFAan
+    como barreras protectoras.\r\nPor lo general, las bolsas est\xE1n codificadas
+    por colores para indicar el tiempo necesario para cada planta, con el objetivo
+    general de realizar un seguimiento del tiempo de cosecha, y los colores cambian
+    regularmente durante la cosecha cada 15 d\xEDas. Otra ventaja de este procedimiento
+    es que no s\xF3lo acelera el crecimiento, sino que tambi\xE9n mejora la calidad
+    del fruto, al tiempo que permite un control t\xE9cnico del rendimiento. Los racimos
+    se embolsan a m\xE1s tardar un mes despu\xE9s de la floraci\xF3n, antes de que
+    quede al descubierto la primera mano.\nLas bolsas blancas, azules, transparentes
+    y amarillas aceleran la madurez fisiol\xF3gica y la maduraci\xF3n de los frutos.
+    Las bolsas verdes contribuyen a mantener en equilibrio la concentraci\xF3n del
+    almid\xF3n y los az\xFAcares totales durante el desarrollo del fruto.\r"
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: Atras
+  arrayReferencias: 00000000000000000000000000000000000000000000000013000000
+  quitaBotones: 0

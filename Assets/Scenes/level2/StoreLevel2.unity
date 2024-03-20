@@ -3494,6 +3494,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &570977927 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 111176179285603729, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+  m_PrefabInstance: {fileID: 3475093562966959531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &571918011
 GameObject:
   m_ObjectHideFlags: 0
@@ -6532,12 +6537,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: audioClip1
       value: 
-      objectReference: {fileID: 8300000, guid: 48605a4e315c2ff4aa0f63bead384338, type: 3}
+      objectReference: {fileID: 8300000, guid: cddce592fb77ae844b37816ea1a9ad57, type: 3}
     - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: audioClip2
       value: 
@@ -6558,6 +6563,28 @@ PrefabInstance:
       propertyPath: dialogPanel
       value: 
       objectReference: {fileID: 1855336304}
+    - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: dialogLines.Array.data[0]
+      value: "Hola..! En el departamento del Quind\xEDo, es necesario modernizar
+        los cultivos de pl\xE1tano para controlar enfermedades y mejorar los rendimientos.
+        Esto se logra mediante actividades agr\xEDcolas basadas en investigaci\xF3n
+        y est\xE1ndares, que tambi\xE9n permiten monitorear el estado de los cultivos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: dialogLines.Array.data[1]
+      value: "Es crucial hablar sobre qu\xE9 hacer despu\xE9s de plantar un pl\xE1tano
+        con 3 kg de abono de oveja y 200 g de roca fosf\xF3rica. Tambi\xE9n es importante
+        llevar a cabo tareas de mantenimiento, como monitorear el crecimiento y la
+        salud de las plantas cada 15-20 d\xEDas."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: dialogLines.Array.data[2]
+      value: "Durante la limpieza alrededor de las ra\xEDces del pl\xE1tano, es importante
+        eliminar los restos org\xE1nicos y malezas en un radio de un metro y medio.
+        Tambi\xE9n se debe verificar que la mancha amarilla en las hojas no haya
+        afectado m\xE1s del 50% de estas; si es as\xED, debe eliminarse por completo.
+        Si el da\xF1o es menor, no es necesario podar.\r"
+      objectReference: {fileID: 0}
     - target: {fileID: 5941391368191209760, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.59649
@@ -6606,13 +6633,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6998924864970510826, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3475093562966959533}
+    - targetCorrespondingSourceObject: {fileID: 6998924864970510826, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3475093562966959539}
   m_SourcePrefab: {fileID: 100100000, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
 --- !u!1 &3475093562966959532 stripped
 GameObject:
@@ -6715,6 +6746,40 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3475093562966959539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475093562966959532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29dec1e88fb6e94f92e7ac7b4a44e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip1: {fileID: 8300000, guid: cddce592fb77ae844b37816ea1a9ad57, type: 3}
+  audioClip2: {fileID: 8300000, guid: fc725b638cc1f6b4290f7216e9904bcb, type: 3}
+  audioClip3: {fileID: 8300000, guid: 3d450a3ca6c14d54fa7fd85cac5ab86b, type: 3}
+  typingTime: 0.05
+  dialogMark: {fileID: 570977927}
+  dialogPanel: {fileID: 1855336304}
+  dialogText: {fileID: 363176205}
+  dialogLines:
+  - "Hola..! En el departamento del Quind\xEDo, es necesario modernizar los cultivos
+    de pl\xE1tano para controlar enfermedades y mejorar los rendimientos. Esto se
+    logra mediante actividades agr\xEDcolas basadas en investigaci\xF3n y est\xE1ndares,
+    que tambi\xE9n permiten monitorear el estado de los cultivos."
+  - "Es crucial hablar sobre qu\xE9 hacer despu\xE9s de plantar un pl\xE1tano con
+    3 kg de abono de esti\xE9rcol de oveja y 200 g de roca fosf\xF3rica. Tambi\xE9n
+    es importante llevar a cabo tareas de mantenimiento, como monitorear el crecimiento
+    y la salud de las plantas cada 15-20 d\xEDas."
+  - "Durante la limpieza alrededor de las ra\xEDces del pl\xE1tano, es importante
+    eliminar los restos org\xE1nicos y malezas en un radio de un metro y medio. Tambi\xE9n
+    se debe verificar que la mancha amarilla en las hojas no haya afectado m\xE1s
+    del 50% de estas; si es as\xED, debe eliminarse por completo. Si el da\xF1o es
+    menor, no es necesario podar.\r"
+  audioSource: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

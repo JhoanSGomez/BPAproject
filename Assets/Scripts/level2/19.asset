@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 19
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Escoge qu\xE9 conceptos b\xE1sicos del mantenimiento del cultivo
+    quieres reforzar"
+  respuestaUno: "Fertilizaci\xF3n"
+  respuestaDos: Embolsado
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: Inicio
+  arrayReferencias: 14000000150000000000000000000000000000000000000013000000
+  quitaBotones: 0
