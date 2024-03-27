@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject dialogPanel;
     [SerializeField] private TMP_Text dialogText;
+    [SerializeField] private GameObject dialogTextAux;
     [SerializeField, TextArea(4, 6)] private string[] dialogLines;
     private bool didDialogStart= false;
     private int lineIndex;
@@ -63,6 +64,11 @@ public class GameManager : MonoBehaviour
         }
         
     }
+
+     void Start(){
+        this.startDialogQuestion("¡Bienvenido! Para comenzar, dirígete al letrero que se encuentra a tu izquierda y presiona la tecla ESPACIO para interactuar ",0.08f);
+    }
+
     //metodos para el dialogo y poder cambiar a escena de preguntas
     public void startDialogQuestion(string texto,float typingTime)
     {
@@ -76,6 +82,7 @@ public class GameManager : MonoBehaviour
     {
         didDialogStart = true;
         dialogPanel.SetActive(true);
+        dialogTextAux.SetActive(true);
         lineIndex = 0;
         Time.timeScale = 1f;
         StartCoroutine(ShowLine(texto,typingTime));
@@ -91,6 +98,7 @@ public class GameManager : MonoBehaviour
         else
         {
             didDialogStart = false;
+            dialogTextAux.SetActive(false);
             dialogPanel.SetActive(false);
             Time.timeScale = 1f;
         }
@@ -105,6 +113,7 @@ public class GameManager : MonoBehaviour
         dialogText.text += ch;
         yield return new WaitForSecondsRealtime(typingTime);
     }
+    dialogTextAux.SetActive(false);
     dialogPanel.SetActive(false);
     didDialogStart = false;
 }

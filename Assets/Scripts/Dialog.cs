@@ -26,6 +26,7 @@ public class Dialog : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         //audioSource.clip = npcVoice;
+        PlayerPrefs.SetInt("flagText", 0);
 
         if (audioSource == null)
         {
@@ -70,12 +71,16 @@ public class Dialog : MonoBehaviour
 
     private void startDialog()
     {
+        if(PlayerPrefs.GetInt("flagText")==1){
         didDialogStart = true;
         dialogPanel.SetActive(true);
         dialogMark.SetActive(false);
         lineIndex = 0;
         Time.timeScale = 0f;
         StartCoroutine(ShowLine());
+        }else{
+        GameManager.Instance.startDialogQuestion($"Hola..! ve y compra primero tus hachas y termina de cortar todas las plantas", 0.05F);
+        }
     }
 
     private void NextDialogLine()

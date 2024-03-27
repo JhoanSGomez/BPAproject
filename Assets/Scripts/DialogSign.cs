@@ -13,6 +13,7 @@ public class DialogSign : MonoBehaviour
     [SerializeField] private GameObject dialogMark;
     [SerializeField] private GameObject dialogPanel;
     [SerializeField] private TMP_Text dialogText;
+    [SerializeField] private GameObject dialogTextAux;
     [SerializeField, TextArea(4, 6)] private string[] dialogLines;
     private bool isPlayerInRange;
     private bool didDialogStart;
@@ -45,10 +46,10 @@ public class DialogSign : MonoBehaviour
             {
                 NextDialogLine();
 
-                if (lineIndex == 2)
+                /*  if (lineIndex == 2)
                 {
                     StartCoroutine(waitAndLoad(0.5F));
-                }
+                }*/
             }
             /*    else
                {
@@ -58,16 +59,17 @@ public class DialogSign : MonoBehaviour
 
         }
     }
-    IEnumerator waitAndLoad(float waitTime)
+  /*   IEnumerator waitAndLoad(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene("DialogueMentor");
-    }
+    } */
 
     private void startDialog()
     {
         didDialogStart = true;
         dialogPanel.SetActive(true);
+        dialogTextAux.SetActive(true);
         dialogMark.SetActive(false);
         lineIndex = 0;
         Time.timeScale = 0f;
@@ -85,6 +87,7 @@ public class DialogSign : MonoBehaviour
         {
             didDialogStart = false;
             dialogPanel.SetActive(false);
+            dialogTextAux.SetActive(false);
             dialogMark.SetActive(true);
             Time.timeScale = 1f;
         }

@@ -9,6 +9,7 @@ public class plantaCortarController : MonoBehaviour
     private bool jugadorEnContacto; // Variable para rastrear si el jugador está en contacto
     public KeyCode teclaActivacion = KeyCode.Space; // Tecla para activar la animación
     public int toques; // Referencia al componente Animator de tu objeto
+    public int plantaCortada;
     public int maxToques = 3;
     [SerializeField] private AudioClip SonidoIniciar;
     [SerializeField] private GameObject hacha;
@@ -63,10 +64,16 @@ public class plantaCortarController : MonoBehaviour
                 if (parentTransform != null){
                     Destroy(gameObject);
                     nuevoElemento.transform.SetParent(parentTransform);
+                    plantaCortada= plantaCortada+1;
+                    Debug.Log("plantaCortada: "+ plantaCortada);
+                    if(plantaCortada == 9){
+                        GameManager.Instance.startDialogQuestion("Muy bien ..! Ahora, regresa a la tienda y compra 9 abonos y 9 colinos para sembrar.",0.08f);
+                    }
                 }            
             
             }
         }else{
+            GameManager.Instance.startDialogQuestion("Ya no tienes mas hachas para cortar, dirigite a la tienda y compra 2 hachas que te faltan para terminar de despejar tu terreno",0.08f);
             Debug.Log($"No se encontro el item Hacha");
         }
     }
