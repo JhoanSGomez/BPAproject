@@ -9,16 +9,11 @@ public class huecoplanta : MonoBehaviour
     private bool jugadorEnContacto; // Variable para rastrear si el jugador está en contacto
     public KeyCode teclaActivacion = KeyCode.Space; // Tecla para activar la animación
     public GameObject colino;
-    public GridLayoutGroup gridLayout;
-    [SerializeField] GameObject plantillaItemsComprados;
     [SerializeField] private AudioClip SonidoIniciar;
-    public List<GameObject> itemList = new List<GameObject>();
-
     [SerializeField] private GameObject img_sembrar;
 
     void Update()
     {
-
         if (jugadorEnContacto && Input.GetKeyDown(teclaActivacion))
         {
             ActivarAnimacionElemento();

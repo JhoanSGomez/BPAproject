@@ -239,10 +239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   colino: {fileID: 670261905589927219, guid: 9e3a540aad0069979b02ce6540cd3a8f, type: 3}
-  gridLayout: {fileID: 0}
-  plantillaItemsComprados: {fileID: 4877532428430734866, guid: e6f210653991fbc2f99e15a063295dec, type: 3}
   SonidoIniciar: {fileID: 8300000, guid: 2dc73788be23ec74a865847404550c3d, type: 3}
-  itemList: []
   img_sembrar: {fileID: 1381954684751430334}
 --- !u!61 &3355252118959482817
 BoxCollider2D:
