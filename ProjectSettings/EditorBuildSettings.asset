@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level2/QuestionLevel2.unity
     guid: fd41e6b93ee3fb94da1713b2c020de61
+  - enabled: 1
+    path: Assets/Scenes/level2/storeMenuLevel2.unity
+    guid: 429c6448c88c1e703adda8ba532773e2
   m_configObjects: {}

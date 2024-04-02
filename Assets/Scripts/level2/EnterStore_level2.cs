@@ -27,7 +27,6 @@ public class EnterStore_level2 : MonoBehaviour
             GameManager.Instance.SavePlayerPosition(1);
             GameManager.Instance.setScore();
             SceneManager.LoadScene("StoreLevel2");
-            GameManager.Instance.ResetPlayerPositionFixed(34F,1F);
         }
     }
 }
