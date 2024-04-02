@@ -22,6 +22,10 @@ public class plantaCortarController : MonoBehaviour
         }
     }
 
+    void Start(){
+    PlayerPrefs.SetInt("plantaCortada", 0);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -64,10 +68,10 @@ public class plantaCortarController : MonoBehaviour
                 if (parentTransform != null){
                     Destroy(gameObject);
                     nuevoElemento.transform.SetParent(parentTransform);
-                    plantaCortada= plantaCortada+1;
-                    Debug.Log("plantaCortada: "+ plantaCortada);
-                    if(plantaCortada == 9){
-                        GameManager.Instance.startDialogQuestion("Muy bien ..! Ahora, regresa a la tienda y compra 9 abonos y 9 colinos para sembrar.",0.08f);
+                    PlayerPrefs.SetInt("plantaCortada", PlayerPrefs.GetInt("plantaCortada") + 1);
+                    if(PlayerPrefs.GetInt("plantaCortada")==9){
+                        GameManager.Instance.startDialogQuestion("Muy bien ..! Ahora, regresa a la tienda y habla con el Mentor",0.08f);
+                        PlayerPrefs.SetInt("flagText", 1);
                     }
                 }            
             

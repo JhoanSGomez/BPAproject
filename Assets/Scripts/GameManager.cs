@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] public GameObject plantaMala;
     public Transform cultivo;
     private List<GameObject> plantInstances; 
+    private int hachasCompradas;
 
 
     //*************************************************
@@ -244,6 +245,12 @@ public class GameManager : MonoBehaviour
         }else{
             // Si existe, incrementar la cantidad
             itemExistente.cantidad += cantidad;
+
+              if(itemExistente.titulo == "Hacha"){
+                  this.hachasCompradas = this.hachasCompradas + 1;
+                  if(hachasCompradas==2){ 
+            PlayerPrefs.SetInt("flagText",1);}
+            }
         }
         ImprimirLista();
 

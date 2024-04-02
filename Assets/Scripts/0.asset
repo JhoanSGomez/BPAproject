@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
   m_Name: 0
   m_EditorClassIdentifier: 
-  textoNarrativo: "Escoge que conceptos b\xE1sicos de sembrado quieres reforzar"
+  textoNarrativo: "Escoge que conceptos b\xE1sicos de sembrado quieres reforzar.\n\nCuando
+    termines de retroalimentar tus conocimientos, dir\xEDgete nuevamente a la tienda
+    y compra los colinos y el abono adecuado para sembrar tus primeros cultivos."
   respuestaUno: El colino
   respuestaDos: Partes de la planta
   respuestaTres: "Selecci\xF3n de terreno"

@@ -26,7 +26,6 @@ public class Dialog : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         //audioSource.clip = npcVoice;
-        PlayerPrefs.SetInt("flagText", 0);
 
         if (audioSource == null)
         {
@@ -79,7 +78,7 @@ public class Dialog : MonoBehaviour
         Time.timeScale = 0f;
         StartCoroutine(ShowLine());
         }else{
-        GameManager.Instance.startDialogQuestion($"Hola..! ve y compra primero tus hachas y termina de cortar todas las plantas", 0.05F);
+        GameManager.Instance.startDialogQuestion($"Hola, soy el Mentor. Primero, ve y compra tus hachas para cortar todas las plantas. Después, te daré buenas prácticas para sembrar.", 0.05F);
         }
     }
 

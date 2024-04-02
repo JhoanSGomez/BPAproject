@@ -19,7 +19,6 @@ public class enterBuy : MonoBehaviour
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space))
         {
              SceneManager.LoadScene("storeMenu");
-             PlayerPrefs.SetInt("flagText", 1);
         }
     }
 
