@@ -69,7 +69,7 @@ public class plantaCortarController : MonoBehaviour
                     Destroy(gameObject);
                     nuevoElemento.transform.SetParent(parentTransform);
                     PlayerPrefs.SetInt("plantaCortada", PlayerPrefs.GetInt("plantaCortada") + 1);
-                    if(PlayerPrefs.GetInt("plantaCortada")==9){
+                    if(PlayerPrefs.GetInt("plantaCortada")== GameManager.Instance.getCantidadParcelas()){
                         GameManager.Instance.startDialogQuestion("Muy bien ..! Ahora, regresa a la tienda y habla con el Mentor",0.08f);
                         PlayerPrefs.SetInt("flagText", 1);
                     }

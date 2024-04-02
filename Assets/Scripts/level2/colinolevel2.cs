@@ -67,7 +67,7 @@ public class colinolevel2 : MonoBehaviour
                         GameManager.Instance.updateColinosAbonados(1);
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
-                        if(GameManager.Instance.getColinosAbonados()==3){
+                        if(GameManager.Instance.getColinosAbonados()==GameManager.Instance.getCantidadParcelas()){
                             GameManager.Instance.startDialogQuestion($"¡Muy bien...! Ahora puedes  encontrar en la tienda un elemento nuevo para podar tu plantas", 0.05F);
                             //Debug.Log($"entre colinos abonados  3 ");
                         }

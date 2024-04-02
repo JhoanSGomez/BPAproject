@@ -63,19 +63,16 @@ public class huecoplanta : MonoBehaviour
                         GameManager.Instance.updateColinosPlantados(1);
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
-                        if( GameManager.Instance.getColinosPlantados()==3){
+                        if( GameManager.Instance.getColinosPlantados()== GameManager.Instance.getCantidadParcelas()){
                             GameManager.Instance.startDialogQuestion($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 1 'Siembra'", 0.05F);
                             SceneManager.LoadScene("Question");
-                            Debug.Log($"Plante todos los colinos");
                         }
                     }
                 }else{
                     GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias",0.05F);
-                    Debug.Log($"No se encontro las cantidades necesarias");
                 }
             }else{
-                GameManager.Instance.startDialogQuestion($"No se encontro uno de los items",0.05F);
-                Debug.Log($"No se encontro uno de los items");
+                GameManager.Instance.startDialogQuestion($"Se requiere un colino con su respectivo abono para sembrar",0.05F);
             }
         }
     }

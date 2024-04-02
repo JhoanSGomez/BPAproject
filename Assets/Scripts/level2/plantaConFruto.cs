@@ -65,7 +65,7 @@ public class plantaConFruto : MonoBehaviour
                         GameManager.Instance.updateColinosEmbolsados(1);
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
-                        if(GameManager.Instance.getColinosEmbolsados()==3){
+                        if(GameManager.Instance.getColinosEmbolsados()==GameManager.Instance.getCantidadParcelas()){
                             GameManager.Instance.startDialogQuestion($"¡Muy bien...! preguntas", 0.05F);
                             SceneManager.LoadScene("QuestionLevel2");
                         }

@@ -24,11 +24,9 @@ public class TiendaLevel2 : MonoBehaviour
             plantillaItem.titulo.text = item.titulo;
             plantillaItem.textoPrecio.text = item.precio.ToString();
             if(item.titulo == "corta_setos"){
-                Debug.Log($"entre colinos corta_setos ");
 
-                if (GameManager.Instance.getColinosAbonados()==3)
+                if (GameManager.Instance.getColinosAbonados()==GameManager.Instance.getCantidadParcelas())
                 {
-                    Debug.Log($"entre colinos corta_setos 3 ");
                     Instantiate(plantillaItem, transform);
                 } 
             }else{
