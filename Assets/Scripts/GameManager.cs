@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     private bool juegoIniciado = false;
     public int score;
     public int colinosPlantados;
+    public int colinosAbonados;
+    public int colinosEmbolsados;
     [SerializeField] public GameObject plantaMala;
     public Transform cultivo;
     private List<GameObject> plantInstances; 
@@ -128,6 +130,12 @@ public class GameManager : MonoBehaviour
     }
     public int getColinosPlantados(){
         return this.colinosPlantados;
+    }
+    public int getColinosAbonados(){
+        return this.colinosAbonados;
+    }
+    public int getColinosEmbolsados(){
+        return this.colinosEmbolsados;
     }
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode){
         if(juegoIniciado){
@@ -278,5 +286,18 @@ public class GameManager : MonoBehaviour
     {
         this.colinosPlantados = this.colinosPlantados+cantidad;
     }
-    
+
+    public void updateColinosAbonados(int cantidad)
+    {
+        this.colinosAbonados = this.colinosAbonados+cantidad;
+    }
+    public void updateColinosEmbolsados(int cantidad)
+    {
+        this.colinosEmbolsados = this.colinosEmbolsados+cantidad;
+    }
+
+    public void resetinformacionBuyItems()
+    {
+        this.informacionBuyItems = new List<itemBuyInformation>();
+    }
 }
