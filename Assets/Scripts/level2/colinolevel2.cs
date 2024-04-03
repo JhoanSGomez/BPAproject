@@ -69,16 +69,13 @@ public class colinolevel2 : MonoBehaviour
                         nuevoElemento.transform.SetParent(parentTransform);
                         if(GameManager.Instance.getColinosAbonados()==GameManager.Instance.getCantidadParcelas()){
                             GameManager.Instance.startDialogQuestion($"¡Muy bien...! Ahora puedes  encontrar en la tienda un elemento nuevo para podar tu plantas", 0.05F);
-                            //Debug.Log($"entre colinos abonados  3 ");
                         }
                     }
                 }else{
                     GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias necesitas 1 Fertilizante y 1 Cubeta con agua",0.05F);
-                    // Debug.Log($"No se encontro las cantidades necesarias level 2");
                 }
             }else{
                 GameManager.Instance.startDialogQuestion($"No se encontro uno de los items Fertilizante y Cubeta con agua",0.05F);
-                //Debug.Log($"No se encontro uno de los items level 2 ");
             }
         }
     }

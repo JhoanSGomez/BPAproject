@@ -15,22 +15,19 @@ public class QuestionBD : MonoBehaviour
       m_backup = m_questionList.ToList();
    }
 
-   public Question GetRandom(bool remove = true)
-   {
-Question q = null;
+   public Question GetRandom(bool remove = true){
+      Question q = null;
       if(m_questionList.Count == 0)
       {
          //RestoreBackup();
          SceneManager.LoadScene("WelcomeLevel");
       }else{
-
-      int index = Random.Range(0 , m_questionList.Count);
-
-      if(!remove){
-         return m_questionList[index];
-      }
-      q = m_questionList[index];
-      m_questionList.RemoveAt(index);
+         int index = Random.Range(0 , m_questionList.Count);
+         if(!remove){
+            return m_questionList[index];
+         }
+         q = m_questionList[index];
+         m_questionList.RemoveAt(index);
       }
       return q;
    }

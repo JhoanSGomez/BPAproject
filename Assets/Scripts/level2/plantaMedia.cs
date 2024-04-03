@@ -70,11 +70,9 @@ public class plantaMedia : MonoBehaviour
                     }
                 }else{
                     GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias necesitas 1 corta_setos",0.05F);
-                    // Debug.Log($"No se encontro las cantidades necesarias level 2");
                 }
             }else{
                 GameManager.Instance.startDialogQuestion($"No se encontro el item corta_setos ",0.05F);
-                // Debug.Log($"No se encontro uno de los itemstijeras");
             }
         }
     }

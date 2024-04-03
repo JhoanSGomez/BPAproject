@@ -36,11 +36,8 @@ public class Tienda : MonoBehaviour
 
     public void salirTienda()
     {
-        Debug.Log("Oprimi el boton de salir");
         SceneManager.LoadScene("Store");
         GameManager.Instance.setScore();
-
         GameManager.Instance.LoadPlayerPosition();
-
     }
 }

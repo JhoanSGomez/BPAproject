@@ -109,19 +109,51 @@ public class GameManager : MonoBehaviour
         }
     }
 
-   private IEnumerator ShowLine(string texto,float typingTime)
-{
-    dialogText.text = string.Empty;
-
-    foreach (char ch in texto)
+    private IEnumerator ShowLine(string texto,float typingTime)
     {
-        dialogText.text += ch;
-        yield return new WaitForSecondsRealtime(typingTime);
+        dialogText.text = string.Empty;
+
+        foreach (char ch in texto)
+        {
+            dialogText.text += ch;
+            yield return new WaitForSecondsRealtime(typingTime);
+        }
+        dialogTextAux.SetActive(false);
+        dialogPanel.SetActive(false);
+        didDialogStart = false;
     }
-    dialogTextAux.SetActive(false);
-    dialogPanel.SetActive(false);
-    didDialogStart = false;
-}
+
+    public void startDialogQuestionChangeScene(string texto,float typingTime,string sceneName)
+    {
+        if (!didDialogStart)
+        {
+            startDialogChangeScene(texto,typingTime,sceneName);
+        }
+    }
+
+    private void startDialogChangeScene(string texto, float typingTime,string sceneName)
+    {
+        didDialogStart = true;
+        dialogPanel.SetActive(true);
+        dialogTextAux.SetActive(true);
+        lineIndex = 0;
+        Time.timeScale = 1f;
+        StartCoroutine(ShowLineChangeScene(texto,typingTime,sceneName));
+    }
+
+    private IEnumerator ShowLineChangeScene(string texto,float typingTime,string sceneName)
+    {
+        dialogText.text = string.Empty;
+
+        foreach (char ch in texto){
+            dialogText.text += ch;
+            yield return new WaitForSecondsRealtime(typingTime);
+        }
+        SceneManager.LoadScene(sceneName);
+        dialogTextAux.SetActive(false);
+        dialogPanel.SetActive(false);
+        didDialogStart = false;
+    }
 
     //*******************************************************************************
 
@@ -181,12 +213,8 @@ public class GameManager : MonoBehaviour
         }
     }
     public void ResetPlayerPosition(){
-        Debug.Log("pase ṕor aqui ");
-
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null){
-                        Debug.Log("pase ṕor aqui  condicion");
-
             Vector3 playerPosition = player.transform.position;
             PlayerPrefs.SetFloat("PlayerPosX", 0);
             PlayerPrefs.SetFloat("PlayerPosY", 0);

@@ -25,8 +25,6 @@ public class pozo : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hice colicion OnTriggerEnter2D");
-
         if (collision.CompareTag("Player"))
         {
             img_cubeta.SetActive(true);
@@ -37,11 +35,9 @@ public class pozo : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("hice colicion OnTriggerExit2D");
         if (collision.CompareTag("Player"))
         {
             img_cubeta.SetActive(false);
-
             jugadorEnContacto = false;
         }
     }

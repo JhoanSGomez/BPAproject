@@ -22,8 +22,6 @@ public class huecoplanta : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("hice colicion OnTriggerEnter2D");
-
         if (collision.CompareTag("Player"))
         {
             img_sembrar.SetActive(true);
@@ -34,7 +32,6 @@ public class huecoplanta : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("hice colicion OnTriggerExit2D");
         if (collision.CompareTag("Player"))
         {
             img_sembrar.SetActive(false);
@@ -64,8 +61,7 @@ public class huecoplanta : MonoBehaviour
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
                         if( GameManager.Instance.getColinosPlantados()== GameManager.Instance.getCantidadParcelas()){
-                            GameManager.Instance.startDialogQuestion($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 1 'Siembra'", 0.05F);
-                            SceneManager.LoadScene("Question");
+                            GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 1 'Siembra'", 0.05F, "Question");
                         }
                     }
                 }else{
