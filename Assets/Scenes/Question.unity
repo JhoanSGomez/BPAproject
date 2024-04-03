@@ -2245,6 +2245,7 @@ MonoBehaviour:
   - {fileID: 199301993}
   - {fileID: 553526748}
   - {fileID: 419907413}
+  scene: WelcomeLevel
   m_backup: []
 --- !u!4 &1940610172
 Transform:

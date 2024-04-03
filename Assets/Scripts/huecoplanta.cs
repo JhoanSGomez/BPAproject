@@ -65,7 +65,7 @@ public class huecoplanta : MonoBehaviour
                         }
                     }
                 }else{
-                    GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias",0.05F);
+                    GameManager.Instance.startDialogQuestion($"No tiene las cantidades necesarias para sembrar",0.05F);
                 }
             }else{
                 GameManager.Instance.startDialogQuestion($"Se requiere un colino con su respectivo abono para sembrar",0.05F);

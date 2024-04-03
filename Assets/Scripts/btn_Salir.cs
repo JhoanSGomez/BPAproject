@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class btn_Salir : MonoBehaviour
 {
+
+   [SerializeField] public string scene;
+
    public void goLevel()
     {
         GameManager.Instance.resetinformacionBuyItems();
         GameManager.Instance.ResetPlayerPosition();
-        SceneManager.LoadScene("SceneLevel2");
+        SceneManager.LoadScene(scene);
         GameManager.Instance.LoadPlayerPosition();
     }
 }

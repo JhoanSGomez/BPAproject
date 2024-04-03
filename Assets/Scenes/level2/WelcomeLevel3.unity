@@ -714,7 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c74c24a5954225241909ba4b73492a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: SceneLevel2
+  scene: SceneLevel3
 --- !u!4 &685191334
 Transform:
   m_ObjectHideFlags: 0
@@ -923,10 +923,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA1Felicidades por llegar al segundo nivel en nuestro juego! Has demostrado
-    tu habilidad y determinaci\xF3n para superar desaf\xEDos. El segundo nivel trae
-    consigo nuevas aventuras sobre el mantenimiento del cultivo. \xA1Sigue adelante
-    con valent\xEDa y disfruta cada momento de esta incre\xEDble aventura!"
+  m_text: "\xA1Felicidades por llegar al tercer nivel en nuestro juego! Has demostrado
+    tu habilidad y determinaci\xF3n para superar desaf\xEDos. El tercer nivel trae
+    consigo nuevas aventuras sobre el control de plagas. \xA1Sigue adelante con valent\xEDa
+    y disfruta cada momento de esta incre\xEDble aventura!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

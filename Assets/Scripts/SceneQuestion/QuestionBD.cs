@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class QuestionBD : MonoBehaviour
 {
    [SerializeField] private List<Question> m_questionList = null;
-
+   [SerializeField] public string scene;
    [SerializeField] public List<Question> m_backup;
 
    private void Awake(){
@@ -20,7 +20,7 @@ public class QuestionBD : MonoBehaviour
       if(m_questionList.Count == 0)
       {
          //RestoreBackup();
-         SceneManager.LoadScene("WelcomeLevel");
+         SceneManager.LoadScene(scene);
       }else{
          int index = Random.Range(0 , m_questionList.Count);
          if(!remove){
