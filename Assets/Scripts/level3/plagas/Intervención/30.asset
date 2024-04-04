@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 30
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Implementar de una manera responsable los m\xE9todos de manejo
+    (legal, f\xEDsico, biol\xF3gico, etol\xF3gico y qu\xEDmico) para prevenir el
+    aumento de picudos en el cultivo.\r\n\rla intervenci\xF3n consiste en capturar
+    a los picudos adultos, con este fin se recomienda instalar trampas elaboradas
+    a partir del seudo tallo de las plantas ya cosechadas o aprovechando plantas
+    de bajo vigor la cuales previamente ser\xE1n renovadas.\r"
+  respuestaUno: "Trampa tipo s\xE1ndwich"
+  respuestaDos: Trampa de disco
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 1f000000200000000000000000000000000000000000000017000000
+  quitaBotones: 0

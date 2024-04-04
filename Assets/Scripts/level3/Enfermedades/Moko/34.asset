@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 34
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Esta enfermedad es causada por una bacteria, la cual causa p\xE9rdidas
+    del 100% de la producci\xF3n de las plantas afectadas. Se disemina de una regi\xF3n
+    a otra por medio de la semilla. La enfermedad se inicia por focos, los cuales
+    se ampl\xEDan afectando las plantas vecinas sanas a trav\xE9s del contacto de
+    ra\xEDces, suelo, herramientas, agua e insectos que visitan las flores de plantas
+    enfermas. la planta afectada por el moko presenta hojas secas y los dedos del
+    racimo al partirlos se observan totalmente negros en su interior.\r\n\r\nEl s\xEDntoma
+    inicia en la hoja central o bandera hacia hojas de mayor edad. Las hojas infectadas
+    se marchitan, se doblan y quedan adheridas a la planta. La enfermedad tapona
+    los conductos dando lugar al amarillamiento y marchitez, semejantes a los que
+    la planta manifiesta por sequ\xEDa.\r"
+  respuestaUno: 'Manejo '
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 23000000000000000000000000000000000000000000000021000000
+  quitaBotones: 0

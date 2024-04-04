@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 23
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Es importante disminuir los da\xF1os causados por los insectos
+    en especialmente el conocido \"picudos del pl\xE1tano\", se recomienda la combinaci\xF3n
+    de diferentes m\xE9todos de manejo que buscan causar un menor impacto en el medio
+    ambiente y la salud humana, estos son algunos de los principios:"
+  respuestaUno: Reconocimiento
+  respuestaDos: Monitoreo
+  respuestaTres: "Prevenci\xF3n"
+  respuestaCuatro: "Intervenci\xF3n"
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 180000001c0000001d0000001e000000000000000000000016000000
+  quitaBotones: 0

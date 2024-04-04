@@ -206,8 +206,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ControlTextos, Assembly-CSharp
+      - m_Target: {fileID: 1239798200}
+        m_TargetAssemblyTypeName: ControlTextosLevel3, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -482,91 +482,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510026558}
   m_CullTransparentMesh: 1
---- !u!1 &662475167
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 662475169}
-  - component: {fileID: 662475168}
-  m_Layer: 0
-  m_Name: ControlTextos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &662475168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662475167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5429a10730fd534f834a51a4588d7b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plantilla: {fileID: 11400000, guid: 75df7eac79e1d244a86a46aff9777515, type: 2}
-  arrayPlantillas:
-  - {fileID: 11400000, guid: eb91fccc06467994e96734e106312a6d, type: 2}
-  - {fileID: 11400000, guid: dc25cf909c196cc428c0a28cc182e409, type: 2}
-  - {fileID: 11400000, guid: 0d7ccdd7ce7e27f4aab6627a6a4f55a7, type: 2}
-  - {fileID: 11400000, guid: 6071e4ed62aa91c48b6e517cff140d69, type: 2}
-  - {fileID: 11400000, guid: 9bd73aa20a5d1c74b9769c10d2a7e293, type: 2}
-  - {fileID: 11400000, guid: e1d238960940dbb4fb80cbcb5baf7b52, type: 2}
-  - {fileID: 11400000, guid: b2b4e7577cdf0594bab9c1faf01c3e90, type: 2}
-  - {fileID: 11400000, guid: d42bef28bd8946749a53c9289356ec0a, type: 2}
-  - {fileID: 11400000, guid: 1942953095a22924a864e3a1286fb50f, type: 2}
-  - {fileID: 11400000, guid: 918064ca2eff52d4bbd3527161a8a695, type: 2}
-  - {fileID: 11400000, guid: b55d1f14cd0795244ac780753d8396ef, type: 2}
-  - {fileID: 11400000, guid: 7962aa7f735d61b48895d51890a5454a, type: 2}
-  - {fileID: 11400000, guid: cd2a5a78edc933b4189f6f21bb3256e3, type: 2}
-  - {fileID: 11400000, guid: 4f85ebb78ba9b1447bd59ece7ef02bfd, type: 2}
-  - {fileID: 11400000, guid: ece44a48aca68ba4ab16d0d48ffd7bb9, type: 2}
-  - {fileID: 11400000, guid: 24b8bf8543eddde4393a6dd5864826da, type: 2}
-  - {fileID: 11400000, guid: 84ccb0df5cf1f474aa15653b38681ae0, type: 2}
-  - {fileID: 11400000, guid: d34e6503109790f4797049dd0f901d50, type: 2}
-  - {fileID: 11400000, guid: dbcdfa27188f6e04d9e671dd04a1dd03, type: 2}
-  - {fileID: 11400000, guid: 75df7eac79e1d244a86a46aff9777515, type: 2}
-  - {fileID: 11400000, guid: da3b61cf9d2b36b409f5652e930c7722, type: 2}
-  - {fileID: 11400000, guid: 1d5988c8c4821fe4982584ffa115c270, type: 2}
-  textoNarracion: {fileID: 1678990564}
-  textoRespuestaUno: {fileID: 2118848468}
-  textoRespuestaDos: {fileID: 1471887517}
-  textoRespuestaTres: {fileID: 1913611260}
-  textoRespuestaCuatro: {fileID: 1200006591}
-  textoRespuestaCinco: {fileID: 1808088089}
-  textoRespuestaSeis: {fileID: 510026560}
-  btnBack: {fileID: 1303808314}
-  arrayBotones:
-  - {fileID: 2001906520}
-  - {fileID: 1911596641}
-  - {fileID: 2040738496}
-  - {fileID: 954401785}
-  - {fileID: 1792300106}
-  - {fileID: 180266128}
-  - {fileID: 1760686966}
-  miBoton: {fileID: 0}
---- !u!4 &662475169
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662475167}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.10828, y: 1.9843824, z: -1.2210516}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &701477478
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,8 +832,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ControlTextos, Assembly-CSharp
+      - m_Target: {fileID: 1239798200}
+        m_TargetAssemblyTypeName: ControlTextosLevel3, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -1101,6 +1016,109 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200006589}
   m_CullTransparentMesh: 1
+--- !u!1 &1239798199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1239798201}
+  - component: {fileID: 1239798200}
+  m_Layer: 0
+  m_Name: ControlTextos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1239798200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239798199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e36837a45fa3a4bbe90c2a6b405d54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plantilla: {fileID: 11400000, guid: a82baa7d80bbd44438d69dd1a5c80178, type: 2}
+  arrayPlantillas:
+  - {fileID: 11400000, guid: eb91fccc06467994e96734e106312a6d, type: 2}
+  - {fileID: 11400000, guid: dc25cf909c196cc428c0a28cc182e409, type: 2}
+  - {fileID: 11400000, guid: 0d7ccdd7ce7e27f4aab6627a6a4f55a7, type: 2}
+  - {fileID: 11400000, guid: 6071e4ed62aa91c48b6e517cff140d69, type: 2}
+  - {fileID: 11400000, guid: 9bd73aa20a5d1c74b9769c10d2a7e293, type: 2}
+  - {fileID: 11400000, guid: e1d238960940dbb4fb80cbcb5baf7b52, type: 2}
+  - {fileID: 11400000, guid: b2b4e7577cdf0594bab9c1faf01c3e90, type: 2}
+  - {fileID: 11400000, guid: d42bef28bd8946749a53c9289356ec0a, type: 2}
+  - {fileID: 11400000, guid: 1942953095a22924a864e3a1286fb50f, type: 2}
+  - {fileID: 11400000, guid: 918064ca2eff52d4bbd3527161a8a695, type: 2}
+  - {fileID: 11400000, guid: b55d1f14cd0795244ac780753d8396ef, type: 2}
+  - {fileID: 11400000, guid: 7962aa7f735d61b48895d51890a5454a, type: 2}
+  - {fileID: 11400000, guid: cd2a5a78edc933b4189f6f21bb3256e3, type: 2}
+  - {fileID: 11400000, guid: 4f85ebb78ba9b1447bd59ece7ef02bfd, type: 2}
+  - {fileID: 11400000, guid: ece44a48aca68ba4ab16d0d48ffd7bb9, type: 2}
+  - {fileID: 11400000, guid: 24b8bf8543eddde4393a6dd5864826da, type: 2}
+  - {fileID: 11400000, guid: 84ccb0df5cf1f474aa15653b38681ae0, type: 2}
+  - {fileID: 11400000, guid: d34e6503109790f4797049dd0f901d50, type: 2}
+  - {fileID: 11400000, guid: dbcdfa27188f6e04d9e671dd04a1dd03, type: 2}
+  - {fileID: 11400000, guid: 75df7eac79e1d244a86a46aff9777515, type: 2}
+  - {fileID: 11400000, guid: da3b61cf9d2b36b409f5652e930c7722, type: 2}
+  - {fileID: 11400000, guid: 1d5988c8c4821fe4982584ffa115c270, type: 2}
+  - {fileID: 11400000, guid: a82baa7d80bbd44438d69dd1a5c80178, type: 2}
+  - {fileID: 11400000, guid: 8e2591cba11018b43a24334671b96e52, type: 2}
+  - {fileID: 11400000, guid: 22407e6dc1822c543ab0f025cd1fee81, type: 2}
+  - {fileID: 11400000, guid: 9b24adc59861e434597af386409bffaa, type: 2}
+  - {fileID: 11400000, guid: 0be09488b8f7212498de199042c5ff82, type: 2}
+  - {fileID: 11400000, guid: 70b979a5f7425e342be56f984102afc3, type: 2}
+  - {fileID: 11400000, guid: 46fdb8cd57f68ab47b510eaf20a1b26b, type: 2}
+  - {fileID: 11400000, guid: 42f2b3789422aa746a5a1ad91ddcc8bf, type: 2}
+  - {fileID: 11400000, guid: f75b4c304d252f042bb07ce6c81f1637, type: 2}
+  - {fileID: 11400000, guid: ab44a090c22453e49925008f94aa34a3, type: 2}
+  - {fileID: 11400000, guid: 017fd2cb78fc5344ea7e33f465108ff2, type: 2}
+  - {fileID: 11400000, guid: ce9b76fc2bc5130458153a6ee6063b92, type: 2}
+  - {fileID: 11400000, guid: 447b96aaa8cae4748a9faf85108d0018, type: 2}
+  - {fileID: 11400000, guid: c79a55fec890f4b47811609c15ac5636, type: 2}
+  - {fileID: 11400000, guid: f4958c97bb302414e909f9f2a2f758a3, type: 2}
+  - {fileID: 11400000, guid: 6fb00bd62cf53ba48964ac64cafd9b06, type: 2}
+  - {fileID: 11400000, guid: 04b2d71894e9c7543bdcce11c260f144, type: 2}
+  - {fileID: 11400000, guid: ec295a81635f4d545975cd118f685131, type: 2}
+  textoNarracion: {fileID: 1678990564}
+  textoRespuestaUno: {fileID: 2118848468}
+  textoRespuestaDos: {fileID: 1471887517}
+  textoRespuestaTres: {fileID: 1913611260}
+  textoRespuestaCuatro: {fileID: 1200006591}
+  textoRespuestaCinco: {fileID: 1808088089}
+  textoRespuestaSeis: {fileID: 510026560}
+  btnBack: {fileID: 1303808314}
+  arrayBotones:
+  - {fileID: 2001906520}
+  - {fileID: 1911596641}
+  - {fileID: 2040738496}
+  - {fileID: 954401785}
+  - {fileID: 1792300106}
+  - {fileID: 180266128}
+  - {fileID: 1760686966}
+  miBoton: {fileID: 0}
+--- !u!4 &1239798201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239798199}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7884436, y: 0.966014, z: 0.6704167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1303808312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,7 +1571,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: "Hoy en d\xEDa, en Colombia y el mundo, el pl\xE1tano es uno de esos alimentos
+    m\xE1s apreciados que nunca pueden salir del plato. Quind\xEDo es una de las
+    provincias con mayor producci\xF3n de este fruto en Colombia, por lo que la calidad
+    de los productos que ofrece es sumamente importante para esta provincia.\r\n\r\nHay
+    muchas variedades de pl\xE1tanos disponibles en todo el mundo, pero las variedades
+    comerciales que se consumen hoy en d\xEDa son el resultado de un proceso de domesticaci\xF3n,
+    el resultado de una mejora continua para obtener caracter\xEDsticas deseables...
+    que convirti\xF3 frutos llenos de semillas en frutos sin fertilizaci\xF3n que
+    carecen de semillas (formaci\xF3n) y se desarrollan sin polinizaci\xF3n. Su domesticaci\xF3n
+    comenz\xF3 en los tr\xF3picos h\xFAmedos que se extienden desde la India hasta
+    las Islas Salom\xF3n, Nepal y el norte de Australia, que es el \xE1rea de distribuci\xF3n
+    natural de las especies de pl\xE1tanos silvestres del g\xE9nero Musa. La evidencia
+    arqueol\xF3gica m\xE1s antigua de pl\xE1tanos domesticados proviene de Pap\xFAa
+    Nueva Guinea y tiene al menos 7.000 a\xF1os.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1763,8 +1794,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 662475168}
-        m_TargetAssemblyTypeName: ControlTextosLevel2, Assembly-CSharp
+      - m_Target: {fileID: 1239798200}
+        m_TargetAssemblyTypeName: ControlTextosLevel3, Assembly-CSharp
         m_MethodName: backScene
         m_Mode: 3
         m_Arguments:
@@ -1775,8 +1806,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 662475168}
-        m_TargetAssemblyTypeName: ControlTextosLevel2, Assembly-CSharp
+      - m_Target: {fileID: 1239798200}
+        m_TargetAssemblyTypeName: ControlTextosLevel3, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -2017,8 +2048,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ControlTextos, Assembly-CSharp
+      - m_Target: {fileID: 1239798200}
+        m_TargetAssemblyTypeName: ControlTextosLevel3, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -2436,8 +2467,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 662475168}
-        m_TargetAssemblyTypeName: ControlTextosLevel2, Assembly-CSharp
+      - m_Target: {fileID: 1239798200}
+        m_TargetAssemblyTypeName: ControlTextosLevel3, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -2778,8 +2809,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 662475168}
-        m_TargetAssemblyTypeName: ControlTextosLevel2, Assembly-CSharp
+      - m_Target: {fileID: 1239798200}
+        m_TargetAssemblyTypeName: ControlTextosLevel3, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -3037,8 +3068,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ControlTextos, Assembly-CSharp
+      - m_Target: {fileID: 1239798200}
+        m_TargetAssemblyTypeName: ControlTextosLevel3, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -3304,4 +3335,4 @@ SceneRoots:
   - {fileID: 1772363997}
   - {fileID: 701477479}
   - {fileID: 1820339715}
-  - {fileID: 662475169}
+  - {fileID: 1239798201}
