@@ -57,9 +57,10 @@ public class plantaMedia : MonoBehaviour
             itemBuyInformation itemTijeras = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "corta_setos");
             if (itemTijeras != null){
                 if (itemTijeras.cantidad >= 1){
-                    // IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
+                    refrescarItems();
                     Destroy(gameObject);
-                   
+                    GameManager.Instance.RestarCantidadPorTitulo(itemTijeras.titulo, 1);
+
                     GameObject nuevoElemento = Instantiate(PlataConFruto, transform.position+ new Vector3(0f,  0f, 0f), Quaternion.identity);
                     if (parentTransform != null){
                         GameManager.Instance.incScore(30);

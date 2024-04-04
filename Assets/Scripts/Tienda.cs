@@ -20,11 +20,20 @@ public class Tienda : MonoBehaviour
  
         foreach (var item in informacionItems)
         {
+            
+            // plantillaItem.imagen.sprite = item.image;
+            // plantillaItem.titulo.text = item.titulo;
+            // plantillaItem.textoPrecio.text = item.precio.ToString();
+ 
+            // Instantiate(plantillaItem, transform);
             plantillaItem.imagen.sprite = item.image;
             plantillaItem.titulo.text = item.titulo;
             plantillaItem.textoPrecio.text = item.precio.ToString();
- 
-            Instantiate(plantillaItem, transform);
+            if(item.titulo == "Hacha" &&  GameManager.Instance.getHachasCompradas()==2){
+
+            }else{
+                Instantiate(plantillaItem, transform);
+            }
         }
     }
  

@@ -51,9 +51,13 @@ public class pozo : MonoBehaviour
 
      private void ActivarAnimacionElemento()
     {
-        if (jugadorEnContacto)
-        {
+        if (jugadorEnContacto){
             GameManager.Instance.addBuyItems(cubetaBuyItems, 1);
+            PlayerPrefs.SetInt("cubosTotales", PlayerPrefs.GetInt("cubosTotales")+1);
+            if (PlayerPrefs.GetInt("cubosTotales")==GameManager.Instance.getCantidadParcelas()){
+                GameManager.Instance.startDialogQuestion("Muy bien ..!  ya que obtubiste todas las cubetas Ahora, regresa a la tienda y habla con el Mentor te dara consejos sobre las buenas practicas",0.08f);
+     
+            }
             this.refrescarItems();
         }
     }

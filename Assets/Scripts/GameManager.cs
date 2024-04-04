@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }else{
             this.addBuyItems(hachaBuyItems, 7);
-            this.cantidadParcelas = 9;
+            this.cantidadParcelas = 1;
             _instance = this;
             DontDestroyOnLoad(this.gameObject); // Evita que se destruya al cambiar de escena
             DontDestroyOnLoad(this.cultivo);
@@ -341,5 +341,9 @@ public class GameManager : MonoBehaviour
     public int getCantidadParcelas()
     {
        return this.cantidadParcelas;
+    }
+    public int getHachasCompradas()
+    {
+       return this.hachasCompradas;
     }
 }
