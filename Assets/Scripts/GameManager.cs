@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public int colinosPlantados;
     public int colinosAbonados;
     public int colinosEmbolsados;
+    public int colinosPodados;
     [SerializeField] public GameObject plantaMala;
     public Transform cultivo;
     private List<GameObject> plantInstances; 
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }else{
             this.addBuyItems(hachaBuyItems, 7);
-            this.cantidadParcelas = 9;
+            this.cantidadParcelas = 1;
             _instance = this;
             DontDestroyOnLoad(this.gameObject); // Evita que se destruya al cambiar de escena
             DontDestroyOnLoad(this.cultivo);
@@ -171,6 +172,9 @@ public class GameManager : MonoBehaviour
     }
     public int getColinosEmbolsados(){
         return this.colinosEmbolsados;
+    }
+    public int getColinosPodados(){
+        return this.colinosPodados;
     }
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode){
         if(juegoIniciado){
@@ -331,6 +335,10 @@ public class GameManager : MonoBehaviour
     public void updateColinosEmbolsados(int cantidad)
     {
         this.colinosEmbolsados = this.colinosEmbolsados+cantidad;
+    }
+    public void updateColinosPodados(int cantidad)
+    {
+        this.colinosPodados = this.colinosPodados+cantidad;
     }
 
     public void resetinformacionBuyItems()

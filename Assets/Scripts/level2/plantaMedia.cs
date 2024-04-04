@@ -64,10 +64,11 @@ public class plantaMedia : MonoBehaviour
                     GameObject nuevoElemento = Instantiate(PlataConFruto, transform.position+ new Vector3(0f,  0f, 0f), Quaternion.identity);
                     if (parentTransform != null){
                         GameManager.Instance.incScore(30);
+                        GameManager.Instance.updateColinosPodados(1);
                         nuevoElemento.transform.SetParent(parentTransform);
-                        // if( GameManager.Instance.getColinosAbonados()==3){
-                        //     Debug.Log($"entre colinos abonados  3 ");
-                        // }
+                        if(GameManager.Instance.getColinosPodados()==GameManager.Instance.getCantidadParcelas()){
+                            GameManager.Instance.startDialogQuestion("Muy bien ..! Ahora, regresa a la tienda y compra bolsas para iniciar el embolsado",0.08f);
+                        }
                     }
                 }else{
                     GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias necesitas 1 corta_setos",0.05F);

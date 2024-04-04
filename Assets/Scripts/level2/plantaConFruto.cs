@@ -66,7 +66,7 @@ public class plantaConFruto : MonoBehaviour
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
                         if(GameManager.Instance.getColinosEmbolsados()==GameManager.Instance.getCantidadParcelas()){
-                            GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! preguntas", 0.05F, "QuestionLevel2");
+                            GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 2 'Mantenimiento del cultivo'", 0.05F, "QuestionLevel2");
                         }
                     }
                 }else{
