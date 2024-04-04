@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 35
+  m_EditorClassIdentifier: 
+  textoNarrativo: "La primera medida de control es evitar que semillas infectadas
+    entren a la finca. Si se sospecha la presencia de plantas enfermas, se debe notificar
+    a las autoridades del ICA para su certificaci\xF3n y control.\r\nEl \xE1rea afectada
+    debe ser delimitada y las plantas enfermas erradicadas. Se puede aplicar una
+    soluci\xF3n de glifosato al 20% (200 cent\xEDmetros c\xFAbicos por litro de agua)
+    en el pseudotallo de las plantas. El terreno no debe usarse para cultivar pl\xE1tanos,
+    bananos u otras plantas susceptibles durante al menos un a\xF1o.\r\nPara manejar
+    la enfermedad en el lote afectado por Moko, se recomienda solarizar el suelo
+    con pl\xE1stico transparente durante un mes, luego incorporar abonos verdes y
+    sembrar ma\xEDz y frijol. Como medida preventiva, se sugiere producir semillas
+    en la finca mediante la t\xE9cnica de rebrote inducido para alm\xE1cigo.\r"
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 00000000000000000000000000000000000000000000000022000000
+  quitaBotones: 0

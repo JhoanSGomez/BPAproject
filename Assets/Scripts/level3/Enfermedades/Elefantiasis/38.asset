@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 38
+  m_EditorClassIdentifier: 
+  textoNarrativo: "La Elefantiasis o Pie Gigantesco se transmite cuando se utilizan
+    semillas de plantaciones afectadas. Hasta la fecha, no se conocen casos de transmisi\xF3n
+    del trastorno mediante el uso de herramientas contaminadas o infectadas.\r\nLa
+    sintomatolog\xEDa es un exagerado crecimiento de la cepa y rompimiento de los
+    calcetos en la base de la planta, quedando la cepa al descubierto, despu\xE9s
+    del total descubrimiento de la cepa, esta toma la forma del pie de un elefante,
+    se produce un embalconamiento acompa\xF1ado de la destrucci\xF3n de los colinos
+    y los tejidos de la planta se vuelven quebradizos y las plantas adultos o con
+    racimo se vuelcan f\xE1cilmente, por tal motivo si se llega a producir racimo,
+    es muy peque\xF1o y sus frutos muy anormales.\r"
+  respuestaUno: 'Manejo '
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 27000000000000000000000000000000000000000000000021000000
+  quitaBotones: 0

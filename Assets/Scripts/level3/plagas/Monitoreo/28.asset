@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 28
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Inspeccionar el cultivo para detectar la aparici\xF3n de picudos
+    o los da\xF1os que estos causan, para que posteriormente se puedan plantear estrategias
+    efectivas para el control de estas plagas.\r\nSe recomienda hacer un monitoreo
+    de picudo semanal o quincenal revisando da\xF1os que puedan ser causados por
+    estos.\r"
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 00000000000000000000000000000000000000000000000017000000
+  quitaBotones: 0
