@@ -9,6 +9,8 @@ public class Tienda : MonoBehaviour
     [SerializeField] List<itemInformation> informacionItems;
     [SerializeField] GameObject plantillaObjetoTienda;
     [SerializeField] TextMeshProUGUI textoMonedasTotales;
+    [SerializeField] public string sceneName;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,7 +47,7 @@ public class Tienda : MonoBehaviour
 
     public void salirTienda()
     {
-        SceneManager.LoadScene("Store");
+        SceneManager.LoadScene(sceneName); //"Store"
         GameManager.Instance.setScore();
         GameManager.Instance.LoadPlayerPosition();
     }

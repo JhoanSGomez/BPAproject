@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level3/StoreLevel3.unity
     guid: 4c46df6f121d51224a22d6576a25a048
+  - enabled: 1
+    path: Assets/Scenes/level3/storeMenuLevel3.unity
+    guid: 728c3b33aa1cccb388032f0746082af8
   m_configObjects: {}

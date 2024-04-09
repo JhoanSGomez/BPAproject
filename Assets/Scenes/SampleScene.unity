@@ -41471,6 +41471,10 @@ MonoBehaviour:
   dialogLines:
   - Muy bien...! Ahora responderas una serie de preguntas para proar tu conocimiento.
   canvas: {fileID: 2014267597}
+  picudos: {fileID: 1967616224}
+  picudorayado: {fileID: 2715246176437412286, guid: 97e9f7a07fda00a9ca13e4d70b7402c4, type: 3}
+  Picudoamarillo: {fileID: 6315139166275955694, guid: e8dd275d3eb8844739b41959ef2f0651, type: 3}
+  picudoNegro: {fileID: 1132015938021410989, guid: e93e6db3f2df9c55692da1e13dd675dc, type: 3}
 --- !u!4 &1384390578
 Transform:
   m_ObjectHideFlags: 0
@@ -41775,6 +41779,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1214826749}
   m_SourcePrefab: {fileID: 100100000, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+--- !u!1 &1967616223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1967616224}
+  m_Layer: 0
+  m_Name: picudos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1967616224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967616223}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.000000027677743, w: 1}
+  m_LocalPosition: {x: -5.284071, y: 2.5810142, z: 0.069198206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!213 &1972499471
 Sprite:
   m_ObjectHideFlags: 0
@@ -47953,6 +47988,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1216227327}
   - {fileID: 374775279}
+  - {fileID: 1967616224}
   - {fileID: 39140801}
   - {fileID: 17287661}
   - {fileID: 917269487}

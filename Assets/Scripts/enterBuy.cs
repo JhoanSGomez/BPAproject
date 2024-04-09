@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class enterBuy : MonoBehaviour
 {
     [SerializeField] private GameObject img_compra_store;
-     private bool isPlayerInRange;
+    private bool isPlayerInRange;
+    [SerializeField] public string sceneName;
 
 
      private void Start()
@@ -18,7 +19,7 @@ public class enterBuy : MonoBehaviour
     {
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space))
         {
-             SceneManager.LoadScene("storeMenu");
+             SceneManager.LoadScene(sceneName); //storeMenu
         }
     }
 

@@ -13,40 +13,42 @@ public class picudoScript : MonoBehaviour
     [SerializeField] private GameObject img_sembrar;
     private string sceneName;
 
-    void Update()
-    {
-        if (jugadorEnContacto && Input.GetKeyDown(teclaActivacion))
-        {
-            ActivarPlantarElemento();
-        }
+    void Update(){
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            // img_sembrar.SetActive(true);
+    private void OnTriggerEnter2D(Collider2D collision){
+        if (collision.CompareTag("Player")){
             jugadorEnContacto = true;
+            itemBuyInformation itemTrampa = GameManager.Instance.informacionBuyItems.Find(x => x.titulo.Replace(" ", "") == "Trampatipo1");
+            if (itemTrampa != null){
+                if (itemTrampa.cantidad >= 1){
+                    GetComponent<SpriteRenderer>().enabled = false;
+                    Destroy(gameObject);
+                    GameManager.Instance.incScore(30);
+                    GameManager.Instance.RestarCantidadPorTitulo(itemTrampa.titulo, 1);
+                    this.refrescarItems();
+                }else{
+                    GameManager.Instance.incScore(-10);
+                    GameManager.Instance.startDialogQuestion($"¡Oh no! Te has encontrado con un picudo que está arruinando tu cultivo. ¡Consigue una trampa en la tienda para atraparlo!",0.05F);
+                }
+            }else{
+                GameManager.Instance.incScore(-10);
+                GameManager.Instance.startDialogQuestion($"¡Oh no! Te has encontrado con un picudo que está arruinando tu cultivo. ¡Consigue una trampa en la tienda para atraparlo!",0.05F);
+            }
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
+    private void OnTriggerExit2D(Collider2D collision){
         if (collision.CompareTag("Player"))
         {
             // img_sembrar.SetActive(false);
             jugadorEnContacto = false;
         }
     }
-    public void refrescarItems()
-    {
+
+    public void refrescarItems(){
         GameManager.Instance.SavePlayerPosition(0);
         SceneManager.LoadScene("SceneLevel3");
         GameManager.Instance.LoadPlayerPosition();
     }
-
-    private void ActivarPlantarElemento(){
-        Debug.Log("Colicion Picudo");
-    }
-
 }

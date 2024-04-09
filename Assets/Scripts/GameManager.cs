@@ -35,6 +35,13 @@ public class GameManager : MonoBehaviour
 
     //*************************************************
 
+    public Transform picudos;
+    [SerializeField] public GameObject picudorayado;
+    [SerializeField] public GameObject Picudoamarillo;
+    [SerializeField] public GameObject picudoNegro;
+    //*************************************************
+
+
     public static GameManager Instance
     {
         get
@@ -60,12 +67,16 @@ public class GameManager : MonoBehaviour
             _instance = this;
             DontDestroyOnLoad(this.gameObject); // Evita que se destruya al cambiar de escena
             DontDestroyOnLoad(this.cultivo);
+            DontDestroyOnLoad(this.picudos);
+
             DontDestroyOnLoad(this.canvas);
             plantInstances = new List<GameObject>(); // Inicializa la lista en el Awake
             //GeneratePlantInstances(); // Genera las instancias al inicio
             Scene scene = SceneManager.GetSceneByName("SampleScene");
             if (scene == SceneManager.GetActiveScene()){
                 GeneratePlantInstances();
+                generarPicudos();
+                this.picudos.gameObject.SetActive(false);
             }
         }
         
@@ -180,7 +191,10 @@ public class GameManager : MonoBehaviour
         if(juegoIniciado){
             if(scene.name!="Store"){
                 GameManager.Instance.LoadPlayerPosition();
-            }   
+            }
+            if(scene.name=="SceneLevel3"){
+                this.picudos.gameObject.SetActive(true);
+            }
         }else{
             PlayerPrefs.DeleteAll();
             PlayerPrefs.DeleteKey("monedasTotales");
@@ -275,6 +289,36 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void generarPicudos()
+    {
+        int numberOfInstances = 4;
+        Vector3 initialPositionRow1 = new Vector3(-23, 10, 0f);
+        Vector3 initialPositionRow2 = new Vector3(-23, 0, 0f);
+        Vector3 initialPositionRow3 = new Vector3(-23, -2, 0f);
+        List<GameObject> picudosDisponibles = new List<GameObject>();
+
+        GameObject picudo1 = picudorayado;
+        picudosDisponibles.Add(picudo1);
+        GameObject picudo2 = Picudoamarillo;
+        picudosDisponibles.Add(picudo2);
+        GameObject picudo3 = picudoNegro;
+        picudosDisponibles.Add(picudo3);
+
+        System.Random rnd = new System.Random();
+        for (int i = 0; i < numberOfInstances; i++){
+            GameObject randomPicudoFila1 = picudosDisponibles[Random.Range(0, picudosDisponibles.Count)];
+            GameObject randomPicudoFila2 = picudosDisponibles[Random.Range(0, picudosDisponibles.Count)];
+            int rotacionAleatoria = rnd.Next(0, 360);
+            Vector3 spawnPositionRow3 = initialPositionRow3 + new Vector3(rnd.Next(2, 16), rnd.Next(-4, 10), 0f);
+            GameObject newPlantInstanceRow1 = Instantiate(randomPicudoFila1, spawnPositionRow3, Quaternion.Euler(0f, 0f, rotacionAleatoria), picudos);
+            Vector3 spawnPositionRow2 = initialPositionRow2 + new Vector3(rnd.Next(4, 12), rnd.Next(-4, 10), 0f);
+            GameObject newPlantInstanceRow2 = Instantiate(randomPicudoFila2, spawnPositionRow2, Quaternion.Euler(0f, 0f, rotacionAleatoria), picudos);
+            List<GameObject> plantInstances = new List<GameObject>();
+            plantInstances.Add(newPlantInstanceRow1);
+            plantInstances.Add(newPlantInstanceRow2);
+        }
+    }
+
     public void addBuyItems(itemBuyInformation item,int cantidad){
         // Buscar el item por título
 
@@ -354,4 +398,9 @@ public class GameManager : MonoBehaviour
     {
        return this.hachasCompradas;
     }
+
+    public void activarPicudoslevel3()
+    {
+        this.picudos.gameObject.SetActive(true);
+    }  
 }

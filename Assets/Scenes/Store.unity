@@ -5651,6 +5651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   img_compra_store: {fileID: 810141426}
+  sceneName: storeMenu
 --- !u!4 &962129086 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5941391368191209760, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
