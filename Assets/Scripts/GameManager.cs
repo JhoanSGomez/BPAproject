@@ -313,9 +313,6 @@ public class GameManager : MonoBehaviour
             GameObject newPlantInstanceRow1 = Instantiate(randomPicudoFila1, spawnPositionRow3, Quaternion.Euler(0f, 0f, rotacionAleatoria), picudos);
             Vector3 spawnPositionRow2 = initialPositionRow2 + new Vector3(rnd.Next(4, 12), rnd.Next(-4, 10), 0f);
             GameObject newPlantInstanceRow2 = Instantiate(randomPicudoFila2, spawnPositionRow2, Quaternion.Euler(0f, 0f, rotacionAleatoria), picudos);
-            List<GameObject> plantInstances = new List<GameObject>();
-            plantInstances.Add(newPlantInstanceRow1);
-            plantInstances.Add(newPlantInstanceRow2);
         }
     }
 

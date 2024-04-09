@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class picudoScript : MonoBehaviour
 {
- private bool jugadorEnContacto; // Variable para rastrear si el jugador está en contacto
     public KeyCode teclaActivacion = KeyCode.Space; // Tecla para activar la animación
 
     [SerializeField] private AudioClip SonidoIniciar;
@@ -18,7 +17,6 @@ public class picudoScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision){
         if (collision.CompareTag("Player")){
-            jugadorEnContacto = true;
             itemBuyInformation itemTrampa = GameManager.Instance.informacionBuyItems.Find(x => x.titulo.Replace(" ", "") == "Trampatipo1");
             if (itemTrampa != null){
                 if (itemTrampa.cantidad >= 1){
@@ -42,7 +40,6 @@ public class picudoScript : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // img_sembrar.SetActive(false);
-            jugadorEnContacto = false;
         }
     }
 
