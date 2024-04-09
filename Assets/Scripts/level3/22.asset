@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: 22
   m_EditorClassIdentifier: 
   textoNarrativo: "Escoge qu\xE9 conceptos b\xE1sicos del control de plagas quieres
-    reforzar"
+    reforzar\n\nCuando termines de retroalimentar tus conocimientos, dir\xEDgete
+    nuevamente a la tienda y compra las trampas necesarias para atrapar las plagas
+    que se encuentran en tu cultivo."
   respuestaUno: Plagas
   respuestaDos: Enfermedades
-  respuestaTres: 
+  respuestaTres: "M\xE9todos de control"
   respuestaCuatro: 
   respuestaCinco: 
   respuestaSeis: 
   btnBack: Inicio
-  arrayReferencias: 17000000210000000000000000000000000000000000000016000000
+  arrayReferencias: 17000000210000002900000000000000000000000000000016000000
   quitaBotones: 0

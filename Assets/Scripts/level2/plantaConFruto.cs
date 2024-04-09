@@ -66,14 +66,14 @@ public class plantaConFruto : MonoBehaviour
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
                         if(GameManager.Instance.getColinosEmbolsados()==GameManager.Instance.getCantidadParcelas()){
-                            GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 2 'Mantenimiento del cultivo'", 0.05F, "QuestionLevel2");
+                            GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 2 'Mantenimiento del cultivo'", 0.12f, "QuestionLevel2");
                         }
                     }
                 }else{
-                    GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias necesitas 1 Bolsa",0.05F);
+                    GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 Bolsa",0.05F);
                 }
             }else{
-                GameManager.Instance.startDialogQuestion($"No se encontro uno de los items Bolsa",0.05F);
+                GameManager.Instance.startDialogQuestion($"No se encontró uno de los items Bolsa",0.05F);
             }
         }
     }

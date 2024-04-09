@@ -67,14 +67,14 @@ public class plantaMedia : MonoBehaviour
                         GameManager.Instance.updateColinosPodados(1);
                         nuevoElemento.transform.SetParent(parentTransform);
                         if(GameManager.Instance.getColinosPodados()==GameManager.Instance.getCantidadParcelas()){
-                            GameManager.Instance.startDialogQuestion("Muy bien ..! Ahora, regresa a la tienda y compra bolsas para iniciar el embolsado",0.08f);
+                            GameManager.Instance.startDialogQuestion("¡Excelente! Ahora regresa a la tienda y compra las bolsas para comenzar el embolsado",0.12f);
                         }
                     }
                 }else{
-                    GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias necesitas 1 corta_setos",0.05F);
+                    GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 corta_setos",0.05F);
                 }
             }else{
-                GameManager.Instance.startDialogQuestion($"No se encontro el item corta_setos ",0.05F);
+                GameManager.Instance.startDialogQuestion($"No se encontró el item corta_setos ",0.05F);
             }
         }
     }

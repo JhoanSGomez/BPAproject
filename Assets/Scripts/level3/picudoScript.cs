@@ -25,6 +25,12 @@ public class picudoScript : MonoBehaviour
                     GameManager.Instance.incScore(30);
                     GameManager.Instance.RestarCantidadPorTitulo(itemTrampa.titulo, 1);
                     this.refrescarItems();
+                    
+                    PlayerPrefs.SetInt("picudosAtrapados", PlayerPrefs.GetInt("picudosAtrapados")+1);
+                    if (PlayerPrefs.GetInt("picudosAtrapados")==GameManager.Instance.getCantidadParcelas()){
+                    GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 3 'Control de plagas'", 0.12f, "QuestionLevel3");
+                     }
+
                 }else{
                     GameManager.Instance.incScore(-10);
                     GameManager.Instance.startDialogQuestion($"¡Oh no! Te has encontrado con un picudo que está arruinando tu cultivo. ¡Consigue una trampa en la tienda para atraparlo!",0.05F);

@@ -55,8 +55,8 @@ public class pozo : MonoBehaviour
             GameManager.Instance.addBuyItems(cubetaBuyItems, 1);
             PlayerPrefs.SetInt("cubosTotales", PlayerPrefs.GetInt("cubosTotales")+1);
             if (PlayerPrefs.GetInt("cubosTotales")==GameManager.Instance.getCantidadParcelas()){
-                GameManager.Instance.startDialogQuestion("Muy bien ..!  ya que obtubiste todas las cubetas Ahora, regresa a la tienda y habla con el Mentor te dara consejos sobre las buenas practicas",0.08f);
-     
+                GameManager.Instance.startDialogQuestion("¡Muy bien! Ahora que has obtenido todas las cubetas de agua, regresa a la tienda y habla con el Mentor. Él te dará consejos sobre las buenas prácticas.",0.10f);
+                PlayerPrefs.SetInt("flagTextLevel2", 1);
             }
             this.refrescarItems();
         }

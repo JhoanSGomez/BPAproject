@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: 19
   m_EditorClassIdentifier: 
   textoNarrativo: "Escoge qu\xE9 conceptos b\xE1sicos del mantenimiento del cultivo
-    quieres reforzar"
+    quieres reforzar.\n\nCuando termines de retroalimentar tus conocimientos, dir\xEDgete
+    nuevamente a la tienda y compra los 9 fertilizantes que te faltan para regar
+    tu cultivo con las cubetas de agua."
   respuestaUno: "Fertilizaci\xF3n"
   respuestaDos: Embolsado
   respuestaTres: 

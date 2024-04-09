@@ -6597,13 +6597,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6998924864970510826, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3475093562966959533}
+    - targetCorrespondingSourceObject: {fileID: 6998924864970510826, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3475093562966959535}
   m_SourcePrefab: {fileID: 100100000, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
 --- !u!1 &3475093562966959532 stripped
 GameObject:
@@ -6706,6 +6710,43 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &3475093562966959534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 111176179285603729, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+  m_PrefabInstance: {fileID: 3475093562966959531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3475093562966959535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475093562966959532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a43ad794ccc1544397ed9e5147d97c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip1: {fileID: 8300000, guid: 6c57c4c5900815840bc85e4b187b8587, type: 3}
+  audioClip2: {fileID: 8300000, guid: 394acf51e0a7df64c8f9b33de717480b, type: 3}
+  audioClip3: {fileID: 8300000, guid: b7c88979d73fb0b4ab189117e1879cfc, type: 3}
+  typingTime: 0.05
+  dialogMark: {fileID: 3475093562966959534}
+  dialogPanel: {fileID: 1855336304}
+  dialogText: {fileID: 363176205}
+  dialogLines:
+  - "Quind\xEDo tiene un clima favorable para el cultivo del pl\xE1tano, pero esto
+    no evita los problemas causados por enfermedades y plagas. En este videojuego,
+    se describen las enfermedades y plagas m\xE1s comunes en el cultivo del pl\xE1tano,
+    as\xED como los m\xE9todos de tratamiento adecuados."
+  - "Estos problemas fitosanitarios pueden afectar a las \xE1reas productoras de
+    pl\xE1tano, y su impacto depende de las condiciones ambientales y el manejo del
+    cultivo. Para solucionar estos problemas, es necesario conocer los diferentes
+    m\xE9todos de control, como el control cultural, biol\xF3gico y qu\xEDmico."
+  - "El manejo integrado de plagas busca lograr una producci\xF3n sostenible, considerando
+    factores ambientales, sociales y tecnol\xF3gicos, para garantizar la conservaci\xF3n
+    de los recursos necesarios para la producci\xF3n actual y futura."
+  audioSource: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

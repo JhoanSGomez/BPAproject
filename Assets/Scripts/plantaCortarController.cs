@@ -70,14 +70,14 @@ public class plantaCortarController : MonoBehaviour
                     nuevoElemento.transform.SetParent(parentTransform);
                     PlayerPrefs.SetInt("plantaCortada", PlayerPrefs.GetInt("plantaCortada") + 1);
                     if(PlayerPrefs.GetInt("plantaCortada")== GameManager.Instance.getCantidadParcelas()){
-                        GameManager.Instance.startDialogQuestion("Muy bien ..! Ahora, regresa a la tienda y habla con el Mentor",0.08f);
+                        GameManager.Instance.startDialogQuestion("Muy bien ..! Ahora, regresa a la tienda y habla con el Mentor",0.12f);
                         PlayerPrefs.SetInt("flagText", 1);
                     }
                 }            
             
             }
         }else{
-            GameManager.Instance.startDialogQuestion("Ya no tienes mas hachas para cortar, dirigite a la tienda y compra 2 hachas que te faltan para terminar de despejar tu terreno",0.08f);
+            GameManager.Instance.startDialogQuestion("Ya no tienes mas hachas para cortar, dirigite a la tienda y compra 2 hachas que te faltan para terminar de despejar tu terreno",0.12f);
         }
     }
 }

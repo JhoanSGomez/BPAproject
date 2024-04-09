@@ -1087,6 +1087,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6fb00bd62cf53ba48964ac64cafd9b06, type: 2}
   - {fileID: 11400000, guid: 04b2d71894e9c7543bdcce11c260f144, type: 2}
   - {fileID: 11400000, guid: ec295a81635f4d545975cd118f685131, type: 2}
+  - {fileID: 11400000, guid: 90f24309c09de8e48a7a38caf217d3da, type: 2}
+  - {fileID: 11400000, guid: b5ce8ca5d941470449e96fb8af244f53, type: 2}
+  - {fileID: 11400000, guid: 5f9f113141a130346b3a6b59878f14cc, type: 2}
+  - {fileID: 11400000, guid: 5ada8ae9820a9e4439a9a91868ebbae3, type: 2}
+  - {fileID: 11400000, guid: 2942d398ae243ec4197932149b26435a, type: 2}
   textoNarracion: {fileID: 1678990564}
   textoRespuestaUno: {fileID: 2118848468}
   textoRespuestaDos: {fileID: 1471887517}

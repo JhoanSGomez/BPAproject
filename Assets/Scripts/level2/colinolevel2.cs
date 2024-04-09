@@ -68,14 +68,14 @@ public class colinolevel2 : MonoBehaviour
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
                         if(GameManager.Instance.getColinosAbonados()==GameManager.Instance.getCantidadParcelas()){
-                            GameManager.Instance.startDialogQuestion($"¡Muy bien...! Ahora puedes  encontrar en la tienda un elemento nuevo para podar tu plantas", 0.05F);
+                            GameManager.Instance.startDialogQuestion($"¡Muy bien! Ahora puedes encontrar en la tienda un nuevo elemento para podar tus plantas", 0.12F);
                         }
                     }
                 }else{
-                    GameManager.Instance.startDialogQuestion($"No se encontro las cantidades necesarias necesitas 1 Fertilizante y 1 Cubeta con agua",0.05F);
+                    GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 Fertilizante y 1 Cubeta con agua",0.05F);
                 }
             }else{
-                GameManager.Instance.startDialogQuestion($"No se encontro uno de los items Fertilizante y Cubeta con agua",0.05F);
+                GameManager.Instance.startDialogQuestion($"No se encontró uno de los items Fertilizante y Cubeta con agua",0.05F);
             }
         }
     }

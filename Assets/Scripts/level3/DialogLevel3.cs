@@ -3,7 +3,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class DialogLevel2 : MonoBehaviour
+public class DialogLevel3 : MonoBehaviour
 {
 
     //[SerializeField] private AudioClip npcVoice;
@@ -51,7 +51,7 @@ public class DialogLevel2 : MonoBehaviour
                     StartCoroutine(waitAndLoad(0.5F));
                 }
             }
-                else if(PlayerPrefs.GetInt("flagDialogLevel2")==1)
+                else if(PlayerPrefs.GetInt("flagDialogLevel3")==1)
                {
                    StopAllCoroutines();
                    dialogText.text = dialogLines[lineIndex];
@@ -64,22 +64,18 @@ public class DialogLevel2 : MonoBehaviour
     IEnumerator waitAndLoad(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
-        SceneManager.LoadScene("DialogueMentorLevel2");
-        PlayerPrefs.SetInt("flagDialogLevel2", 1);
+        SceneManager.LoadScene("DialogueMentorLevel3");
+        PlayerPrefs.SetInt("flagDialogLevel3", 1);
     }
 
     private void startDialog()
     {
-        if(PlayerPrefs.GetInt("flagTextLevel2")==1){
         didDialogStart = true;
         dialogPanel.SetActive(true);
         dialogMark.SetActive(false);
         lineIndex = 0;
         Time.timeScale = 0f;
         StartCoroutine(ShowLine());
-        }else{
-        GameManager.Instance.startDialogQuestion($"Primero, ve y obten las 9 cubetas de agua. Después, te daré buenas prácticas para el mantenimiento de tu cultivo.", 0.12F);
-        }
     }
 
     private void NextDialogLine()

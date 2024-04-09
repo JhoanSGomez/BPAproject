@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
-  m_Name: 36
+  m_Name: 40
   m_EditorClassIdentifier: 
-  textoNarrativo: "La Sigatoka amarilla es la enfermedad que m\xE1s afecta los cultivos
-    de pl\xE1tano y banano en la zona cafetera. Inicialmente, la enfermedad se manifiesta
-    en las hojas con manchas amarillas que luego se secan y mueren. Ataques severos
-    de la enfermedad dan lugar a racimos peque\xF1os de menos peso y calidad, con
-    maduraci\xF3n prematura.\r\r"
+  textoNarrativo: "\rLa Sigatoka negra es una enfermedad foliar nueva en la regi\xF3n
+    y m\xE1s destructiva que la Sigatoka amarilla. La enfermedad se manifiesta en
+    las hojas de manera r\xE1pida y se caracteriza por la presencia de un gran n\xFAmero
+    de rayas y manchas negras m\xE1s notorias por debajo de las hojas, en las cuales
+    se aceleran el secamiento y la muerte del tejido.\r"
   respuestaUno: 'Manejo '
   respuestaDos: 
   respuestaTres: 

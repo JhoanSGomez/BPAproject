@@ -61,7 +61,7 @@ public class huecoplanta : MonoBehaviour
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
                         if( GameManager.Instance.getColinosPlantados()== GameManager.Instance.getCantidadParcelas()){
-                            GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 1 'Siembra'", 0.05F, "Question");
+                            GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 1 'Siembra'", 0.12f, "Question");
                         }
                     }
                 }else{

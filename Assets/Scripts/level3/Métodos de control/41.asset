@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 41
+  m_EditorClassIdentifier: 
+  textoNarrativo: "La combinaci\xF3n de estos m\xE9todos, conocida como manejo integrado
+    de plagas (MIP), es generalmente la forma m\xE1s efectiva y sostenible de controlar
+    las plagas y enfermedades en el cultivo de pl\xE1tano.\nLos m\xE9todos de control
+    de plagas y enfermedades en el cultivo de pl\xE1tano pueden ser diversos y se
+    suelen clasificar en tres categor\xEDas principales:"
+  respuestaUno: Control Cultural
+  respuestaDos: "Control Biol\xF3gico"
+  respuestaTres: "Control Qu\xEDmico"
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 2a0000002b0000002c00000000000000000000000000000016000000
+  quitaBotones: 0

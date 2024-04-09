@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
     }
 
      void Start(){
-        this.startDialogQuestion("¡Bienvenido! Para comenzar, dirígete al letrero que se encuentra a tu izquierda y presiona la tecla ESPACIO para interactuar ",0.08f);
+        this.startDialogQuestion("¡Bienvenido al nivel 1 'Siembra'! Para empezar, ve hacia el letrero a tu izquierda y presiona la tecla ESPACIO para interactuar.",0.08f);
     }
 
     //metodos para el dialogo y poder cambiar a escena de preguntas

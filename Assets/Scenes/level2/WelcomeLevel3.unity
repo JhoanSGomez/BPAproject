@@ -715,7 +715,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: SceneLevel3
-  mensaje: "\xA1Bienvenido al nivel 3!"
+  mensaje: "\xA1Bienvenido al nivel 3 'Control de plagas'! Para comenzar, debes atrapar
+    todas las plagas que est\xE1n afectando tu cultivo. Ve a la tienda y habla con
+    el mentor para recibir instrucciones"
 --- !u!4 &685191334
 Transform:
   m_ObjectHideFlags: 0

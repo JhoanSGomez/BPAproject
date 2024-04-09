@@ -715,8 +715,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: SceneLevel2
-  mensaje: "\xA1Bienvenido al nivel 2! Para comenzar, Necesitaras  buscar agua para
-    regar tus colinos busca un pozo cerca alli podras encontra agua "
+  mensaje: "\xA1Bienvenido al nivel 2 'Mantenimiento del Cultivo'! Para empezar,
+    necesitar\xE1s buscar agua para regar tus colinos. Busca un pozo cercano; all\xED
+    podr\xE1s encontrar agua."
 --- !u!4 &685191334
 Transform:
   m_ObjectHideFlags: 0
