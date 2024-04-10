@@ -5578,6 +5578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   img_cubeta: {fileID: 573297769}
+  SonidoIniciar: {fileID: 8300000, guid: adfce304cb7961647997a3d7478627dc, type: 3}
   cubetaBuyItems: {fileID: 11400000, guid: ac2c6607cee6162299079ef4f6ebb5c8, type: 2}
 --- !u!61 &967198014
 BoxCollider2D:
@@ -41627,6 +41628,10 @@ MonoBehaviour:
   dialogLines:
   - Muy bien...! Ahora responderas una serie de preguntas para proar tu conocimiento.
   canvas: {fileID: 2014267597}
+  picudos: {fileID: 0}
+  picudorayado: {fileID: 0}
+  Picudoamarillo: {fileID: 0}
+  picudoNegro: {fileID: 0}
 --- !u!4 &1384390578
 Transform:
   m_ObjectHideFlags: 0

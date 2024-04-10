@@ -7,8 +7,8 @@ public class picudoScript : MonoBehaviour
 {
     public KeyCode teclaActivacion = KeyCode.Space; // Tecla para activar la animación
 
-    [SerializeField] private AudioClip SonidoIniciar;
-
+    [SerializeField] private AudioClip SonidoIniciarTrampa;
+    [SerializeField] private AudioClip SonidoIniciarColision;
     [SerializeField] private GameObject img_sembrar;
     private string sceneName;
 
@@ -21,6 +21,7 @@ public class picudoScript : MonoBehaviour
             if (itemTrampa != null){
                 if (itemTrampa.cantidad >= 1){
                     GetComponent<SpriteRenderer>().enabled = false;
+                    IniciarSonido.Instance.ExecuteSound(SonidoIniciarTrampa);
                     Destroy(gameObject);
                     GameManager.Instance.incScore(30);
                     GameManager.Instance.RestarCantidadPorTitulo(itemTrampa.titulo, 1);
@@ -31,10 +32,12 @@ public class picudoScript : MonoBehaviour
                         GameManager.Instance.startDialogQuestion($"Ve y inspecciona las plantas. Algunas se han estropeado por los picudos.",0.05F);
                     }
                 }else{
+                    IniciarSonido.Instance.ExecuteSound(SonidoIniciarColision);
                     GameManager.Instance.incScore(-10);
                     GameManager.Instance.startDialogQuestion($"¡Oh no! Te has encontrado con un picudo que está arruinando tu cultivo. ¡Consigue una trampa en la tienda para atraparlo!",0.05F);
                 }
             }else{
+                IniciarSonido.Instance.ExecuteSound(SonidoIniciarColision);
                 GameManager.Instance.incScore(-10);
                 GameManager.Instance.startDialogQuestion($"¡Oh no! Te has encontrado con un picudo que está arruinando tu cultivo. ¡Consigue una trampa en la tienda para atraparlo!",0.05F);
             }

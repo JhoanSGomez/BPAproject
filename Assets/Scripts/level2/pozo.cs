@@ -9,6 +9,7 @@ public class pozo : MonoBehaviour
     public KeyCode teclaActivacion = KeyCode.Space; // Tecla para activar la animación
     private bool jugadorEnContacto; // Variable para rastrear si el jugador está en contacto
     [SerializeField] private GameObject img_cubeta;
+    [SerializeField] private AudioClip SonidoIniciar;
     public itemBuyInformation cubetaBuyItems;
 
     void Update()
@@ -52,6 +53,7 @@ public class pozo : MonoBehaviour
      private void ActivarAnimacionElemento()
     {
         if (jugadorEnContacto){
+            IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
             GameManager.Instance.addBuyItems(cubetaBuyItems, 1);
             PlayerPrefs.SetInt("cubosTotales", PlayerPrefs.GetInt("cubosTotales")+1);
             if (PlayerPrefs.GetInt("cubosTotales")==GameManager.Instance.getCantidadParcelas()){

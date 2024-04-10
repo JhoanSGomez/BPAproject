@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   colinoMediano: {fileID: 670261905589927219, guid: 84cbe874097a739389806270ab39f026, type: 3}
-  SonidoIniciar: {fileID: 0}
+  SonidoIniciar: {fileID: 8300000, guid: 259a0148537a4c14bab42fcc9c2a016a, type: 3}
   img_sembrar: {fileID: 0}
 --- !u!1 &7068573582177759709
 GameObject:
