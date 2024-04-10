@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   PlataConFruto: {fileID: 670261905589927219, guid: 4e61ddc3285c81697903e8ceb7ce111f, type: 3}
-  SonidoIniciar: {fileID: 0}
+  SonidoIniciar: {fileID: 8300000, guid: e23eec3b1283c3b409b3b171d1f057f9, type: 3}
   img_sembrar: {fileID: 0}
 --- !u!1 &9029666012181096244
 GameObject:

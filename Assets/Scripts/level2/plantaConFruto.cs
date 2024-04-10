@@ -56,7 +56,7 @@ public class plantaConFruto : MonoBehaviour
             itemBuyInformation itemBolsa = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Bolsa");
             if (itemBolsa != null){
                 if (itemBolsa.cantidad >= 1){
-                    // IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
+                    IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
                     Destroy(gameObject);
                     GameManager.Instance.RestarCantidadPorTitulo(itemBolsa.titulo, 1);
                     refrescarItems();

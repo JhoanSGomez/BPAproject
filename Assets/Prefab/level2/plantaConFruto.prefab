@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   plantaConFruto2: {fileID: 670261905589927219, guid: f7337217eec465bacb303fa43942a759, type: 3}
-  SonidoIniciar: {fileID: 0}
+  SonidoIniciar: {fileID: 8300000, guid: 32e3fb2327c093348b63685ac20ee2f1, type: 3}
   img_sembrar: {fileID: 0}
 --- !u!1 &9029666012181096244
 GameObject:
