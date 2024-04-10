@@ -136,7 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teclaActivacion: 32
-  SonidoIniciar: {fileID: 0}
+  SonidoIniciarTrampa: {fileID: 8300000, guid: 2f870d657fe1e724cabc5262e812a021, type: 3}
+  SonidoIniciarColision: {fileID: 8300000, guid: c2f88853547ded54299f54815cba3808, type: 3}
   img_sembrar: {fileID: 0}
 --- !u!1 &3376032987148315489
 GameObject:
@@ -219,7 +220,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teclaActivacion: 32
-  SonidoIniciar: {fileID: 0}
+  SonidoIniciarTrampa: {fileID: 0}
+  SonidoIniciarColision: {fileID: 0}
   img_sembrar: {fileID: 0}
 --- !u!1 &4472310371420925230
 GameObject:
