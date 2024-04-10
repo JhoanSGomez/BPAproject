@@ -41463,6 +41463,7 @@ MonoBehaviour:
   colinosEmbolsados: 0
   colinosPodados: 0
   plantaMala: {fileID: 6927923874599025136, guid: 052508cd471b8240b847abb760db0927, type: 3}
+  plantaMalaLevel3: {fileID: 670261905589927219, guid: cb0634183e80509e5a315938de3c6c5b, type: 3}
   cultivo: {fileID: 374775279}
   cantidadParcelas: 9
   dialogPanel: {fileID: 714649570}

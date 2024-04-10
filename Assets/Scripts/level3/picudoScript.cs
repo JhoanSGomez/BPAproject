@@ -17,7 +17,7 @@ public class picudoScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision){
         if (collision.CompareTag("Player")){
-            itemBuyInformation itemTrampa = GameManager.Instance.informacionBuyItems.Find(x => x.titulo.Replace(" ", "") == "Trampatipo1");
+            itemBuyInformation itemTrampa = GameManager.Instance.informacionBuyItems.Find(x => x.titulo.Replace(" ", "") == "TrampaDisco");
             if (itemTrampa != null){
                 if (itemTrampa.cantidad >= 1){
                     GetComponent<SpriteRenderer>().enabled = false;
@@ -28,9 +28,8 @@ public class picudoScript : MonoBehaviour
                     
                     PlayerPrefs.SetInt("picudosAtrapados", PlayerPrefs.GetInt("picudosAtrapados")+1);
                     if (PlayerPrefs.GetInt("picudosAtrapados")==GameManager.Instance.getCantidadParcelas()){
-                    GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 3 'Control de plagas'", 0.12f, "QuestionLevel3");
-                     }
-
+                        GameManager.Instance.startDialogQuestion($"Ve y inspecciona las plantas. Algunas se han estropeado por los picudos.",0.05F);
+                    }
                 }else{
                     GameManager.Instance.incScore(-10);
                     GameManager.Instance.startDialogQuestion($"¡Oh no! Te has encontrado con un picudo que está arruinando tu cultivo. ¡Consigue una trampa en la tienda para atraparlo!",0.05F);

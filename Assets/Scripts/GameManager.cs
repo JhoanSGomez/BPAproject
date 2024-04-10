@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public int colinosEmbolsados;
     public int colinosPodados;
     [SerializeField] public GameObject plantaMala;
+    [SerializeField] public GameObject plantaMalaLevel3;
     public Transform cultivo;
     private List<GameObject> plantInstances; 
     private int hachasCompradas;
@@ -63,7 +64,7 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }else{
             this.addBuyItems(hachaBuyItems, 7);
-            this.cantidadParcelas = 1;
+            this.cantidadParcelas = 4;
             _instance = this;
             DontDestroyOnLoad(this.gameObject); // Evita que se destruya al cambiar de escena
             DontDestroyOnLoad(this.cultivo);
@@ -73,6 +74,7 @@ public class GameManager : MonoBehaviour
             plantInstances = new List<GameObject>(); // Inicializa la lista en el Awake
             //GeneratePlantInstances(); // Genera las instancias al inicio
             Scene scene = SceneManager.GetSceneByName("SampleScene");
+            PlayerPrefs.SetInt("plantasEnfermaLevel3", 0);
             if (scene == SceneManager.GetActiveScene()){
                 GeneratePlantInstances();
                 generarPicudos();
@@ -192,8 +194,10 @@ public class GameManager : MonoBehaviour
             if(scene.name!="Store"){
                 GameManager.Instance.LoadPlayerPosition();
             }
-            if(scene.name=="SceneLevel3"){
+            if(scene.name=="SceneLevel3" && PlayerPrefs.GetInt("plantasEnfermaLevel3")!=1){
                 this.picudos.gameObject.SetActive(true);
+                this.cambiarPlantasEnfermas();
+                PlayerPrefs.SetInt("plantasEnfermaLevel3", 1);
             }
         }else{
             PlayerPrefs.DeleteAll();
@@ -400,4 +404,35 @@ public class GameManager : MonoBehaviour
     {
         this.picudos.gameObject.SetActive(true);
     }  
+
+    void cambiarPlantasEnfermas()
+    {
+        int cantidadHijos = cultivo.childCount;
+        if (cantidadHijos >= 2){
+            int indice1 = Random.Range(0, cantidadHijos);
+            int indice2;
+            do{
+                indice2 = Random.Range(0, cantidadHijos);
+            } while (indice2 == indice1);
+
+            Transform hijoAleatorio1 = cultivo.GetChild(indice1);
+            Transform hijoAleatorio2 = cultivo.GetChild(indice2);
+            GameObject hijoGameObject1 = hijoAleatorio1.gameObject;
+            GameObject hijoGameObject2 = hijoAleatorio2.gameObject;
+
+            Vector3 posicionHijo1 = hijoAleatorio1.position;
+            Vector3 posicionHijo2 = hijoAleatorio2.position;
+
+            Destroy(hijoAleatorio1.gameObject);
+            Destroy(hijoAleatorio2.gameObject);
+
+            GameObject nuevoElemento1 = Instantiate(plantaMalaLevel3, posicionHijo1+ new Vector3(2f, 0f, 0f), Quaternion.identity);
+            GameObject nuevoElemento2 = Instantiate(plantaMalaLevel3, posicionHijo2+ new Vector3(2f, 0f, 0f), Quaternion.identity);
+            nuevoElemento1.transform.parent = cultivo;
+            nuevoElemento2.transform.parent = cultivo;
+        }
+        else{
+            Debug.LogWarning("No hay suficientes hijos para seleccionar aleatoriamente.");
+        }
+    }
 }

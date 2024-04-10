@@ -25,7 +25,7 @@ public class TiendaLevel2 : MonoBehaviour
             plantillaItem.textoPrecio.text = item.precio.ToString();
             if(item.titulo == "corta_setos"){
 
-                if (GameManager.Instance.getColinosAbonados()==GameManager.Instance.getCantidadParcelas())
+                if (GameManager.Instance.getColinosAbonados()>=GameManager.Instance.getCantidadParcelas())
                 {
                     Instantiate(plantillaItem, transform);
                 } 

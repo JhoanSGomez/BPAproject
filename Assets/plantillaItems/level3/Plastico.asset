@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8fea60d3d45523267a8f3dbb28d90130, type: 3}
-  m_Name: trampa2
+  m_Name: Plastico
   m_EditorClassIdentifier: 
-  titulo: Trampa tipo 2
-  image: {fileID: 21300000, guid: 8d84175bc88db049882d7d888b1480fb, type: 3}
-  precio: 20
+  titulo: Plastico
+  image: {fileID: 21300000, guid: 0f2fa15e42b2d03b08d055b3fe2a914c, type: 3}
+  precio: 10
