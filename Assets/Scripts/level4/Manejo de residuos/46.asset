@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 46
+  m_EditorClassIdentifier: 
+  textoNarrativo: "En general, el objetivo del manejo adecuado de los residuos de
+    las plantas de pl\xE1tano en el Quind\xEDo es reducir la generaci\xF3n de residuos,
+    promover pr\xE1cticas sostenibles en la agricultura y contribuir a la conservaci\xF3n
+    del medio ambiente en la regi\xF3n.\r\nel manejo adecuado de los residuos de
+    las plantas de pl\xE1tano como buena pr\xE1ctica incluye varias acciones clave:\r"
+  respuestaUno: Compostaje
+  respuestaDos: "Reutilizaci\xF3n"
+  respuestaTres: Reciclaje
+  respuestaCuatro: Evitar la quema
+  respuestaCinco: "Educ. y sensibilizaci\xF3n"
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 2f00000030000000310000003200000033000000000000002d000000
+  quitaBotones: 0
