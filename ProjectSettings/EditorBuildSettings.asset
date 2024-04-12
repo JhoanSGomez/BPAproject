@@ -68,4 +68,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level4/storeMenuLevel4.unity
     guid: d5c7a92a5e9ad2a9e94dea8b94f7205c
+  - enabled: 1
+    path: Assets/Scenes/level4/DialogueMentorLevel4.unity
+    guid: f7902513aa1f94347abdf37449c0fca5
+  - enabled: 1
+    path: Assets/Scenes/level4/QuestionLevel4.unity
+    guid: 034404be3b3a7a245b813afacfcf175e
   m_configObjects: {}

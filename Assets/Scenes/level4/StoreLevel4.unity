@@ -5229,7 +5229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &810141427
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5645,7 +5645,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962129081}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a88a3a9d1b08b66da552bffe748c751, type: 3}
   m_Name: 
@@ -6028,6 +6028,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 10310497419399293, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 10310497419399293, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 1.3666667
       objectReference: {fileID: 0}
@@ -6039,6 +6043,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -56585130, guid: 974be3dc3907e2c45948ef1ab09ac08a, type: 3}
+    - target: {fileID: 2070023206639143263, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5941391368191209760, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.259998
@@ -6082,6 +6090,10 @@ PrefabInstance:
     - target: {fileID: 6998924864970510826, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_Name
       value: NPC_BUY
+      objectReference: {fileID: 0}
+    - target: {fileID: 7382349740694483174, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7382349740694483174, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -6724,28 +6736,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 3475093562966959532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a43ad794ccc1544397ed9e5147d97c9, type: 3}
+  m_Script: {fileID: 11500000, guid: a333c7eb682605647a2f6e4e8868d6c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip1: {fileID: 8300000, guid: 6c57c4c5900815840bc85e4b187b8587, type: 3}
-  audioClip2: {fileID: 8300000, guid: 394acf51e0a7df64c8f9b33de717480b, type: 3}
-  audioClip3: {fileID: 8300000, guid: b7c88979d73fb0b4ab189117e1879cfc, type: 3}
+  audioClip1: {fileID: 8300000, guid: 97e845758d459c74e8bdc666a93768a5, type: 3}
+  audioClip2: {fileID: 8300000, guid: 1245bcbbf5eff714aad7688bed5a5edd, type: 3}
+  audioClip3: {fileID: 8300000, guid: 916e7e8320a46c641a5c8a38df6aac04, type: 3}
   typingTime: 0.05
   dialogMark: {fileID: 3475093562966959534}
   dialogPanel: {fileID: 1855336304}
   dialogText: {fileID: 363176205}
   dialogLines:
-  - "Quind\xEDo tiene un clima favorable para el cultivo del pl\xE1tano, pero esto
-    no evita los problemas causados por enfermedades y plagas. En este videojuego,
-    se describen las enfermedades y plagas m\xE1s comunes en el cultivo del pl\xE1tano,
-    as\xED como los m\xE9todos de tratamiento adecuados."
-  - "Estos problemas fitosanitarios pueden afectar a las \xE1reas productoras de
-    pl\xE1tano, y su impacto depende de las condiciones ambientales y el manejo del
-    cultivo. Para solucionar estos problemas, es necesario conocer los diferentes
-    m\xE9todos de control, como el control cultural, biol\xF3gico y qu\xEDmico."
-  - "El manejo integrado de plagas busca lograr una producci\xF3n sostenible, considerando
-    factores ambientales, sociales y tecnol\xF3gicos, para garantizar la conservaci\xF3n
-    de los recursos necesarios para la producci\xF3n actual y futura."
+  - "El Quind\xEDo se destaca por ser una zona con una importante producci\xF3n agr\xEDcola,
+    lo que conlleva la generaci\xF3n de residuos org\xE1nicos e inorg\xE1nicos provenientes
+    de las actividades agr\xEDcolas."
+  - "El control de residuos en el Quind\xEDo se aborda a trav\xE9s de programas de
+    gesti\xF3n integral de residuos, que incluyen la reducci\xF3n en la fuente, la
+    reutilizaci\xF3n, el reciclaje y la disposici\xF3n final adecuada."
+  - "Adem\xE1s, se promueven pr\xE1cticas sostenibles en la agricultura, como el
+    compostaje de residuos org\xE1nicos, para reducir la generaci\xF3n de desechos
+    y mejorar la fertilidad del suelo."
   audioSource: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
