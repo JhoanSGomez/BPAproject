@@ -74,4 +74,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level4/QuestionLevel4.unity
     guid: 034404be3b3a7a245b813afacfcf175e
+  - enabled: 1
+    path: Assets/Scenes/level4/WelcomeLevel5.unity
+    guid: 31b96b8b212042ff596ade861a08b984
+  - enabled: 1
+    path: Assets/Scenes/level5/SceneLevel5.unity
+    guid: 10a3c0cb4f8bfe26d9af06bac3065729
+  - enabled: 1
+    path: Assets/Scenes/level5/StoreLevel5.unity
+    guid: c6115e2b4eee5177b919f6dc18ea214e
+  - enabled: 1
+    path: Assets/Scenes/level5/storeMenuLevel5.unity
+    guid: f1793eaf299844e70b8d0518b6fb99de
   m_configObjects: {}

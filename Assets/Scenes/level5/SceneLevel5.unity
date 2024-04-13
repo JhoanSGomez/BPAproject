@@ -173,9 +173,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidad: 5
   test: 0.09
-  rig: {fileID: 0}
-  anim: {fileID: 0}
-  spriteMan: {fileID: 0}
 --- !u!70 &17287664
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4565,7 +4562,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 386e2829c1230af4a921cbe893c9868f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
 --- !u!1 &510309461
 GameObject:
   m_ObjectHideFlags: 0
@@ -5287,7 +5283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a33af7ef7088e153e9f2d9fa89dceaf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugadorEnContacto: 0
   teclaActivacion: 32
   itemInformationAbono: {fileID: 11400000, guid: 2f0b12bc1a130b514b0f6ae0da57d8df, type: 2}
 --- !u!1 &792094045
@@ -5570,7 +5565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4db62cfb031d80c3bb5d7b8320fbe6fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugadorEnContacto: 0
   teclaActivacion: 32
 --- !u!1 &894607689
 GameObject:
@@ -5695,7 +5689,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a8ba4c5dfa6af5ebab490b31233b30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
 --- !u!114 &917269489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5708,9 +5701,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fdab6b483d98f7439e16f0ad160828e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
-  sceneStoreName: StoreLevel4
-  levelSceneName: SceneLevel4
+  sceneStoreName: StoreLevel5
+  levelSceneName: SceneLevel5
 --- !u!1 &967198011
 GameObject:
   m_ObjectHideFlags: 0
@@ -5758,7 +5750,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teclaActivacion: 32
-  jugadorEnContacto: 0
   img_cubeta: {fileID: 573297769}
   SonidoIniciar: {fileID: 0}
   cubetaBuyItems: {fileID: 11400000, guid: ac2c6607cee6162299079ef4f6ebb5c8, type: 2}
@@ -6015,10 +6006,6 @@ MonoBehaviour:
   dialogLines:
   - "Ten cuidado con las plagas; si colisionas con ellas, perder\xE1s puntos. Compra
     las trampas necesarias y atr\xE1palas colisionando con ellas."
-  isPlayerInRange: 0
-  didDialogStart: 0
-  lineIndex: 0
-  bang: 0
   audioSource: {fileID: 0}
 --- !u!1 &1216227325
 GameObject:
@@ -41909,8 +41896,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   informacionBuyItems: []
   hachaBuyItems: {fileID: 11400000, guid: 1ac097d1f44a2c6c4b279ef20ffe390f, type: 2}
-  scoreText: {fileID: 0}
-  juegoIniciado: 0
   score: 0
   colinosPlantados: 0
   colinosAbonados: 0
@@ -41919,16 +41904,12 @@ MonoBehaviour:
   plantaMala: {fileID: 6927923874599025136, guid: 052508cd471b8240b847abb760db0927, type: 3}
   plantaMalaLevel3: {fileID: 0}
   cultivo: {fileID: 374775279}
-  plantInstances: []
-  hachasCompradas: 0
   cantidadParcelas: 0
   dialogPanel: {fileID: 714649570}
   dialogText: {fileID: 361643903}
   dialogTextAux: {fileID: 0}
   dialogLines:
   - Muy bien...! Ahora responderas una serie de preguntas para proar tu conocimiento.
-  didDialogStart: 0
-  lineIndex: 0
   canvas: {fileID: 2014267597}
   picudos: {fileID: 0}
   picudorayado: {fileID: 0}

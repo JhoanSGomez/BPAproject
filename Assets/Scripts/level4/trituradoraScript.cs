@@ -46,10 +46,10 @@ public class trituradoraScript : MonoBehaviour
                     GameManager.Instance.addBuyItems(itemInformationAbono, 2);
                     refrescarItems();
                 }else{
-                    // GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 Fertilizante y 1 Cubeta con agua",0.05F);
+                    GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 rama y 1 tronco para utilizar el triturador",0.05F);
                 }
             }else{
-                // GameManager.Instance.startDialogQuestion($"No se encontró uno de los items Fertilizante y Cubeta con agua",0.05F);
+                GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 rama y 1 tronco para utilizar el triturador",0.05F);
             }
         }
     }

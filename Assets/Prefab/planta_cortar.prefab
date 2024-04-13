@@ -181,6 +181,7 @@ MonoBehaviour:
   animacion: {fileID: 7400000, guid: 08f1b73b685a25d43815968aeee55986, type: 2}
   teclaActivacion: 32
   toques: 0
+  plantaCortada: 0
   maxToques: 3
   SonidoIniciar: {fileID: 8300000, guid: f35bc1725647a424c8235ec4e6d48879, type: 3}
   hacha: {fileID: 8593772336118717340}
