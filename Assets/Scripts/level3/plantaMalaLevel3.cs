@@ -51,7 +51,7 @@ public class plantaMalaLevel3 : MonoBehaviour
         {
             Transform parentTransform = transform.parent;
             itemBuyInformation itemPlastico = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Plastico");
-            if (itemPlastico != null && PlayerPrefs.GetInt("picudosAtrapados")==GameManager.Instance.getCantidadParcelas()){
+            if (itemPlastico != null && PlayerPrefs.GetInt("picudosAtrapados")==8){
                 if (itemPlastico.cantidad >= 1 ){
                     refrescarItems();
                     Destroy(gameObject);

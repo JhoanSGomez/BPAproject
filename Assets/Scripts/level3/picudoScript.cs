@@ -28,8 +28,8 @@ public class picudoScript : MonoBehaviour
                     this.refrescarItems();
                     
                     PlayerPrefs.SetInt("picudosAtrapados", PlayerPrefs.GetInt("picudosAtrapados")+1);
-                    if (PlayerPrefs.GetInt("picudosAtrapados")==GameManager.Instance.getCantidadParcelas()){
-                        GameManager.Instance.startDialogQuestion($"Ve y inspecciona las plantas. Algunas se han estropeado por los picudos.",0.05F);
+                    if (PlayerPrefs.GetInt("picudosAtrapados")==8){
+                        GameManager.Instance.startDialogQuestion($"¡Muy bien! Ahora que has atrapado todas las plagas, ve a la tienda y compra plástico transparente. Algunas plantas de plátano han sido afectadas por la enfermedad del moko. Como buena práctica para manejar esta enfermedad, se debe erradicar la planta afectada. Luego, se recomienda solarizar el suelo cubriéndolo con plástico transparente durante un mes.",0.10F);
                     }
                 }else{
                     IniciarSonido.Instance.ExecuteSound(SonidoIniciarColision);
