@@ -41,6 +41,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] public GameObject Picudoamarillo;
     [SerializeField] public GameObject picudoNegro;
     //*************************************************
+    public Transform residuos;
+    [SerializeField] public List<GameObject> residuosPlanta; 
+
 
 
     public static GameManager Instance
@@ -64,21 +67,26 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }else{
             this.addBuyItems(hachaBuyItems, 7);
-            this.cantidadParcelas = 9;
+            this.cantidadParcelas = 4;
             _instance = this;
             DontDestroyOnLoad(this.gameObject); // Evita que se destruya al cambiar de escena
             DontDestroyOnLoad(this.cultivo);
             DontDestroyOnLoad(this.picudos);
-
             DontDestroyOnLoad(this.canvas);
+            DontDestroyOnLoad(this.residuos);
+
             plantInstances = new List<GameObject>(); // Inicializa la lista en el Awake
-            //GeneratePlantInstances(); // Genera las instancias al inicio
             Scene scene = SceneManager.GetSceneByName("SampleScene");
             PlayerPrefs.SetInt("plantasEnfermaLevel3", 0);
+            PlayerPrefs.SetInt("residuosLevel4", 0);
+            
             if (scene == SceneManager.GetActiveScene()){
-                GeneratePlantInstances();
-                generarPicudos();
+                this.GeneratePlantInstances();
+                this.generarPicudos();
+                this.generarResiduos();
                 this.picudos.gameObject.SetActive(false);
+                this.residuos.gameObject.SetActive(false);
+
             }
         }
         
@@ -199,6 +207,10 @@ public class GameManager : MonoBehaviour
                 this.cambiarPlantasEnfermas();
                 PlayerPrefs.SetInt("plantasEnfermaLevel3", 1);
             }
+            if(scene.name=="SceneLevel4" && PlayerPrefs.GetInt("residuosLevel4")!=1){
+                this.residuos.gameObject.SetActive(true);
+                PlayerPrefs.SetInt("residuosLevel4", 1);
+            }
         }else{
             PlayerPrefs.DeleteAll();
             PlayerPrefs.DeleteKey("monedasTotales");
@@ -296,7 +308,6 @@ public class GameManager : MonoBehaviour
     void generarPicudos()
     {
         int numberOfInstances = 4;
-        Vector3 initialPositionRow1 = new Vector3(-23, 10, 0f);
         Vector3 initialPositionRow2 = new Vector3(-23, 0, 0f);
         Vector3 initialPositionRow3 = new Vector3(-23, -2, 0f);
         List<GameObject> picudosDisponibles = new List<GameObject>();
@@ -317,6 +328,27 @@ public class GameManager : MonoBehaviour
             GameObject newPlantInstanceRow1 = Instantiate(randomPicudoFila1, spawnPositionRow3, Quaternion.Euler(0f, 0f, rotacionAleatoria), picudos);
             Vector3 spawnPositionRow2 = initialPositionRow2 + new Vector3(rnd.Next(4, 12), rnd.Next(-4, 10), 0f);
             GameObject newPlantInstanceRow2 = Instantiate(randomPicudoFila2, spawnPositionRow2, Quaternion.Euler(0f, 0f, rotacionAleatoria), picudos);
+        }
+    }
+
+    void generarResiduos()
+    {
+        int numberOfInstances = 4;
+        Vector3 initialPositionRow2 = new Vector3(-23, 0, 0f);
+        Vector3 initialPositionRow3 = new Vector3(-23, 0, 0f);
+        System.Random rnd = new System.Random();
+        for (int i = 0; i < numberOfInstances; i++){
+            GameObject randomResiduo1 = residuosPlanta[0];
+            GameObject randomResiduo2 = residuosPlanta[1];
+            GameObject randomResiduo3 = residuosPlanta[2];
+            int rotacionAleatoria = rnd.Next(0, 360);
+            Vector3 spawnPositionRow1 = initialPositionRow2 + new Vector3(rnd.Next(2, 16), rnd.Next(-4, 10), 0f);
+            Vector3 spawnPositionRow3 = initialPositionRow3 + new Vector3(rnd.Next(2, 16), rnd.Next(-4, 10), 0f);
+            Vector3 spawnPositionRow2 = initialPositionRow2 + new Vector3(rnd.Next(4, 12), rnd.Next(-4, 10), 0f);
+            Instantiate(randomResiduo1, spawnPositionRow3, Quaternion.Euler(0f, 0f,   0f), residuos);
+            Instantiate(randomResiduo2, spawnPositionRow2, Quaternion.Euler(0f, 0f,  0f), residuos);
+            Instantiate(randomResiduo3, spawnPositionRow1, Quaternion.Euler(0f, 0f,  0f), residuos);
+
         }
     }
 
