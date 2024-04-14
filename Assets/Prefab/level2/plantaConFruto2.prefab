@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5030897982947937594}
   - component: {fileID: 7352093721148349407}
   - component: {fileID: 5138523091022875908}
-  - component: {fileID: 7218781936066125497}
+  - component: {fileID: 6923539961884587031}
   m_Layer: 0
   m_Name: plantaConFruto2
   m_TagString: Untagged
@@ -133,20 +133,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.33159167, y: 0.77478194}
   m_EdgeRadius: 0
---- !u!114 &7218781936066125497
+--- !u!114 &6923539961884587031
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670261905589927219}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebff46e8e0de5704e9730d26049c1a73, type: 3}
+  m_Script: {fileID: 11500000, guid: 7958b84bc644b7078bce00a149a24bae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   teclaActivacion: 32
-  plantaConFruto2: {fileID: 0}
+  planta: {fileID: 3824565825331987571, guid: 41ba0d69f0ce5db41b7c85d48d37b8ef, type: 3}
   SonidoIniciar: {fileID: 0}
   img_sembrar: {fileID: 0}
 --- !u!1 &5647896102659925679

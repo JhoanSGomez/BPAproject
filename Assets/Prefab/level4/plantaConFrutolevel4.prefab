@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &670261905589927219
+--- !u!1 &3824565825331987571
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5030897982947937594}
-  - component: {fileID: 7352093721148349407}
-  - component: {fileID: 5138523091022875908}
-  - component: {fileID: 6057738684890679860}
+  - component: {fileID: 9024482997142767733}
+  - component: {fileID: 8626562271209854647}
+  - component: {fileID: 3913825301385718079}
   m_Layer: 0
-  m_Name: plantaMalaLevel3
+  m_Name: plantaConFrutolevel4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5030897982947937594
+--- !u!4 &9024482997142767733
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670261905589927219}
+  m_GameObject: {fileID: 3824565825331987571}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.6941, y: 0.331, z: 0}
-  m_LocalScale: {x: 1.3729885, y: 1.8572698, z: 1.1972344}
+  m_LocalPosition: {x: -9.1498, y: -0.7362, z: 0}
+  m_LocalScale: {x: 2.5618477, y: 2.7517192, z: 2.024216}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4535132894219967063}
+  - {fileID: 5475773259866657621}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &7352093721148349407
+--- !u!212 &8626562271209854647
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670261905589927219}
+  m_GameObject: {fileID: 3824565825331987571}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,24 +75,24 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 00f0675a15d2b5541af15eb8fd1413f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5c1e0ccbb3127e209b84236c2d2c495, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.09, y: 2.41}
+  m_Size: {x: 2.25, y: 2.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5138523091022875908
+--- !u!61 &3913825301385718079
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670261905589927219}
+  m_GameObject: {fileID: 3824565825331987571}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -116,37 +115,23 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02096811, y: -0.85158354}
+  m_Offset: {x: 0.086756036, y: -0.84868425}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.09, y: 2.41}
-    newSize: {x: 2.09, y: 2.41}
+    oldSize: {x: 2.25, y: 2.25}
+    newSize: {x: 2.25, y: 2.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.27018106, y: 0.5747012}
+  m_Size: {x: 0.3902857, y: 0.5526315}
   m_EdgeRadius: 0
---- !u!114 &6057738684890679860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670261905589927219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b92b3e59686e46d00b94f27240e78e98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  teclaActivacion: 32
-  Plastico: {fileID: 670261905589927219, guid: 0f6e8453846803f71a9986fb3693d394, type: 3}
---- !u!1 &9029666012181096244
+--- !u!1 &6363864537837710599
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,37 +139,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4535132894219967063}
-  - component: {fileID: 5030140618225946762}
+  - component: {fileID: 5475773259866657621}
+  - component: {fileID: 5154551197544273250}
   m_Layer: 0
-  m_Name: tronco
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4535132894219967063
+--- !u!4 &5475773259866657621
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9029666012181096244}
+  m_GameObject: {fileID: 6363864537837710599}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.034, y: -0.587, z: 0.012497923}
-  m_LocalScale: {x: 0.70152, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5030897982947937594}
+  m_Father: {fileID: 9024482997142767733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &5030140618225946762
+--- !u!61 &5154551197544273250
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9029666012181096244}
+  m_GameObject: {fileID: 6363864537837710599}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -210,7 +195,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 1
-  m_Offset: {x: 0.0025303364, y: -0.16353816}
+  m_Offset: {x: 0.09465856, y: -0.83577645}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -221,5 +206,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25142375, y: 0.69308937}
+  m_Size: {x: 0.22849594, y: 0.41008997}
   m_EdgeRadius: 0
