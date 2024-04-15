@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 58
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Estos m\xE9todos te permitir\xE1n determinar con mayor precisi\xF3n
+    el momento adecuado para la cosecha de los pl\xE1tanos, asegurando que est\xE9n
+    en su punto \xF3ptimo de madurez para su comercializaci\xF3n y consumo.\r\n\r\nPara
+    determinar el momento \xF3ptimo de cosecha de los pl\xE1tanos de forma m\xE1s
+    precisa, puedes emplear m\xE9todos como la medici\xF3n de la firmeza y el contenido
+    de almid\xF3n. Aqu\xED te explico c\xF3mo realizarlos:\r"
+  respuestaUno: "Medici\xF3n de la firmeza"
+  respuestaDos: "Contenido de almid\xF3n"
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 3b0000003c0000000000000000000000000000000000000039000000
+  quitaBotones: 0

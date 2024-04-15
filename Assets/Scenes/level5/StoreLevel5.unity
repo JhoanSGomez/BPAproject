@@ -6736,26 +6736,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 3475093562966959532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a333c7eb682605647a2f6e4e8868d6c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 92a01a24f4defb845b7ad8e60947fa2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip1: {fileID: 8300000, guid: 97e845758d459c74e8bdc666a93768a5, type: 3}
-  audioClip2: {fileID: 8300000, guid: 1245bcbbf5eff714aad7688bed5a5edd, type: 3}
-  audioClip3: {fileID: 8300000, guid: 916e7e8320a46c641a5c8a38df6aac04, type: 3}
+  audioClip1: {fileID: 8300000, guid: b2a7474f2eb207846814ba82e0f4fe4d, type: 3}
+  audioClip2: {fileID: 8300000, guid: c96b3d7ce9533774cbd8e520808cb692, type: 3}
+  audioClip3: {fileID: 8300000, guid: a3d56ac44df9edd489eaa80d2c1d5b22, type: 3}
   typingTime: 0.05
   dialogMark: {fileID: 3475093562966959534}
   dialogPanel: {fileID: 1855336304}
   dialogText: {fileID: 363176205}
   dialogLines:
-  - "El Quind\xEDo se destaca por ser una zona con una importante producci\xF3n agr\xEDcola,
-    lo que conlleva la generaci\xF3n de residuos org\xE1nicos e inorg\xE1nicos provenientes
-    de las actividades agr\xEDcolas."
-  - "El control de residuos en el Quind\xEDo se aborda a trav\xE9s de programas de
-    gesti\xF3n integral de residuos, que incluyen la reducci\xF3n en la fuente, la
-    reutilizaci\xF3n, el reciclaje y la disposici\xF3n final adecuada."
-  - "Adem\xE1s, se promueven pr\xE1cticas sostenibles en la agricultura, como el
-    compostaje de residuos org\xE1nicos, para reducir la generaci\xF3n de desechos
-    y mejorar la fertilidad del suelo."
+  - "La producci\xF3n de pl\xE1tanos de excelente calidad y alto rendimiento requiere
+    un proceso cuidadosamente planificado y ejecutado, desde el estudio inicial del
+    suelo hasta la cosecha final. En este proceso,"
+  - "Se emplean pr\xE1cticas tecnificadas que buscan incrementar la productividad
+    y garantizar un control efectivo sobre la producci\xF3n. Una de las etapas clave
+    es la cosecha, que debe realizarse cuando los frutos alcanzan la madurez \xF3ptima
+    para su comercializaci\xF3n."
+  - "Aunque tradicionalmente se ha utilizado la observaci\xF3n visual para determinar
+    el momento de cosecha, hoy en d\xEDa se emplean m\xE9todos m\xE1s precisos, como
+    la medici\xF3n de la firmeza y el contenido de almid\xF3n, para garantizar la
+    calidad del producto final."
   audioSource: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

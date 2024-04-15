@@ -715,7 +715,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: SceneLevel4
-  mensaje: "\xA1Bienvenido al nivel 4 'Control de residuos'! Para empezar,"
+  mensaje: "\xA1Bienvenido al nivel 4 'Control de residuos'! Para empezar, ve hacia
+    el letrero a tu izquierda y presiona la tecla ESPACIO para interactuar"
 --- !u!4 &685191334
 Transform:
   m_ObjectHideFlags: 0

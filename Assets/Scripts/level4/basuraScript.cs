@@ -7,6 +7,7 @@ public class basuraScript : MonoBehaviour
 {
     private bool jugadorEnContacto;
     public KeyCode teclaActivacion = KeyCode.Space;
+    [SerializeField] private AudioClip SonidoIniciar;
 
     void Update(){
         if (jugadorEnContacto && Input.GetKeyDown(teclaActivacion)){
@@ -38,8 +39,13 @@ public class basuraScript : MonoBehaviour
             itemBuyInformation itemBasura = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Basura");
             if (itemBasura != null){
                 if (itemBasura.cantidad >=1){
+                    IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
                     GameManager.Instance.RestarCantidadPorTitulo(itemBasura.titulo, 1);
                     this.refrescarItems();
+                    if(itemBasura.cantidad == 0){
+                        GameManager.Instance.startDialogQuestion($"¡Excelente! Ahora dirígete a la tienda y conversa con el mentor", 0.12f);
+                    }
+
                 }
             }
         }

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 61
+  m_EditorClassIdentifier: 
+  textoNarrativo: "Al seguir estas buenas pr\xE1cticas, podr\xE1s cosechar los pl\xE1tanos
+    de manera m\xE1s eficiente y mantener su calidad para su comercializaci\xF3n
+    y consumo, aqu\xED tienes algunas recomendaciones:"
+  respuestaUno: Herramientas
+  respuestaDos: Corte correcto
+  respuestaTres: Manejo cuidadoso
+  respuestaCuatro: "Protecci\xF3n contra el sol"
+  respuestaCinco: Almacenamiento
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 3e0000003f0000004000000041000000420000000000000039000000
+  quitaBotones: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 59
+  m_EditorClassIdentifier: 
+  textoNarrativo: "La firmeza del pl\xE1tano es un indicador importante de su madurez.
+    Puedes utilizar un penetr\xF3metro de frutas para medir la firmeza. Inserta la
+    punta del penetr\xF3metro en la parte central del fruto y registra la lectura.
+    La firmeza adecuada para la cosecha var\xEDa seg\xFAn la variedad, pero en general,
+    los pl\xE1tanos deben tener una firmeza de alrededor de 8-10 libras por pulgada
+    cuadrada (psi) para ser cosechados."
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 0000000000000000000000000000000000000000000000003a000000
+  quitaBotones: 0

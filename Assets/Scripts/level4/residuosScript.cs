@@ -8,6 +8,7 @@ public class residuosScript : MonoBehaviour
     private bool jugadorEnContacto;
     public KeyCode teclaActivacion = KeyCode.Space;
     public itemBuyInformation itemInformation;
+    [SerializeField] private AudioClip SonidoIniciar;
 
      void Update()
     {
@@ -44,8 +45,13 @@ public class residuosScript : MonoBehaviour
     private void activarAnimacion(){
         if (jugadorEnContacto){
             Transform parentTransform = transform.parent;
+            IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
             Destroy(gameObject);
             GameManager.Instance.addBuyItems(itemInformation, 1);
+            PlayerPrefs.SetInt("residuosRecogidos", PlayerPrefs.GetInt("residuosRecogidos")+1);
+            if (PlayerPrefs.GetInt("residuosRecogidos")==12){
+                GameManager.Instance.startDialogQuestion($"¡Muy bien...! Sal de tu cultivo y encontrarás un bote de basura donde podrás desechar los residuos no reutilizables, como el plástico", 0.12f);
+            }
             refrescarItems();
         }
     }

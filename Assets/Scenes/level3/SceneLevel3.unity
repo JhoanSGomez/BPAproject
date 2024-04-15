@@ -5459,6 +5459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   img_cubeta: {fileID: 573297769}
+  SonidoIniciar: {fileID: 0}
   cubetaBuyItems: {fileID: 11400000, guid: ac2c6607cee6162299079ef4f6ebb5c8, type: 2}
 --- !u!61 &967198014
 BoxCollider2D:
@@ -41532,6 +41533,7 @@ MonoBehaviour:
   colinosEmbolsados: 0
   colinosPodados: 0
   plantaMala: {fileID: 6927923874599025136, guid: 052508cd471b8240b847abb760db0927, type: 3}
+  plantaMalaLevel3: {fileID: 0}
   cultivo: {fileID: 374775279}
   cantidadParcelas: 0
   dialogPanel: {fileID: 714649570}
@@ -41544,6 +41546,8 @@ MonoBehaviour:
   picudorayado: {fileID: 0}
   Picudoamarillo: {fileID: 0}
   picudoNegro: {fileID: 0}
+  residuos: {fileID: 0}
+  residuosPlanta: []
 --- !u!4 &1384390578
 Transform:
   m_ObjectHideFlags: 0
@@ -41829,6 +41833,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 10310497419399293, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: m_Size.x
+      value: 4.1085615
+      objectReference: {fileID: 0}
+    - target: {fileID: 10310497419399293, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_Size.y
       value: 10.173344
       objectReference: {fileID: 0}
@@ -41837,8 +41845,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 10310497419399293, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.07997364
+      objectReference: {fileID: 0}
+    - target: {fileID: 10310497419399293, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_Offset.y
-      value: -2.9882782
+      value: -2.9882784
       objectReference: {fileID: 0}
     - target: {fileID: 10310497419399293, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -41856,12 +41868,20 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 140752080734863831, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2070023206639143263, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: be2b820028697654e88e56457a282e08, type: 3}
     - target: {fileID: 2070023206639143263, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070023206639143263, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4347120532584520187, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
@@ -41912,7 +41932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5941391368191209760, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.45
+      value: -5.9
       objectReference: {fileID: 0}
     - target: {fileID: 5941391368191209760, guid: c5da238ebfca50b4bb08c1762f9fc4af, type: 3}
       propertyPath: m_LocalPosition.y

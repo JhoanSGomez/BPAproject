@@ -924,9 +924,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA1Felicidades por llegar al cuarto nivel en nuestro juego! Has demostrado
-    tu habilidad y determinaci\xF3n para superar desaf\xEDos. El cuarto nivel trae
-    consigo nuevas aventuras sobre el control de residuos. \xA1Sigue adelante con
+  m_text: "\xA1Felicidades por llegar al quinto nivel en nuestro juego! Has demostrado
+    tu habilidad y determinaci\xF3n para superar desaf\xEDos. El quinto y \xFAltimo
+    nivel trae consigo nuevas aventuras sobre la cosecha. \xA1Sigue adelante con
     valent\xEDa y disfruta cada momento de esta incre\xEDble aventura!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

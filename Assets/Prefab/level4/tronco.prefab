@@ -146,6 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   itemInformation: {fileID: 11400000, guid: d9003976e281bd903a17d525509930ab, type: 2}
+  SonidoIniciar: {fileID: 8300000, guid: 3649da72d12cad641a407d3e6659ee43, type: 3}
 --- !u!1 &9029666012181096244
 GameObject:
   m_ObjectHideFlags: 0

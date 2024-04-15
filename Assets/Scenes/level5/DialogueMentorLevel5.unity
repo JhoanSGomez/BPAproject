@@ -206,8 +206,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288152874}
-        m_TargetAssemblyTypeName: ControlTextosLevel4, Assembly-CSharp
+      - m_Target: {fileID: 1870570125}
+        m_TargetAssemblyTypeName: ControlTextosLevel5, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -256,126 +256,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 180266128}
   m_CullTransparentMesh: 1
---- !u!1 &288152873
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 288152875}
-  - component: {fileID: 288152874}
-  m_Layer: 0
-  m_Name: ControlTextos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &288152874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288152873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d76fb8cde3a07d43ba0ca82413ce012, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  plantilla: {fileID: 11400000, guid: 6b0e9e43f29b32b41aa856d96eb9edac, type: 2}
-  arrayPlantillas:
-  - {fileID: 11400000, guid: eb91fccc06467994e96734e106312a6d, type: 2}
-  - {fileID: 11400000, guid: dc25cf909c196cc428c0a28cc182e409, type: 2}
-  - {fileID: 11400000, guid: 0d7ccdd7ce7e27f4aab6627a6a4f55a7, type: 2}
-  - {fileID: 11400000, guid: 6071e4ed62aa91c48b6e517cff140d69, type: 2}
-  - {fileID: 11400000, guid: 9bd73aa20a5d1c74b9769c10d2a7e293, type: 2}
-  - {fileID: 11400000, guid: e1d238960940dbb4fb80cbcb5baf7b52, type: 2}
-  - {fileID: 11400000, guid: b2b4e7577cdf0594bab9c1faf01c3e90, type: 2}
-  - {fileID: 11400000, guid: d42bef28bd8946749a53c9289356ec0a, type: 2}
-  - {fileID: 11400000, guid: 1942953095a22924a864e3a1286fb50f, type: 2}
-  - {fileID: 11400000, guid: 918064ca2eff52d4bbd3527161a8a695, type: 2}
-  - {fileID: 11400000, guid: b55d1f14cd0795244ac780753d8396ef, type: 2}
-  - {fileID: 11400000, guid: 7962aa7f735d61b48895d51890a5454a, type: 2}
-  - {fileID: 11400000, guid: cd2a5a78edc933b4189f6f21bb3256e3, type: 2}
-  - {fileID: 11400000, guid: 4f85ebb78ba9b1447bd59ece7ef02bfd, type: 2}
-  - {fileID: 11400000, guid: ece44a48aca68ba4ab16d0d48ffd7bb9, type: 2}
-  - {fileID: 11400000, guid: 24b8bf8543eddde4393a6dd5864826da, type: 2}
-  - {fileID: 11400000, guid: 84ccb0df5cf1f474aa15653b38681ae0, type: 2}
-  - {fileID: 11400000, guid: d34e6503109790f4797049dd0f901d50, type: 2}
-  - {fileID: 11400000, guid: dbcdfa27188f6e04d9e671dd04a1dd03, type: 2}
-  - {fileID: 11400000, guid: 75df7eac79e1d244a86a46aff9777515, type: 2}
-  - {fileID: 11400000, guid: da3b61cf9d2b36b409f5652e930c7722, type: 2}
-  - {fileID: 11400000, guid: 1d5988c8c4821fe4982584ffa115c270, type: 2}
-  - {fileID: 11400000, guid: a82baa7d80bbd44438d69dd1a5c80178, type: 2}
-  - {fileID: 11400000, guid: 8e2591cba11018b43a24334671b96e52, type: 2}
-  - {fileID: 11400000, guid: 22407e6dc1822c543ab0f025cd1fee81, type: 2}
-  - {fileID: 11400000, guid: 9b24adc59861e434597af386409bffaa, type: 2}
-  - {fileID: 11400000, guid: 0be09488b8f7212498de199042c5ff82, type: 2}
-  - {fileID: 11400000, guid: 70b979a5f7425e342be56f984102afc3, type: 2}
-  - {fileID: 11400000, guid: 46fdb8cd57f68ab47b510eaf20a1b26b, type: 2}
-  - {fileID: 11400000, guid: 42f2b3789422aa746a5a1ad91ddcc8bf, type: 2}
-  - {fileID: 11400000, guid: f75b4c304d252f042bb07ce6c81f1637, type: 2}
-  - {fileID: 11400000, guid: ab44a090c22453e49925008f94aa34a3, type: 2}
-  - {fileID: 11400000, guid: 017fd2cb78fc5344ea7e33f465108ff2, type: 2}
-  - {fileID: 11400000, guid: ce9b76fc2bc5130458153a6ee6063b92, type: 2}
-  - {fileID: 11400000, guid: 447b96aaa8cae4748a9faf85108d0018, type: 2}
-  - {fileID: 11400000, guid: c79a55fec890f4b47811609c15ac5636, type: 2}
-  - {fileID: 11400000, guid: f4958c97bb302414e909f9f2a2f758a3, type: 2}
-  - {fileID: 11400000, guid: 6fb00bd62cf53ba48964ac64cafd9b06, type: 2}
-  - {fileID: 11400000, guid: 04b2d71894e9c7543bdcce11c260f144, type: 2}
-  - {fileID: 11400000, guid: ec295a81635f4d545975cd118f685131, type: 2}
-  - {fileID: 11400000, guid: 90f24309c09de8e48a7a38caf217d3da, type: 2}
-  - {fileID: 11400000, guid: b5ce8ca5d941470449e96fb8af244f53, type: 2}
-  - {fileID: 11400000, guid: 5f9f113141a130346b3a6b59878f14cc, type: 2}
-  - {fileID: 11400000, guid: 5ada8ae9820a9e4439a9a91868ebbae3, type: 2}
-  - {fileID: 11400000, guid: 2942d398ae243ec4197932149b26435a, type: 2}
-  - {fileID: 11400000, guid: 6b0e9e43f29b32b41aa856d96eb9edac, type: 2}
-  - {fileID: 11400000, guid: f5e15e28c4e8bf34db6474b777efc6ad, type: 2}
-  - {fileID: 11400000, guid: 8470883095b66f04d883e5c70e963afa, type: 2}
-  - {fileID: 11400000, guid: ee2f00b19d7f6814bba7b0d11e7eb745, type: 2}
-  - {fileID: 11400000, guid: 672244f77ca358b458203c5f7a9dfc04, type: 2}
-  - {fileID: 11400000, guid: e8dd8ce6e21f95f479a770fdd35d58e7, type: 2}
-  - {fileID: 11400000, guid: 3826b319b6a46ca48a41f12f686eb288, type: 2}
-  - {fileID: 11400000, guid: 9e5b3d854484b694783e9b63e441d94e, type: 2}
-  - {fileID: 11400000, guid: 2359415f3ae3fd74c8c03de402aece06, type: 2}
-  - {fileID: 11400000, guid: 9d0ff3b0cf45f334c8b0b3bd411a0d4b, type: 2}
-  - {fileID: 11400000, guid: 3f3c00220d2c25045906392ca20f8673, type: 2}
-  - {fileID: 11400000, guid: 21214c247db03f74084d4eeeb779e6e7, type: 2}
-  textoNarracion: {fileID: 1678990564}
-  textoRespuestaUno: {fileID: 2118848468}
-  textoRespuestaDos: {fileID: 1471887517}
-  textoRespuestaTres: {fileID: 1913611260}
-  textoRespuestaCuatro: {fileID: 1200006591}
-  textoRespuestaCinco: {fileID: 1808088089}
-  textoRespuestaSeis: {fileID: 510026560}
-  btnBack: {fileID: 1303808314}
-  arrayBotones:
-  - {fileID: 2001906520}
-  - {fileID: 1911596641}
-  - {fileID: 2040738496}
-  - {fileID: 954401785}
-  - {fileID: 1792300106}
-  - {fileID: 180266128}
-  - {fileID: 1760686966}
-  miBoton: {fileID: 0}
---- !u!4 &288152875
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288152873}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 249.9, y: 111.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &293208796
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,8 +832,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288152874}
-        m_TargetAssemblyTypeName: ControlTextosLevel4, Assembly-CSharp
+      - m_Target: {fileID: 1870570125}
+        m_TargetAssemblyTypeName: ControlTextosLevel5, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -1811,8 +1691,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288152874}
-        m_TargetAssemblyTypeName: ControlTextosLevel4, Assembly-CSharp
+      - m_Target: {fileID: 1870570125}
+        m_TargetAssemblyTypeName: ControlTextosLevel5, Assembly-CSharp
         m_MethodName: backScene
         m_Mode: 3
         m_Arguments:
@@ -1823,8 +1703,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 288152874}
-        m_TargetAssemblyTypeName: ControlTextosLevel4, Assembly-CSharp
+      - m_Target: {fileID: 1870570125}
+        m_TargetAssemblyTypeName: ControlTextosLevel5, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -2065,8 +1945,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288152874}
-        m_TargetAssemblyTypeName: ControlTextosLevel4, Assembly-CSharp
+      - m_Target: {fileID: 1870570125}
+        m_TargetAssemblyTypeName: ControlTextosLevel5, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -2412,7 +2292,7 @@ GameObject:
   - component: {fileID: 1870570126}
   - component: {fileID: 1870570125}
   m_Layer: 0
-  m_Name: ControlTextos2
+  m_Name: ControlTextos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2430,75 +2310,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc70f550a57044c4186a509a0271733c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plantilla: {fileID: 0}
+  plantilla: {fileID: 11400000, guid: 359b0b207982d64458bb6986e4479f52, type: 2}
   arrayPlantillas:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: eb91fccc06467994e96734e106312a6d, type: 2}
+  - {fileID: 11400000, guid: dc25cf909c196cc428c0a28cc182e409, type: 2}
+  - {fileID: 11400000, guid: 0d7ccdd7ce7e27f4aab6627a6a4f55a7, type: 2}
+  - {fileID: 11400000, guid: 6071e4ed62aa91c48b6e517cff140d69, type: 2}
+  - {fileID: 11400000, guid: 9bd73aa20a5d1c74b9769c10d2a7e293, type: 2}
+  - {fileID: 11400000, guid: e1d238960940dbb4fb80cbcb5baf7b52, type: 2}
+  - {fileID: 11400000, guid: b2b4e7577cdf0594bab9c1faf01c3e90, type: 2}
+  - {fileID: 11400000, guid: d42bef28bd8946749a53c9289356ec0a, type: 2}
+  - {fileID: 11400000, guid: 1942953095a22924a864e3a1286fb50f, type: 2}
+  - {fileID: 11400000, guid: 918064ca2eff52d4bbd3527161a8a695, type: 2}
+  - {fileID: 11400000, guid: b55d1f14cd0795244ac780753d8396ef, type: 2}
+  - {fileID: 11400000, guid: 7962aa7f735d61b48895d51890a5454a, type: 2}
+  - {fileID: 11400000, guid: cd2a5a78edc933b4189f6f21bb3256e3, type: 2}
+  - {fileID: 11400000, guid: 4f85ebb78ba9b1447bd59ece7ef02bfd, type: 2}
+  - {fileID: 11400000, guid: ece44a48aca68ba4ab16d0d48ffd7bb9, type: 2}
+  - {fileID: 11400000, guid: 24b8bf8543eddde4393a6dd5864826da, type: 2}
+  - {fileID: 11400000, guid: 84ccb0df5cf1f474aa15653b38681ae0, type: 2}
+  - {fileID: 11400000, guid: d34e6503109790f4797049dd0f901d50, type: 2}
+  - {fileID: 11400000, guid: dbcdfa27188f6e04d9e671dd04a1dd03, type: 2}
+  - {fileID: 11400000, guid: 75df7eac79e1d244a86a46aff9777515, type: 2}
+  - {fileID: 11400000, guid: da3b61cf9d2b36b409f5652e930c7722, type: 2}
+  - {fileID: 11400000, guid: 1d5988c8c4821fe4982584ffa115c270, type: 2}
+  - {fileID: 11400000, guid: a82baa7d80bbd44438d69dd1a5c80178, type: 2}
+  - {fileID: 11400000, guid: 8e2591cba11018b43a24334671b96e52, type: 2}
+  - {fileID: 11400000, guid: 22407e6dc1822c543ab0f025cd1fee81, type: 2}
+  - {fileID: 11400000, guid: 9b24adc59861e434597af386409bffaa, type: 2}
+  - {fileID: 11400000, guid: 0be09488b8f7212498de199042c5ff82, type: 2}
+  - {fileID: 11400000, guid: 70b979a5f7425e342be56f984102afc3, type: 2}
+  - {fileID: 11400000, guid: 46fdb8cd57f68ab47b510eaf20a1b26b, type: 2}
+  - {fileID: 11400000, guid: 42f2b3789422aa746a5a1ad91ddcc8bf, type: 2}
+  - {fileID: 11400000, guid: f75b4c304d252f042bb07ce6c81f1637, type: 2}
+  - {fileID: 11400000, guid: ab44a090c22453e49925008f94aa34a3, type: 2}
+  - {fileID: 11400000, guid: 017fd2cb78fc5344ea7e33f465108ff2, type: 2}
+  - {fileID: 11400000, guid: ce9b76fc2bc5130458153a6ee6063b92, type: 2}
+  - {fileID: 11400000, guid: 447b96aaa8cae4748a9faf85108d0018, type: 2}
+  - {fileID: 11400000, guid: c79a55fec890f4b47811609c15ac5636, type: 2}
+  - {fileID: 11400000, guid: f4958c97bb302414e909f9f2a2f758a3, type: 2}
+  - {fileID: 11400000, guid: 6fb00bd62cf53ba48964ac64cafd9b06, type: 2}
+  - {fileID: 11400000, guid: 04b2d71894e9c7543bdcce11c260f144, type: 2}
+  - {fileID: 11400000, guid: ec295a81635f4d545975cd118f685131, type: 2}
+  - {fileID: 11400000, guid: 90f24309c09de8e48a7a38caf217d3da, type: 2}
+  - {fileID: 11400000, guid: b5ce8ca5d941470449e96fb8af244f53, type: 2}
+  - {fileID: 11400000, guid: 5f9f113141a130346b3a6b59878f14cc, type: 2}
+  - {fileID: 11400000, guid: 5ada8ae9820a9e4439a9a91868ebbae3, type: 2}
+  - {fileID: 11400000, guid: 2942d398ae243ec4197932149b26435a, type: 2}
+  - {fileID: 11400000, guid: 6b0e9e43f29b32b41aa856d96eb9edac, type: 2}
+  - {fileID: 11400000, guid: f5e15e28c4e8bf34db6474b777efc6ad, type: 2}
+  - {fileID: 11400000, guid: 8470883095b66f04d883e5c70e963afa, type: 2}
+  - {fileID: 11400000, guid: ee2f00b19d7f6814bba7b0d11e7eb745, type: 2}
+  - {fileID: 11400000, guid: 672244f77ca358b458203c5f7a9dfc04, type: 2}
+  - {fileID: 11400000, guid: e8dd8ce6e21f95f479a770fdd35d58e7, type: 2}
+  - {fileID: 11400000, guid: 3826b319b6a46ca48a41f12f686eb288, type: 2}
+  - {fileID: 11400000, guid: 9e5b3d854484b694783e9b63e441d94e, type: 2}
+  - {fileID: 11400000, guid: 2359415f3ae3fd74c8c03de402aece06, type: 2}
+  - {fileID: 11400000, guid: 9d0ff3b0cf45f334c8b0b3bd411a0d4b, type: 2}
+  - {fileID: 11400000, guid: 3f3c00220d2c25045906392ca20f8673, type: 2}
+  - {fileID: 11400000, guid: 21214c247db03f74084d4eeeb779e6e7, type: 2}
+  - {fileID: 11400000, guid: 359b0b207982d64458bb6986e4479f52, type: 2}
+  - {fileID: 11400000, guid: 01988e445d3c75248a98d74f051585dc, type: 2}
+  - {fileID: 11400000, guid: b4cb3c3ff622b3a49801d15f38a1494b, type: 2}
+  - {fileID: 11400000, guid: 7c1ab1c5a8dab6544aa899aa060dcbb6, type: 2}
+  - {fileID: 11400000, guid: e416783c755dc6048862fc632e8f042e, type: 2}
+  - {fileID: 11400000, guid: 7fa013d8ef58b8e4ca4ae44b0da31bb6, type: 2}
+  - {fileID: 11400000, guid: ed39a64abeb176242ab41c35dcf47e40, type: 2}
+  - {fileID: 11400000, guid: 627cd7eaf462e5144b4e113d36446adb, type: 2}
+  - {fileID: 11400000, guid: bd1d50887e40c6c45a8848161312f527, type: 2}
+  - {fileID: 11400000, guid: 41a6b15ced73aa94dba3310b2b739d8e, type: 2}
   textoNarracion: {fileID: 1678990564}
   textoRespuestaUno: {fileID: 2118848468}
   textoRespuestaDos: {fileID: 1471887517}
@@ -2614,8 +2494,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288152874}
-        m_TargetAssemblyTypeName: ControlTextosLevel4, Assembly-CSharp
+      - m_Target: {fileID: 1870570125}
+        m_TargetAssemblyTypeName: ControlTextosLevel5, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -2956,8 +2836,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288152874}
-        m_TargetAssemblyTypeName: ControlTextosLevel4, Assembly-CSharp
+      - m_Target: {fileID: 1870570125}
+        m_TargetAssemblyTypeName: ControlTextosLevel5, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -3215,8 +3095,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288152874}
-        m_TargetAssemblyTypeName: ControlTextosLevel4, Assembly-CSharp
+      - m_Target: {fileID: 1870570125}
+        m_TargetAssemblyTypeName: ControlTextosLevel5, Assembly-CSharp
         m_MethodName: controlBotones
         m_Mode: 3
         m_Arguments:
@@ -3482,5 +3362,4 @@ SceneRoots:
   - {fileID: 1772363997}
   - {fileID: 701477479}
   - {fileID: 1820339715}
-  - {fileID: 288152875}
   - {fileID: 1870570126}

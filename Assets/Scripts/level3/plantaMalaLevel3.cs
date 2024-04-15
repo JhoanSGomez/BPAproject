@@ -9,6 +9,7 @@ public class plantaMalaLevel3 : MonoBehaviour
     public KeyCode teclaActivacion = KeyCode.Space; // Tecla para activar la animación
     public GameObject Plastico;
     private string sceneName;
+    [SerializeField] private AudioClip SonidoIniciar;
 
     void Update()
     {
@@ -53,6 +54,7 @@ public class plantaMalaLevel3 : MonoBehaviour
             itemBuyInformation itemPlastico = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Plastico");
             if (itemPlastico != null && PlayerPrefs.GetInt("picudosAtrapados")==8){
                 if (itemPlastico.cantidad >= 1 ){
+                    IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
                     refrescarItems();
                     Destroy(gameObject);
                     GameManager.Instance.RestarCantidadPorTitulo(itemPlastico.titulo, 1);

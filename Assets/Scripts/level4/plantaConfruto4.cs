@@ -45,16 +45,16 @@ public class plantaConfruto4 : MonoBehaviour {
             itemBuyInformation itemFertilizante =GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Abono");
             if (itemFertilizante != null){
                 if (itemFertilizante.cantidad >= 1){
-                    // IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
+                    IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
                     Destroy(gameObject);
-                   GameManager.Instance.RestarCantidadPorTitulo(itemFertilizante.titulo, 1);
+                    GameManager.Instance.RestarCantidadPorTitulo(itemFertilizante.titulo, 1);
                     refrescarItems();
                     GameObject nuevoElemento = Instantiate(planta, transform.position+ new Vector3(0f, 0.5f, 0f), Quaternion.identity);
                     if (parentTransform != null){
                        GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
                         PlayerPrefs.SetInt("plantasAbanodasLevel4", PlayerPrefs.GetInt("plantasAbanodasLevel4")+1);
-                        if (PlayerPrefs.GetInt("plantasAbanodasLevel4")==1){
+                        if (PlayerPrefs.GetInt("plantasAbanodasLevel4")==7){
                             GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 4 'Control de residuos'", 0.12f, "QuestionLevel4");
                         }
                     }

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fe403075010a04888d13a03418d2bf, type: 3}
+  m_Name: 60
+  m_EditorClassIdentifier: 
+  textoNarrativo: "El contenido de almid\xF3n en los pl\xE1tanos aumenta durante
+    la maduraci\xF3n y puede ser un indicador de su estado de madurez. Para medir
+    el contenido de almid\xF3n, puedes realizar una extracci\xF3n de almid\xF3n de
+    una muestra de pulpa de pl\xE1tano y luego utilizar un medidor de almid\xF3n
+    o un espectrofot\xF3metro para determinar la concentraci\xF3n de almid\xF3n.
+    Un aumento en la concentraci\xF3n de almid\xF3n indica un mayor grado de madurez."
+  respuestaUno: 
+  respuestaDos: 
+  respuestaTres: 
+  respuestaCuatro: 
+  respuestaCinco: 
+  respuestaSeis: 
+  btnBack: "Atr\xE1s"
+  arrayReferencias: 0000000000000000000000000000000000000000000000003a000000
+  quitaBotones: 0
