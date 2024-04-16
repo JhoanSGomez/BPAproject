@@ -308,8 +308,8 @@ public class GameManager : MonoBehaviour
     void generarPicudos()
     {
         int numberOfInstances = 4;
-        Vector3 initialPositionRow2 = new Vector3(-23, 0, 0f);
-        Vector3 initialPositionRow3 = new Vector3(-23, -2, 0f);
+        Vector3 initialPositionRow2 = new Vector3(-23, 1, 0f);
+        Vector3 initialPositionRow3 = new Vector3(-23, 1, 0f);
         List<GameObject> picudosDisponibles = new List<GameObject>();
 
         GameObject picudo1 = picudorayado;
