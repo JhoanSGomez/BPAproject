@@ -64,7 +64,7 @@ public class plantaMalaLevel3 : MonoBehaviour
                         GameManager.Instance.incScore(30);
                         nuevoElemento.transform.SetParent(parentTransform);
                         PlayerPrefs.SetInt("plantasCubiertas", PlayerPrefs.GetInt("plantasCubiertas")+1);
-                        if (PlayerPrefs.GetInt("plantasCubiertas")==2){
+                        if (PlayerPrefs.GetInt("plantasCubiertas")>=2){
                             GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 3 'Control de plagas'", 0.12f, "QuestionLevel3");
                         }
                     }

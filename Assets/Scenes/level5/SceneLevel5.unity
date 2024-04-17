@@ -5285,6 +5285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   itemInformationAbono: {fileID: 11400000, guid: 2f0b12bc1a130b514b0f6ae0da57d8df, type: 2}
+  SonidoIniciar: {fileID: 0}
 --- !u!1 &792094045
 GameObject:
   m_ObjectHideFlags: 0
@@ -5446,7 +5447,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826281141}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -5566,6 +5567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   teclaActivacion: 32
+  SonidoIniciar: {fileID: 0}
 --- !u!1 &894607689
 GameObject:
   m_ObjectHideFlags: 0
@@ -41917,6 +41919,8 @@ MonoBehaviour:
   picudoNegro: {fileID: 0}
   residuos: {fileID: 0}
   residuosPlanta: []
+  canastas: {fileID: 0}
+  canasta: {fileID: 0}
 --- !u!4 &1384390578
 Transform:
   m_ObjectHideFlags: 0
@@ -42362,7 +42366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1745874601
 Transform:
   m_ObjectHideFlags: 0

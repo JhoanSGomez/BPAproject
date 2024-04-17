@@ -43,6 +43,8 @@ public class GameManager : MonoBehaviour
     //*************************************************
     public Transform residuos;
     [SerializeField] public List<GameObject> residuosPlanta; 
+    public Transform canastas;
+    [SerializeField] public GameObject canasta;
 
 
 
@@ -74,6 +76,7 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(this.picudos);
             DontDestroyOnLoad(this.canvas);
             DontDestroyOnLoad(this.residuos);
+            DontDestroyOnLoad(this.canastas);
 
             plantInstances = new List<GameObject>(); // Inicializa la lista en el Awake
             Scene scene = SceneManager.GetSceneByName("SampleScene");
@@ -84,8 +87,10 @@ public class GameManager : MonoBehaviour
                 this.GeneratePlantInstances();
                 this.generarPicudos();
                 this.generarResiduos();
+                this.generarCanastas();
                 this.picudos.gameObject.SetActive(false);
                 this.residuos.gameObject.SetActive(false);
+                this.canastas.gameObject.SetActive(false);
 
             }
         }
@@ -210,6 +215,10 @@ public class GameManager : MonoBehaviour
             if(scene.name=="SceneLevel4" && PlayerPrefs.GetInt("residuosLevel4")!=1){
                 this.residuos.gameObject.SetActive(true);
                 PlayerPrefs.SetInt("residuosLevel4", 1);
+            }
+            if(scene.name=="SceneLevel5" && PlayerPrefs.GetInt("canastasLevel5")!=1){
+                this.canastas.gameObject.SetActive(true);
+                PlayerPrefs.SetInt("canastasLevel5", 1);
             }
         }else{
             PlayerPrefs.DeleteAll();
@@ -466,5 +475,28 @@ public class GameManager : MonoBehaviour
         else{
             Debug.LogWarning("No hay suficientes hijos para seleccionar aleatoriamente.");
         }
+    }
+
+    void generarCanastas(){
+        int numberOfInstances = 4;
+        Vector3 initialPositionRow = new Vector3(0, -16, 0f);
+        Vector3 spawnPositionRow1 = initialPositionRow + new Vector3(2, 1, 0f);
+        Vector3 spawnPositionRow5 = spawnPositionRow1 + new Vector3(0, -3, 0f);
+
+        Vector3 spawnPositionRow2 = spawnPositionRow1 + new Vector3(3, 0, 0f);
+        Vector3 spawnPositionRow6 = spawnPositionRow2 + new Vector3(0, -3, 0f);
+
+        Vector3 spawnPositionRow3 = spawnPositionRow2 + new Vector3(3, 0, 0f);
+        Vector3 spawnPositionRow7 = spawnPositionRow3 + new Vector3(0, -3, 0f);
+
+        Vector3 spawnPositionRow4 = spawnPositionRow3 + new Vector3(3, 0, 0f);
+
+        Instantiate(this.canasta, spawnPositionRow1, Quaternion.Euler(0f, 0f, 0f), this.canastas);
+        Instantiate(this.canasta, spawnPositionRow2, Quaternion.Euler(0f, 0f, 0f), this.canastas);
+        Instantiate(this.canasta, spawnPositionRow3, Quaternion.Euler(0f, 0f, 0f), this.canastas);
+        Instantiate(this.canasta, spawnPositionRow4, Quaternion.Euler(0f, 0f, 0f), this.canastas);
+        Instantiate(this.canasta, spawnPositionRow5, Quaternion.Euler(0f, 0f, 0f), this.canastas);
+        Instantiate(this.canasta, spawnPositionRow6, Quaternion.Euler(0f, 0f, 0f), this.canastas);
+        Instantiate(this.canasta, spawnPositionRow7, Quaternion.Euler(0f, 0f, 0f), this.canastas);
     }
 }
