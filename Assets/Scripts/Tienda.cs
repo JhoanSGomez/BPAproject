@@ -31,6 +31,8 @@ public class Tienda : MonoBehaviour
             plantillaItem.imagen.sprite = item.image;
             plantillaItem.titulo.text = item.titulo;
             plantillaItem.textoPrecio.text = item.precio.ToString();
+            plantillaItem.cantidad.text = GameManager.Instance.obtenerCantidadPorTitulo(item.titulo).ToString();
+
             if(item.titulo == "Hacha" &&  GameManager.Instance.getHachasCompradas()==2){
 
             }else{

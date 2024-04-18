@@ -383,7 +383,16 @@ public class GameManager : MonoBehaviour
         ImprimirLista();
 
     }
-
+    public int obtenerCantidadPorTitulo(string titulo)
+    {
+        int index = informacionBuyItems.FindIndex(x => x.titulo == titulo);
+        if(index>=0){
+            return informacionBuyItems[index].cantidad;
+        }else{
+            Debug.Log("No se encontró ningún elemento con el título '" + titulo + "'.");
+        }
+        return 0;
+    }
     public void RestarCantidadPorTitulo(string titulo, int cantidadARestar)
     {
         int index = informacionBuyItems.FindIndex(x => x.titulo == titulo);
