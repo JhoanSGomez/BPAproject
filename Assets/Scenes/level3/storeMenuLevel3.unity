@@ -159,8 +159,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 211, y: -110}
-  m_SizeDelta: {x: 118.44, y: 30.51}
+  m_AnchoredPosition: {x: 696, y: -409}
+  m_SizeDelta: {x: 310.06, y: 79.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &90518524
 MonoBehaviour:
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 723118572}
+      - m_Target: {fileID: 723118575}
         m_TargetAssemblyTypeName: Tienda, Assembly-CSharp
         m_MethodName: salirTienda
         m_Mode: 1
@@ -476,7 +476,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0000076293945, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -43.57, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &677494929
@@ -526,8 +526,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -585,8 +585,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 723118571}
-  - component: {fileID: 723118572}
   - component: {fileID: 723118573}
+  - component: {fileID: 723118575}
   m_Layer: 5
   m_Name: tiendaObjetos
   m_TagString: Untagged
@@ -613,24 +613,6 @@ RectTransform:
   m_AnchoredPosition: {x: -83.41, y: 44.8}
   m_SizeDelta: {x: 189.59, y: 189.59}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &723118572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 723118570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f909512edcc4cbab0828c5e533d189c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  informacionItems:
-  - {fileID: 11400000, guid: 767b348c3198c3841971ffb1541bca01, type: 2}
-  - {fileID: 11400000, guid: 08fdc63bbd2d36b29835a3c59516b690, type: 2}
-  plantillaObjetoTienda: {fileID: 3852921844284754736, guid: 972016c36476f9a1f93ac2161dcb671e, type: 3}
-  textoMonedasTotales: {fileID: 920743231}
-  sceneName: StoreLevel3
 --- !u!114 &723118573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -651,10 +633,28 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 75, y: 125}
+  m_CellSize: {x: 220, y: 405}
   m_Spacing: {x: 15, y: 15}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!114 &723118575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723118570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f909512edcc4cbab0828c5e533d189c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  informacionItems:
+  - {fileID: 11400000, guid: 767b348c3198c3841971ffb1541bca01, type: 2}
+  - {fileID: 11400000, guid: 08fdc63bbd2d36b29835a3c59516b690, type: 2}
+  plantillaObjetoTienda: {fileID: 3852921844284754736, guid: 972016c36476f9a1f93ac2161dcb671e, type: 3}
+  textoMonedasTotales: {fileID: 920743231}
+  sceneName: StoreLevel3
 --- !u!1 &920743229
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,8 +690,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -253.1, y: -107.74}
-  m_SizeDelta: {x: 66.24, y: 16.3}
+  m_AnchoredPosition: {x: -132.08, y: -90.61}
+  m_SizeDelta: {x: 240.07, y: 59.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &920743231
 MonoBehaviour:
@@ -740,8 +740,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -824,8 +824,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 37.41, y: 0.0000023842}
-  m_SizeDelta: {x: 27.95, y: 21.39}
+  m_AnchoredPosition: {x: 113, y: 0}
+  m_SizeDelta: {x: 83.18, y: 76.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1053880468
 MonoBehaviour:
@@ -898,7 +898,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -580, y: -296}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1367543132

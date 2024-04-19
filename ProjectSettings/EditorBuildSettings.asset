@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/level2/QuestionLevel2.unity
     guid: fd41e6b93ee3fb94da1713b2c020de61
   - enabled: 1
-    path: Assets/Scenes/level2/storeMenuLevel2.unity
+    path: Assets/Scenes/level2/storeMenuLevel2-2.unity
     guid: 429c6448c88c1e703adda8ba532773e2
   - enabled: 1
     path: Assets/Scenes/level2/WelcomeLevel3.unity
@@ -54,7 +54,7 @@ EditorBuildSettings:
     path: Assets/Scenes/level3/StoreLevel3.unity
     guid: 4c46df6f121d51224a22d6576a25a048
   - enabled: 1
-    path: Assets/Scenes/level3/storeMenuLevel3.unity
+    path: Assets/Scenes/level3/storeMenuLevel3-3.unity
     guid: 728c3b33aa1cccb388032f0746082af8
   - enabled: 1
     path: Assets/Scenes/level3/QuestionLevel3.unity
@@ -92,4 +92,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level5/DialogueMentorLevel5.unity
     guid: 300aea2b88fb57f4c8fa3df25d14b197
+  - enabled: 1
+    path: Assets/Scenes/level2/storeMenuLevel2.unity
+    guid: 4d4344f433540deea86b9a2bd7ec63ac
+  - enabled: 1
+    path: Assets/Scenes/level3/storeMenuLevel3.unity
+    guid: eaab67b0de90fe5d5841254bd97932e4
   m_configObjects: {}
