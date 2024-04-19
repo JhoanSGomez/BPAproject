@@ -52,6 +52,9 @@ public class canastaLevel5 : MonoBehaviour
                     PlayerPrefs.SetInt("canastasLlenas", PlayerPrefs.GetInt("canastasLlenas")+1);
                     GameManager.Instance.RestarCantidadPorTitulo(itemRacimo.titulo, 1);
                     GameManager.Instance.startDialogQuestion($"Racimo puesto en la canasta",0.05F);
+                    if (PlayerPrefs.GetInt("canastasLlenas") == 7){
+                     GameManager.Instance.startDialogQuestion($"Muy bien ahora recoge las canastas para enviarlas a distribución",0.05F);
+                    }
                     refrescarItems();
                 }else{
                     GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 Racimo",0.05F);
@@ -61,6 +64,10 @@ public class canastaLevel5 : MonoBehaviour
             }
         }else{
             if (PlayerPrefs.GetInt("canastasLlenas")>=7){
+                PlayerPrefs.SetInt("canastasRecogida", PlayerPrefs.GetInt("canastasRecogida")+1);
+                 if (PlayerPrefs.GetInt("canastasRecogida") == 7){
+                      GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 5 'Cosecha'", 0.12f, "QuestionLevel5");
+                    }
                 Destroy(gameObject);
                 GameManager.Instance.addBuyItems(itemInformation, 1);
                 refrescarItems();
