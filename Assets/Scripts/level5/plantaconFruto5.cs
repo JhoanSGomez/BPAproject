@@ -47,14 +47,14 @@ public class plantaconFruto5 : MonoBehaviour
             itemBuyInformation itemMachete = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Machete");
             if (itemMachete != null){
                 if (itemMachete.cantidad >= 1){
-                    // IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
+                    IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
                     Destroy(gameObject);
                     GameManager.Instance.RestarCantidadPorTitulo(itemMachete.titulo, 1);
                     GameManager.Instance.addBuyItems(itemInformation, 1);
                     refrescarItems();
                     PlayerPrefs.SetInt("racimosCortados", PlayerPrefs.GetInt("racimosCortados")+1);
                     if (PlayerPrefs.GetInt("racimosCortados")==7){
-                    GameManager.Instance.startDialogQuestion($"¡Muy bien...! Ahora, localiza las canastas y deposita los racimos que has recolectado.", 0.12f);
+                    GameManager.Instance.startDialogQuestion($"¡Muy bien...! Ahora ve y habla con el mentor, él te dará recomendaciones sobre las buenas prácticas para la cosecha", 0.12f);
                     }
                 }else{
                     GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 Machete",0.05F);

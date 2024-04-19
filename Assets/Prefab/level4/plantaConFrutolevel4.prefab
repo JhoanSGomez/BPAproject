@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   planta: {fileID: 0}
-  SonidoIniciar: {fileID: 0}
+  SonidoIniciar: {fileID: 8300000, guid: 641436a70c1fe7b45acaaa570c821024, type: 3}
   itemInformation: {fileID: 11400000, guid: cd9fcd0553b8cdcf69e8f691b59ea646, type: 2}
   img_sembrar: {fileID: 0}
 --- !u!1 &6363864537837710599
