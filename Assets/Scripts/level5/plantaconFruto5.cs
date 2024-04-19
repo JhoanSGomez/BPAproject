@@ -52,6 +52,10 @@ public class plantaconFruto5 : MonoBehaviour
                     GameManager.Instance.RestarCantidadPorTitulo(itemMachete.titulo, 1);
                     GameManager.Instance.addBuyItems(itemInformation, 1);
                     refrescarItems();
+                    PlayerPrefs.SetInt("racimosCortados", PlayerPrefs.GetInt("racimosCortados")+1);
+                    if (PlayerPrefs.GetInt("racimosCortados")==7){
+                    GameManager.Instance.startDialogQuestion($"¡Muy bien...! Ahora, localiza las canastas y deposita los racimos que has recolectado.", 0.12f);
+                    }
                 }else{
                     GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 Machete",0.05F);
                 }
