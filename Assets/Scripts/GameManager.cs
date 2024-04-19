@@ -487,7 +487,6 @@ public class GameManager : MonoBehaviour
     }
 
     void generarCanastas(){
-        int numberOfInstances = 4;
         Vector3 initialPositionRow = new Vector3(0, -16, 0f);
         Vector3 spawnPositionRow1 = initialPositionRow + new Vector3(2, 1, 0f);
         Vector3 spawnPositionRow5 = spawnPositionRow1 + new Vector3(0, -3, 0f);
