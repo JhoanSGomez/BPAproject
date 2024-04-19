@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class PlantillaItemTienda : MonoBehaviour
 {
     public Image imagen;
     public TextMeshProUGUI textoPrecio;
     public TextMeshProUGUI titulo;
+    public TextMeshProUGUI cantidad;
+
     public Button botonComprar;
     int precio;
     int monedaTotales;
@@ -36,8 +40,8 @@ public class PlantillaItemTienda : MonoBehaviour
         newItem.titulo = titulo.text;
 
         newItem.image = imagen.sprite;
-
         GameManager.Instance.addBuyItems(newItem,1);
+        cantidad.text = GameManager.Instance.obtenerCantidadPorTitulo(titulo.text).ToString();
         monedaTotales -= precio;
         PlayerPrefs.SetInt("monedasTotales", monedaTotales);
     }

@@ -8,4 +8,5 @@ public class itemInformation : ScriptableObject
     public string titulo;
     public Sprite image;
     public int precio;
+    public int cantidad;
 }
