@@ -10,6 +10,8 @@ public class canastaLevel5 : MonoBehaviour
     public bool  canastaLlena = false;
     [SerializeField] private AudioClip SonidoIniciar;
     public itemBuyInformation itemInformation;
+    [SerializeField] private GameObject canastaLlenaGameObject;
+
     [SerializeField] private GameObject img_sembrar;
     private string sceneName;
 
@@ -52,6 +54,10 @@ public class canastaLevel5 : MonoBehaviour
                     PlayerPrefs.SetInt("canastasLlenas", PlayerPrefs.GetInt("canastasLlenas")+1);
                     GameManager.Instance.RestarCantidadPorTitulo(itemRacimo.titulo, 1);
                     GameManager.Instance.startDialogQuestion($"Racimo puesto en la canasta",0.05F);
+                    GameObject nuevoElemento = Instantiate(canastaLlenaGameObject, transform.position+ new Vector3(0f,  0f, 0f), Quaternion.identity);
+                    nuevoElemento.transform.SetParent(parentTransform);
+                    Destroy(gameObject);
+
                     if (PlayerPrefs.GetInt("canastasLlenas") == 7){
                      GameManager.Instance.startDialogQuestion($"Muy bien ahora recoge las canastas para enviarlas a distribución",0.05F);
                     }

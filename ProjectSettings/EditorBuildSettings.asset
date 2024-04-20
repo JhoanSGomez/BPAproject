@@ -81,7 +81,7 @@ EditorBuildSettings:
     path: Assets/Scenes/level5/StoreLevel5.unity
     guid: c6115e2b4eee5177b919f6dc18ea214e
   - enabled: 1
-    path: Assets/Scenes/level5/storeMenuLevel5.unity
+    path: Assets/Scenes/level5/storeMenuLevel5-2.unity
     guid: f1793eaf299844e70b8d0518b6fb99de
   - enabled: 1
     path: Assets/Scenes/level5/DialogueMentorLevel5.unity
@@ -95,4 +95,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level5/QuestionLevel5.unity
     guid: 66bfc5ada8346a84382349ba5aa0e2c8
+  - enabled: 1
+    path: Assets/Scenes/level5/storeMenuLevel5.unity
+    guid: 9bb35e2709ada0a55b4d177e7206b2db
   m_configObjects: {}
