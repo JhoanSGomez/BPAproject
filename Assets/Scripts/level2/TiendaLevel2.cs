@@ -23,6 +23,8 @@ public class TiendaLevel2 : MonoBehaviour
             plantillaItem.imagen.sprite = item.image;
             plantillaItem.titulo.text = item.titulo;
             plantillaItem.textoPrecio.text = item.precio.ToString();
+            plantillaItem.cantidad.text = GameManager.Instance.obtenerCantidadPorTitulo(item.titulo).ToString();
+
             if(item.titulo == "corta_setos"){
 
                 if (GameManager.Instance.getColinosAbonados()>=GameManager.Instance.getCantidadParcelas())
