@@ -41,6 +41,7 @@ public class basuraScript : MonoBehaviour
                 if (itemBasura.cantidad >=1){
                     IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
                     GameManager.Instance.RestarCantidadPorTitulo(itemBasura.titulo, 1);
+                    PlayerPrefs.SetInt("basuraTirada", PlayerPrefs.GetInt("basuraTirada")+1);
                     this.refrescarItems();
                     if(itemBasura.cantidad == 0){
                         GameManager.Instance.startDialogQuestion($"¡Excelente! Ahora dirígete a la tienda y conversa con el mentor", 0.12f);
