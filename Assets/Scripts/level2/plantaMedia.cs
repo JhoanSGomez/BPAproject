@@ -54,7 +54,7 @@ public class plantaMedia : MonoBehaviour
         if (jugadorEnContacto && sceneName == "SceneLevel2")
         {
             Transform parentTransform = transform.parent;
-            itemBuyInformation itemTijeras = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "corta_setos");
+            itemBuyInformation itemTijeras = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Media Luna");
             if (itemTijeras != null){
                 if (itemTijeras.cantidad >= 1){
                     IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
@@ -72,10 +72,10 @@ public class plantaMedia : MonoBehaviour
                         }
                     }
                 }else{
-                    GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 corta_setos",0.05F);
+                    GameManager.Instance.startDialogQuestion($"No se encontró las cantidades necesarias, necesitas 1 Media Luna",0.05F);
                 }
             }else{
-                GameManager.Instance.startDialogQuestion($"No se encontró el item corta_setos ",0.05F);
+                GameManager.Instance.startDialogQuestion($"No se encontró el item Media Luna ",0.05F);
             }
         }
     }

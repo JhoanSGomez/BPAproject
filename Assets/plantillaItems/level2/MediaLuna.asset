@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8fea60d3d45523267a8f3dbb28d90130, type: 3}
-  m_Name: corta_setos
+  m_Name: MediaLuna
   m_EditorClassIdentifier: 
-  titulo: corta_setos
-  image: {fileID: 21300000, guid: 4b6e7016a34a2b2ebbbbf28e162ee3cd, type: 3}
+  titulo: Media Luna
+  image: {fileID: 21300000, guid: a49dac3c16b978324a92d541cbc10690, type: 3}
   precio: 10
+  cantidad: 0
