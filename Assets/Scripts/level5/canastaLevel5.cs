@@ -68,6 +68,7 @@ public class canastaLevel5 : MonoBehaviour
             }
         }else{
             if (PlayerPrefs.GetInt("canastasLlenas")>=7){
+                IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
                 PlayerPrefs.SetInt("canastasRecogida", PlayerPrefs.GetInt("canastasRecogida")+1);
                  if (PlayerPrefs.GetInt("canastasRecogida") == 7){
                       GameManager.Instance.startDialogQuestionChangeScene($"¡Muy bien...! Ahora responderás una serie de preguntas para probar tu conocimiento en el transcurso del nivel 5 'Cosecha'", 0.12f, "QuestionLevel5");
