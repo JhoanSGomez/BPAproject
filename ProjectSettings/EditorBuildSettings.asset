@@ -98,4 +98,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level5/storeMenuLevel5.unity
     guid: 9bb35e2709ada0a55b4d177e7206b2db
+  - enabled: 1
+    path: Assets/Scenes/level5/thanks.unity
+    guid: a1d6c357915df694db5a4d63962360fa
   m_configObjects: {}

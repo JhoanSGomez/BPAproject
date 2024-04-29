@@ -290,7 +290,13 @@ public class GameManager : MonoBehaviour
         scoreText = go.GetComponent<TMP_Text>();
         score = PlayerPrefs.GetInt("monedasTotales");
         Debug.Log("Contenido setScore: "+PlayerPrefs.GetInt("monedasTotales"));
-        scoreText.text = "Score: " +  PlayerPrefs.GetInt("monedasTotales").ToString();
+
+        string scene = SceneManager.GetActiveScene().name;
+        if(scene == "thanks"){
+        scoreText.text = "¡Congratulations! Final score " +  PlayerPrefs.GetInt("monedasTotales").ToString();
+        }else{
+        scoreText.text = "Score:" +  PlayerPrefs.GetInt("monedasTotales").ToString();
+        }
     }
 
      void GeneratePlantInstances()
