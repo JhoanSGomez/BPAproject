@@ -42,7 +42,7 @@ public class plantaconFruto5 : MonoBehaviour
 
     private void ActivarPlantarElemento(){
         sceneName = SceneManager.GetActiveScene().name;
-        if (jugadorEnContacto && sceneName == "SceneLevel5"){ //"
+        if (jugadorEnContacto && sceneName == "SceneLevel5"){
             Transform parentTransform = transform.parent;
             itemBuyInformation itemMachete = GameManager.Instance.informacionBuyItems.Find(x => x.titulo == "Machete");
             if (itemMachete != null){

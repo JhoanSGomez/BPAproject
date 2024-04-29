@@ -223,8 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teclaActivacion: 32
   canastaLlena: 0
-  SonidoIniciar: {fileID: 0}
+  SonidoIniciar: {fileID: 8300000, guid: 7ec32cb88262c394f9c900b22fe5c548, type: 3}
   itemInformation: {fileID: 11400000, guid: affc8e35c5c8b43eb9d498c24054d532, type: 2}
-  itemInformationtest: {fileID: 11400000, guid: cd9fcd0553b8cdcf69e8f691b59ea646, type: 2}
   canastaLlenaGameObject: {fileID: 8690796125368327219, guid: a23742bad3f001c7eb60ecadaf3ce26b, type: 3}
   img_sembrar: {fileID: 0}

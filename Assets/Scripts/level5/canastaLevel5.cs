@@ -49,11 +49,9 @@ public class canastaLevel5 : MonoBehaviour
             if (itemRacimo != null){
                 if (itemRacimo.cantidad >= 1){
                     this.canastaLlena = true;
-                    // IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
-                   
+                    IniciarSonido.Instance.ExecuteSound(SonidoIniciar);
                     PlayerPrefs.SetInt("canastasLlenas", PlayerPrefs.GetInt("canastasLlenas")+1);
                     GameManager.Instance.RestarCantidadPorTitulo(itemRacimo.titulo, 1);
-                    GameManager.Instance.startDialogQuestion($"Racimo puesto en la canasta",0.05F);
                     GameObject nuevoElemento = Instantiate(canastaLlenaGameObject, transform.position+ new Vector3(0f,  0f, 0f), Quaternion.identity);
                     nuevoElemento.transform.SetParent(parentTransform);
                     Destroy(gameObject);
