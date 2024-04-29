@@ -20,6 +20,11 @@ public class ManController : MonoBehaviour
 
     void FixedUpdate()
     {
+
+        if(PlayerPrefs.GetInt("StopPlayer") == 1){
+            return;
+        }
+
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 

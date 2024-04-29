@@ -139,12 +139,13 @@ public class GameManager : MonoBehaviour
     private IEnumerator ShowLine(string texto,float typingTime)
     {
         dialogText.text = string.Empty;
-
+        PlayerPrefs.SetInt("StopPlayer", 1);
         foreach (char ch in texto)
         {
             dialogText.text += ch;
             yield return new WaitForSecondsRealtime(typingTime);
         }
+        PlayerPrefs.SetInt("StopPlayer", 0);
         dialogTextAux.SetActive(false);
         dialogPanel.SetActive(false);
         didDialogStart = false;
@@ -171,11 +172,12 @@ public class GameManager : MonoBehaviour
     private IEnumerator ShowLineChangeScene(string texto,float typingTime,string sceneName)
     {
         dialogText.text = string.Empty;
-
+        PlayerPrefs.SetInt("StopPlayer", 1);
         foreach (char ch in texto){
             dialogText.text += ch;
             yield return new WaitForSecondsRealtime(typingTime);
         }
+        PlayerPrefs.SetInt("StopPlayer", 0);
         SceneManager.LoadScene(sceneName);
         dialogTextAux.SetActive(false);
         dialogPanel.SetActive(false);
